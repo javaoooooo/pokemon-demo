@@ -1,0 +1,1672 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.52f1c1 (f5e26ee28457) revision 16114286'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 32610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Unity\2022.3.52f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/file/mobile/pokemon/pokemon_basic
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60397
+Successfully changed project path to: D:/file/mobile/pokemon/pokemon_basic
+D:/file/mobile/pokemon/pokemon_basic
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5524]  Target information:
+
+Player connection [5524]  * "[IP] 172.26.128.1 [Port] 0 [Flags] 2 [Guid] 1037345343 [EditorId] 1037345343 [Version] 1048832 [Id] WindowsEditor(7,Javaoo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5524]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 1037345343 [EditorId] 1037345343 [Version] 1048832 [Id] WindowsEditor(7,Javaoo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5524]  * "[IP] 172.20.10.5 [Port] 0 [Flags] 2 [Guid] 1037345343 [EditorId] 1037345343 [Version] 1048832 [Id] WindowsEditor(7,Javaoo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Unable to join player connection multicast group (err: 10013).
+Player connection [5524] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 34.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.52f1c1 (f5e26ee28457)
+[Subsystems] Discovering subsystems at path D:/Unity/Unity/2022.3.52f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/file/mobile/pokemon/pokemon_basic/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11855 MB
+    Driver:   32.0.15.7652
+Initialize mono
+Mono path[0] = 'D:/Unity/Unity/2022.3.52f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity/2022.3.52f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Unity/2022.3.52f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Unity/2022.3.52f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Unity/2022.3.52f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/Unity/2022.3.52f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009043 seconds.
+- Loaded All Assemblies, in  0.237 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 300 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 746ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (66ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (82ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (512ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (365ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.476 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.396 seconds
+Domain Reload Profiling: 869ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (396ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 15.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3608 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (58.1 KB). Loaded Objects now: 4070.
+Memory consumption went from 136.9 MB to 136.8 MB.
+Total: 2.444800 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.070700 ms MarkObjects: 2.131500 ms  DeleteObjects: 0.076600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/IncomingChangesTab.cs: 6fa4849c09cf3ec125d3914af6074a21 -> 82bff1d960538992d4e618d909869d2e
+  custom:scripting/monoscript/fileName/DiffSelection.cs: 34faf7c86f7e0c9a01162e930679d82f -> 1460aaba4240ef35322cb9c198487990
+  custom:scripting/monoscript/fileName/CloudProjectId.cs: f33db9e9673144ad1e994ed4cff5ce2d -> 
+  custom:scripting/monoscript/fileName/DateFilter.cs: 4084040ac52b6e24ba874651890c5c6e -> 85ed700e21fd471cc38c626cebe01d52
+  custom:scripting/monoscript/fileName/PerformInitialCheckin.cs: be22d181e456c0a8a5713675f29ac72a -> 8ef9a9f407b8b94b2b5fad9d24e61f79
+  custom:scripting/monoscript/fileName/ConflictResolutionState.cs: 51eaf597f9533c7ed197ad15e802d20f -> 74a230000ff2fd58c5a60ab4258207dc
+  custom:scripting/monoscript/fileName/FindWorkspace.cs: 39bbd18bfe6bf4a99f5c185dcda4dd4a -> 6af6c9e9382fef881c020ab184e6f7f5
+  custom:scripting/monoscript/fileName/IncomingChangesNotifier.cs: 10fad815611441fb3a805150421ed991 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CheckinConflictsDialog.cs: d3af1d70d3f60a9847d2942647274222 -> e13fa04a97fb675842c94586fc602871
+  custom:scripting/monoscript/fileName/AuthToken.cs: d22b2893825e943bc1389be142abd57e -> 0fba7e8eb1ec8b699f274cdc956451b2
+  custom:scripting/monoscript/fileName/ProgressControlsForDialogs.cs: 6bf8e69ac7dc2163fe988e5d8181ce88 -> 7e6bd1727985204e3b64e1946e589b1c
+  custom:scripting/monoscript/fileName/AssetStatusCache.cs: beede06d8a6d93e7907fd192ad653f2b -> 260d5f85663ac58b2a7e9553c453bc3e
+  custom:scripting/monoscript/fileName/DrawIncomingChangesOverview.cs: 6d1aadb525661622ddc7d545c55841f2 -> 
+  custom:scripting/monoscript/fileName/BuildFormattedHelp.cs: f675844664504d88a0d8165e2b08a2bf -> 
+  custom:scripting/monoscript/fileName/OrganizationPanel.cs: d7ac1288bef1b15a05bb26d201a4d87f -> 57a57e6a345dbd536e91c348b70943a9
+  custom:scripting/monoscript/fileName/MigrationProgressRender.cs: 94a7accb6b5be388f3abff6285d8f1af -> 
+  custom:scripting/monoscript/fileName/ChangeCategoryTreeViewItem.cs: 0f882939555cf173ece99b60f8f54ade -> fd14db176fff061715c8ec88ced1902f
+  custom:scripting/monoscript/fileName/CurrentUserAdminCheckResponse.cs: cec2f173fe8732108711c497674c6f66 -> d57c2dcace740834acd59fdfbc5023b8
+  custom:scripting/monoscript/fileName/UIElementsExtensions.cs: a191d7293be4538b0adb29dfe5b06a46 -> 52e0d612ab032e4d22e9558b90396b99
+  custom:scripting/monoscript/fileName/CreateBranchDialog.cs: c429477092287209232592c8cde1a615 -> 9eb29fda08033b4f847247136c412db6
+  custom:scripting/monoscript/fileName/DrawCreateWorkspaceView.cs: 6422239d8f649480614f0dd4f018b7f2 -> c6039ac84d85ab3926aa94de163a9f7d
+  custom:scripting/monoscript/fileName/ProjectPath.cs: 5634ebdbea8ca94089eb9622d1b60497 -> 2007f972d3a73eeb86dfe05e849c7f69
+  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: 8967ceae1bc195ea8dd32b23c42dd852 -> e140ede12a96f68f30062138385171c3
+  custom:scripting/monoscript/fileName/DownloadPlasticExeDialog.cs: 2dd40c53d0303d041a27a44a95c331cb -> 093cfe0607c2346a88cdfdfe1435614f
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTab_Operations.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/LocksListViewItem.cs: cc9cd24c5be4f7363367cba72f12aad4 -> f4a19fabbec093eb3d6a7e1cd4f42611
+  custom:scripting/monoscript/fileName/PendingChangesViewPendingChangeMenu.cs: 561ad0f702e1db14300a4a5f810051f9 -> 9a6ef2277212bf26d647c7f12f946287
+  custom:scripting/monoscript/fileName/SignInPanel.cs: f7e82045994d4eefe3b021faa87b55c6 -> bac0318ce35e37bed3a2cc8137452435
+  custom:scripting/monoscript/fileName/DrawInspectorOperations.cs: 61c4a6a6507d8f84ef5bdf5cba3f0aee -> 8c94fe642e98309082411f46db89106b
+  custom:scripting/monoscript/fileName/DrawDirectoryResolutionPanel.cs: a77980eb09765fe85cd85d4a47964cf2 -> e4e3c9b4bc511687802b504b71016540
+  custom:scripting/monoscript/fileName/CloseWindowIfOpened.cs: d820344e932a12600b5fe6fb7e9f1563 -> ce229ef3b7461ff17e2c1af0695a6657
+  custom:scripting/monoscript/fileName/SaveAssets.cs: e472a52843752df7d7ad4ca6b2c8da98 -> b56abea3d51c742ac29e4aec958afad6
+  custom:scripting/monoscript/fileName/RepositoriesListView.cs: 9f95c83dc460fb03fb0916472f14b8a7 -> 95287f65338ca0073ad04002a16eaaf7
+  custom:scripting/monoscript/fileName/AssetOperations.cs: 638daf61300bf6ad727538516d4fa3e2 -> 
+  custom:scripting/monoscript/fileName/HandleMenuItem.cs: 740e54c5f6dca1acc88cad87af74b744 -> b4ad1ecc5243212c5967125ad5e41b1f
+  custom:scripting/monoscript/fileName/ScreenResolution.cs: 5c975132cf4e36dcc261bd0acd604271 -> 7bb7bb5b955671820101b322f0a7bf3d
+  custom:scripting/monoscript/fileName/ApplicationDataPath.cs: 8e4094e28762fb76a1baecfe90c6b65e -> 3e8c4ea8debfda8013fed860ac233d22
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/RepaintInspector.cs: 65202bdc05e3e19fadffb7fd99f30154 -> f134606300316994850c28a68d0cb5a3
+  custom:scripting/monoscript/fileName/LockStatusCache.cs: 5e3725e03dc21c716034553589a67eae -> e99b3f34c5cd3eb73ec19439af1f7f80
+  custom:scripting/monoscript/fileName/DiffTreeView.cs: 68195907d129ef826aa6b6df7202696d -> 49f46fd2a65ea674a218eead75f27aac
+  custom:scripting/monoscript/fileName/DependenciesDialog.cs: 82d30fc8d5e1a73ec0d1ee9acc00fbc2 -> c8902186ab2f4e6471b5dd147afb01b6
+  custom:scripting/monoscript/fileName/ChangesetListViewItem.cs: 95a197949f1e777703db60eea8cc21b3 -> d742a4910e302777daa1ccb9c8e92cb9
+  custom:scripting/monoscript/fileName/LocksViewMenu.cs: fda08381fa9abca53b6eaf3bf55f14f8 -> 186d8514e824865b191ba1829afe4b33
+  custom:scripting/monoscript/fileName/IncomingChangesViewMenu.cs: 832662bce0cd8edd53cba36a0dd96da0 -> 13196979a03411533716f6775c9a624b
+  custom:scripting/monoscript/fileName/QueryVisualElementsExtensions.cs: 75ea535788abf9c38ba9341c984a6241 -> a49740b6efbb934f55475cc70b864a4c
+  custom:scripting/monoscript/fileName/WriteLogConfiguration.cs: 1a8401f47b522f631a3dc005105719f5 -> 1589212d1638ae91a029ea3ddf9999f2
+  custom:scripting/monoscript/fileName/DrawTextBlockWithEndLink.cs: 1cc3e67c46bd397f9508f124a3366994 -> 
+  custom:scripting/monoscript/fileName/FileSystemOperation.cs: c31a686e69e66801c204a11be56c950a -> f0ccbe91654279794a85bf6f1c034716
+  custom:scripting/monoscript/fileName/MigrateCollabProject.cs: af93695e471d9c8e4ad014c4165f2c3c -> 9f3487f03a783b35518405572f20ac9e
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForViews.cs: 7d677c6df38ab15cf390062b5b0bb854 -> a8a18a90f46aa63848e1e45d8d7ff9af
+  custom:scripting/monoscript/fileName/DrawAssetOverlay.cs: 8ccd7cea9aa918859be0b55818cb990b -> 04a46044def089f0abcdafdd281e3646
+  custom:scripting/monoscript/fileName/ProjectWindow.cs: 953e9bbd852a9f12f91349161baa793e -> c62567a3d71fd74636bc783de5162474
+  custom:scripting/monoscript/fileName/MergeLinksListView.cs: 826afb5fb5988163105086b4bf5027af -> c9488671ae9b14523680d0c19097baa0
+  custom:scripting/monoscript/fileName/EditorProgressBar.cs: 7418be9b22aaea32732f8a5f49569d1c -> 08c2f2b90ef64df631d46389f0e22c8e
+  custom:scripting/monoscript/fileName/MeasureMaxWidth.cs: cd9322680ae61d38397008451b7ed0ed -> 1569e3f1dad91a9b01cba66ab6aa30b0
+  custom:scripting/monoscript/fileName/ChangesetsListHeaderState.cs: 69fc4f1a2bc3782d7043ec48961a3616 -> fe1392f9b135da83e13fe8a5e5f39fc2
+  custom:scripting/monoscript/fileName/PendingChangesTreeHeaderState.cs: 7d278b5569d28437d07554a3bbb56e1b -> 5d7f70d142c9ac67864ec14950523d62
+  custom:scripting/monoscript/fileName/ChangelistMenu.cs: ca33bac56b3a337faa90a1b1bba632d6 -> c1bf5aeb760cc5eae584ea3944d6531b
+  custom:scripting/monoscript/fileName/MissingEncryptionPasswordPromptHandler.cs: 7f5831fc8a41e9cadd84fcfd0e885072 -> 5d7b9646eb14a39b6d3d5bab19d266ff
+  custom:scripting/monoscript/fileName/NotificationBar.cs: e0f12e3f3292fff5a590c00b59f3a17a -> 0daf459fa0c4269b16bcc20cd072c021
+  custom:scripting/monoscript/fileName/UnityThreadWaiter.cs: dbd556f2802baab90a20da38c288d36c -> 99333406d92d10003984b4d1920de2f9
+  custom:scripting/monoscript/fileName/CredentialsDialog.cs: 179b5e49656a1623c2e79d838f0f5876 -> c785d5e40f8d66b7ef7ba04ee7c324e0
+  custom:scripting/monoscript/fileName/GetRestorePathDialog.cs: e21eb9983f0b989125951478cd5e9b35 -> 353d1126ca2d2063d5bdbd06806ffc08
+  custom:scripting/monoscript/fileName/UpdateReportListHeaderState.cs: 64a5bf775d221ad9a5ff8c78a1e0e1fa -> d6cbe54be2898ed2c96c2e79572c2e08
+  custom:scripting/monoscript/fileName/LocksListView.cs: 8c6202774eebcf67be9c3b5a2926cc7c -> 7aa51ff93bcc98aa05dec8b46ec200c4
+  custom:scripting/monoscript/fileName/DownloadAndInstallOperation.cs: b043b8d5921892e87f4566e00162cff6 -> 4f4065aeafda2af0ec272a3c228e27b2
+  custom:scripting/monoscript/fileName/MigrationDialog.cs: 1a69d399f9c8aa816a053d285dd8bc5d -> 
+  custom:scripting/monoscript/fileName/DiffTreeViewMenu.cs: 3e62bfc69ca7486976988e151b88922e -> 8039fc4ecf68b3e966e1f4822789e7fa
+  custom:scripting/monoscript/fileName/UnityStyles.cs: 1e97cd7e9a8ef8ab43da545c6691e95c -> b57f61a58df1c49a1c9d37daf76d42cb
+  custom:scripting/monoscript/fileName/HistoryTab.cs: 4d086984813cd90d6be245dd8e03a2ba -> d57f000c65fde42a2228c7a105a836e5
+  custom:scripting/monoscript/fileName/HistorySelection.cs: 7c3afcf345a55e8b77ea41ca0f570218 -> 3d07a3d1241e204b5420d71f1137eba4
+  custom:scripting/monoscript/fileName/CreateWorkspace.cs: 7b3086384e5ddcd73cd5064a3ce31cd2 -> 5256205b5cf0570b6f698c7abe518f5a
+  custom:scripting/monoscript/fileName/ShowWindow.cs: c731454122754eec192bc3c53fac3d95 -> a6bb1d20733c178256b38974418d7450
+  custom:scripting/monoscript/fileName/LocksListHeaderState.cs: b80c5f044f18764adef2e9dbea5f0fb1 -> c7fe4d3b5f954615048f8e79925d29e3
+  custom:scripting/monoscript/fileName/CreateRepositoryDialog.cs: 1e1c5399cf3d0b071c7982c565a710ce -> 5cec3e66b09e0dbe1f805953c5c64af9
+  custom:scripting/monoscript/fileName/ProgressControlsForMigration.cs: dafc8442bdd0dcb5e871e398f32473ec -> 
+  custom:scripting/monoscript/fileName/RenameBranchDialog.cs: 4e8cba56a673b7adf6b1f70db522f07c -> a4999d46054383b4cef03a3dac804cd0
+  custom:scripting/monoscript/fileName/EncryptionConfigurationDialog.cs: 6423045767c07e6360ff314ec741c601 -> 19e9c54aff6ffc68d60fe11f80578947
+  custom:scripting/monoscript/fileName/CheckinProgress.cs: 298ac58365579798eb3b4defc181ccaf -> 75b93dbc5ef307111f0647f735640420
+  custom:scripting/monoscript/fileName/PendingChangesSelection.cs: 766664749a54eea9ecce5dff917430ef -> 1721ad72d074757364587c71b49d9382
+  custom:scripting/monoscript/fileName/LoadAsset.cs: 9042eb334fc462cf466672445be1d4c2 -> 5e4e082aa5b21c13b80eb237fe94d00b
+  custom:scripting/monoscript/fileName/Images.cs: 0b0c14141950fed99e3ef33199b3b4c9 -> fbdd1e600315d249327f3effde045c9d
+  custom:scripting/monoscript/fileName/DrawLocksListViewItem.cs: ce3a3d64ec2d84c3556ffd4141efc4f7 -> 6201c4d50383e970d554210505562d37
+  custom:scripting/monoscript/fileName/DrawProgressForOperations.cs: ea9179848be98ee7719316b39339ef29 -> b544f18e6532ba53bbd1b691fa5cd571
+  custom:scripting/monoscript/fileName/ViewSwitcher.cs: 1f6674b002b1d5bfee8fb7d42709ffb5 -> 5bd03fb216426d72dde032d651b95d33
+  custom:scripting/monoscript/fileName/RepositoryListViewItem.cs: 2f16ba7694ec7934685021093e722c4e -> 3cabcd81911a2500dcd9e2b6ffae3f00
+  custom:scripting/monoscript/fileName/InspectorAssetSelection.cs: 71ba78e42827a9b22a9a6016733d756f -> 4b3c1ae4c44d88205aef26229acfe022
+  custom:scripting/monoscript/fileName/UVCPackageVersion.cs: 0f4077cb83cde000a967972e97c7cc8c -> c4d95cb84d9d8dff4727eba6b0a64378
+  custom:scripting/monoscript/fileName/IncomingChangesTreeHeaderState.cs: 67923e7c73743bbc0577bc7d884f3ba2 -> 9fcb97ef2da44c66332f5c6800c2e6ed
+  custom:scripting/monoscript/fileName/WorkspaceOperationsMonitor.cs: 5f05751fd4d94e02e79a5bf200f98f9a -> 43dcc435c252a54bdaaf4d6588b7d66e
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/MacOSConfigWorkaround.cs: 8634a542fc5c45ea8cd9a8244bf2c871 -> 9fe61e763da506601651f6c451cecb0a
+  custom:scripting/monoscript/fileName/IncomingChangesSelection.cs: 281fe0b171b5382d8cd906c4490e5804 -> d86f9f4463e6f9d99bb815e1f018ccf1
+  custom:scripting/monoscript/fileName/PlasticProjectSettingsProvider.cs: cef4f9742a881d06eb679f9d361242a3 -> 8c4ae1aeb34c51d2a5a8924265075ff2
+  custom:scripting/monoscript/fileName/AssetMenuItems.cs: 64aa50dcc3bfcf35201c6730dc62acc3 -> 9ce81cedb8e568c6b7b646aa6263645b
+  custom:scripting/monoscript/fileName/ToolConstants.cs: a088b027c7b0922429c756f12b0507ea -> 3b0d2490617bc7f94a0bdab65a399e1d
+  custom:scripting/monoscript/fileName/GetSelectedPaths.cs: 02423a81496d6c63598b5cdc203f4354 -> be35dd49dddd53fc840b9febf21b4d0d
+  custom:scripting/monoscript/fileName/TokenExchangeResponse.cs: 0dd9138dbeab6f132711a5b608de5c13 -> f20183d4cf939766d3c1e15cc3bec2e3
+  custom:scripting/monoscript/fileName/ChangesetsTab_Operations.cs: eca44847b108faefa69f8c525242c965 -> 3290c4c0cd248666e01a08ee6d621249
+  custom:scripting/monoscript/fileName/OverlayRect.cs: 61f473b5a4768fa31a00fafe3b1b5b69 -> 59d6887e4803f8a44ffaa0409470e410
+  custom:scripting/monoscript/fileName/ConfigurePartialWorkspace.cs: 309d4276b0164b05348aedbd51cc0b2f -> 10fcc6b6d43dd5ed36c43c6f7b5906c4
+  custom:scripting/monoscript/fileName/ValidRepositoryName.cs: 43c262be3f66a970816e3d3a3ee8872a -> 56bcf92a3678f6ad6215cae2e4914cfd
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GetPlasticShortcut.cs: 2a84c035152261f00e7e66eb44cd0ffa -> 5c2b7bf07ddd2284efc64b09ef0f1f72
+  custom:scripting/monoscript/fileName/GuiEnabled.cs: 1b1658fd7715b5cc664c10a130c6b629 -> 7bb13fcc8d8cbd392e00f7232841f086
+  custom:scripting/monoscript/fileName/BuildPathDictionary.cs: 943911b84162d26cea47f964f9a0a399 -> 9fabc7cc73fcfc50b8a3307c6aa6ec4d
+  custom:scripting/monoscript/fileName/FindEditorWindow.cs: 2bb64182aef631315344623cf583c78a -> 8c3c78bb7e82ac5008f8a2b8a0d68cff
+  custom:scripting/monoscript/fileName/DrawProgressForViews.cs: c153245b67af73b7ee03f693a1127796 -> 068a172cb549ad77d9873d721698bd0d
+  custom:scripting/monoscript/fileName/UpdateReportDialog.cs: 706e7e86547c339cdb3a4462e3f7a54d -> 087837d8f73228f1a817d0de82c77260
+  custom:scripting/monoscript/fileName/HistoryListView.cs: 527da2d093462f1c4a278d6957e7d5ac -> 7b2d1d2c12ab43d9d244e35197127919
+  custom:scripting/monoscript/fileName/ChangeTreeViewItem.cs: e3d78a2bee9cc81382a4cb8578dc4fb0 -> b0a38ce0a620643c776a3db4fd91bc4c
+  custom:scripting/monoscript/fileName/BringWindowToFront.cs: 88b20f2a2881db6a013f54923d68cdee -> a30c7c1ba746c6d277a5aedd3057d15e
+  custom:scripting/monoscript/fileName/LaunchCheckinConflictsDialog.cs: 4417eba1591eccb2221bfdce0106c1e0 -> e2c1e3f8f4e14a62e4363fe6259adbc2
+  custom:scripting/monoscript/fileName/ParseArguments.cs: 03c1a4d7e357164ca313a0019713c3db -> ae915d9f5fe287ced40627c9ca8bfafd
+  custom:scripting/monoscript/fileName/ExternalLink.cs: 7eb9650651b43fb98c07816e49275ba9 -> a8ff952d8c27d10f226ab92b7aa83b69
+  custom:scripting/monoscript/fileName/WaitingSignInPanel.cs: 247680fcfc6a176b9fa28a3df600a754 -> 7585e1c7111b6b900784e6d1c9454258
+  custom:scripting/monoscript/fileName/TestingHelpData.cs: 0d1f98ae9b6fa0253523889fad413adb -> 
+  custom:scripting/monoscript/fileName/OperationProgressData.cs: 0db72349eeecbe9449a517b1d79cc760 -> 15f68712baaea535af36d9e0333c0a6e
+  custom:scripting/monoscript/fileName/RepositoriesListHeaderState.cs: c0353a1af15ae4fd3d5a2a3cac816423 -> fb71b961ab7c924511a6b0e8680b60ee
+  custom:scripting/monoscript/fileName/ClientDiffTreeViewItem.cs: 56be9d3aa410e770e75de2d8b93be89d -> 43bdd7aa5bf1aa039a5b572c119c38d0
+  custom:scripting/monoscript/fileName/CreateWorkspaceView.cs: 0f1446bdab952811ae2968789e1a2804 -> 04b4ce6556541af6541e1f1c2ea97052
+  custom:scripting/monoscript/fileName/CommandLineArguments.cs: 0d20ca25f94249586a7c1484c469d8a2 -> 48a62ad3f817c0269ea7fc4a53799594
+  custom:scripting/monoscript/fileName/DownloadRepository.cs: 46fc68d9cc4da8e8ed765ff28b2dd438 -> 5bad8d3f76a3fcb41a94637e37c11ab0
+  custom:scripting/monoscript/fileName/ParentWindow.cs: 2476d8a6ba9c3055f984ac9792cae61a -> d6aa079e592e01701c5baa3ab98898bc
+  custom:scripting/monoscript/fileName/OperationParams.cs: 091a140b35535b91c773ddf98925322d -> 3312c7a4424a66ffbf2f88f056f329aa
+  custom:scripting/monoscript/fileName/SignInWithEmailPanel.cs: a5823728eb62cf6dbd8c933c1cb26f53 -> 6e8957c0ed7609303e68389067e72d72
+  custom:scripting/monoscript/fileName/LaunchInstaller.cs: f9b7c99441bc32980ce9b95be066824b -> b75efdf5909b501e06cacd9c66f75981
+  custom:scripting/monoscript/fileName/AvatarImages.cs: ea6dca998cf0ec5122553a9e010ef687 -> 3aa8c25a350843151ec4070c820c411a
+  custom:scripting/monoscript/fileName/DrawHelpPanel.cs: 58c832ce9ea1a11e2724de5dd46ca0cb -> 
+  custom:scripting/monoscript/fileName/DrawUserIcon.cs: 2f65feb9bed897237f97fbf9c5479092 -> 7d5385bf780ae84e648a8b49f8fe0825
+  custom:scripting/monoscript/fileName/AssetStatus.cs: b9ea657347f2c22e8e401cdb256c516c -> e017010009bdb28bcb0d7d8ef05e7dd9
+  custom:scripting/monoscript/fileName/BranchesListView.cs: 334a3fb302f855f71fb71520fb442a71 -> 3f5ed9fe5a1bca512014ae1600ee1666
+  custom:scripting/monoscript/fileName/DrawGuiModeSwitcher.cs: 363adc150c5f1c5059a678f179906090 -> d3be34a3134d3fe80ef6b14d0d519128
+  custom:scripting/monoscript/fileName/UnityMenuItem.cs: 5f445176ad3735e69769d93250663be7 -> 73f3c859f1b5092ad362c09e23b3a922
+  custom:scripting/monoscript/fileName/WebRestApiClient.cs: c0bdde7ff9e25b1ad06e078e6d9b2fe0 -> 746756fd499dddd02a4e7ccdbac48be3
+  custom:scripting/monoscript/fileName/IncomingChangesTreeView.cs: 78411a54601a32b278de0dd7d80f8670 -> 96479648d4498738733254eb4e4c6fb5
+  custom:scripting/monoscript/fileName/GenericProgress.cs: 11287c7d038c487f32d0c8edc476a32d -> 8492ec26f01fc248d3eb3c2f5b3b6c0f
+  custom:scripting/monoscript/fileName/MergeCategoryTreeViewItem.cs: c1ecd9dc0cd73eb7eb129994dedc1a91 -> 6bd59fcbfeafe06987a54631991d755b
+  custom:scripting/monoscript/fileName/CheckinDialog.cs: 1709b78fae1329cc05fd4f39334b25f5 -> 702fdb8d0a3b4bfcb9ba109e71325cad
+  custom:scripting/monoscript/fileName/ProcessCommand.cs: 2cc3b6e2a763c7f353b474b6904b45a6 -> 
+  custom:scripting/monoscript/fileName/SortOrderComparer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/GUIActionRunner.cs: 69af7de0762ed6d085feb4cc4b5101b3 -> 4a0608de635b0d82868d57923d68eff7
+  custom:scripting/monoscript/fileName/PlasticMenuItem.cs: 07a9318d8d82a152df4ec33acd1befdd -> 30c3a785b4c2607e2ae9aad693d5f604
+  custom:scripting/monoscript/fileName/PendingChangesTreeView.cs: f3722f38014385705913f17dbe0f90c1 -> 17142d220a0a50a3f3d184c4718a0da7
+  custom:scripting/monoscript/fileName/VCSPlugin.cs: e4ec197b273413c2276be270d94be16d -> 69c1b7249af35f35848ae707bd5e7113
+  custom:scripting/monoscript/fileName/GetClientDiffInfos.cs: 4ae14b15e2cf5177a84735548a44cdc9 -> f8db8e637ded2d5e935a953a13b85ebe
+  custom:scripting/monoscript/fileName/DrawActionButtonWithMenu.cs: d7f31944358aed2f3ed3982246fca039 -> 8d4f5edd02a1dd0f38c4f2baf5ee8a33
+  custom:scripting/monoscript/fileName/ErrorListViewItem.cs: 249f5ad4771c3e98b495200005a3d480 -> b0e0c6d694ea3cf81ec666dcc600c133
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/EditorProgressControls.cs: b1f133fa38afd918d537a72574fc93a0 -> 2e606eb01a6e6a567f3de9a0379ed3ae
+  custom:scripting/monoscript/fileName/BranchesListHeaderState.cs: d47f1164fa7093137db851c4c16ffba3 -> 82eab21603f4efc696334ee80641c2c9
+  custom:scripting/monoscript/fileName/DrawSearchField.cs: b11b864a92c7d76f85d4ec87d6faf61c -> 3de70beba9f4447205d50241d95b066a
+  custom:scripting/monoscript/fileName/PendingChangesTab.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/HelpPanel.cs: 625fbcc6029d5fe5cf4aa833f68adb0c -> 
+  custom:scripting/monoscript/fileName/BuildGetEventExtraInfoFunction.cs: 1308a6936e8051866a117b3b7c2c7b77 -> 74bfc8c01f931108a3c2b127aa04cc8d
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/WelcomeView.cs: 727cdb3e104b6a2a1b2a292c292f355e -> b6f5ad03828f3d0b6465c52959e1ee5e
+  custom:scripting/monoscript/fileName/HelpFormat.cs: 92b36f6584b3d7ccdc99b0ae4e152c53 -> 
+  custom:scripting/monoscript/fileName/PlasticApp.cs: c440a0fb380601a77ad475d6c15d4fa1 -> c57de230d90beac7b586f10b9c7c6cb5
+  custom:scripting/monoscript/fileName/ChangesetsTab.cs: ef408d8aaf89e01b17643ed0c836680d -> 46dde8f7856048792ad2e75490bb8c5e
+  custom:scripting/monoscript/fileName/DrawProgressForMigration.cs: 0390721ecd322e9ab47db03bd0f98a12 -> 
+  custom:scripting/monoscript/fileName/DeleteBranchDialog.cs: efbbc070bfeda2b746e8b15a4380cb26 -> 8549b0fc52962c89115fd78724fee578
+  custom:scripting/monoscript/fileName/IncomingChangesNotification.cs: 5d73d1f1a99af71ddd954044bdf322d2 -> caa8ea2c7336b9227381f0971759e01a
+  custom:scripting/monoscript/fileName/DrawTreeViewEmptyState.cs: 5777c5240be2f7d335293a0280866fb8 -> 2f6076b2e74c53c98835d55a044e5fff
+  custom:scripting/monoscript/fileName/ErrorsListView.cs: db8d1e6e1b12cc23734ca93a4d9a27dd -> 32a0a4d27f42660bdc59e43d546f59a1
+  custom:scripting/monoscript/fileName/UnityPendingChangesTree.cs: fd6f0a038401268983bd9328d10dec93 -> f391d9a00dc9e202cee4d4ebcf6d21c0
+  custom:scripting/monoscript/fileName/EmptyCheckinMessageDialog.cs: e95636a2119dec4d0c1f323f7ba65603 -> 
+  custom:scripting/monoscript/fileName/PlasticDialog.cs: b0aae1bf1889af041741f324070b7b84 -> 63a17a2b696bc2a13c9046aa16f8cea4
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AutoRefresh.cs: 9d30d5d3f0e8985355be1ab597da1dbb -> 0a8afde180a876655ad16caa14493409
+  custom:scripting/monoscript/fileName/PlasticPluginIsEnabledPreference.cs: 56473af084ae343e005353d1ebe26bab -> 7953272c37f4a828a3d1096e7479f346
+  custom:scripting/monoscript/fileName/HelpData.cs: 9293e68e835820b452391937547d1531 -> 
+  custom:scripting/monoscript/fileName/GetRelativePath.cs: 9b16eb2de9e98b392077181cc34243c1 -> ab04ae5e0cafb93ebf5c96148bb52df0
+  custom:scripting/monoscript/fileName/UnityEvents.cs: bbca41e222c933c10ac2fdcedacdc4c9 -> 93e3e01e1fc330c62462aa41b286117b
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DockEditorWindow.cs: 581124d5e19667105f2446d6dfbf7982 -> a9e5e467234133af999283610b6e84e6
+  custom:scripting/monoscript/fileName/BranchesSelection.cs: 7eb1fcb556f0fad697e4ec9d989be099 -> 33b36e7b03910960966036894ec90c7c
+  custom:scripting/monoscript/fileName/SaveAction.cs: b68fbb4319dbb368959c40781b39fdf8 -> 27c387bb58f3a69b0c9ff60d2209e18f
+  custom:scripting/monoscript/fileName/AutoConfig.cs: 6c4e7f9dc55323aa1299debfe9723aa6 -> bf4bbd2f2e752464ef51dbf102faed17
+  custom:scripting/monoscript/fileName/DiffPanel.cs: 02288a38bd14cc2b52a25b302a6f154e -> 210366dab3631628227b9406f87a9b7f
+  custom:scripting/monoscript/fileName/PlasticAssetsProcessor.cs: ffbead0ce8c78df1634f8fc06dec8ecf -> ff731c8aacf4a537dc74c7cf9eaeaed0
+  custom:scripting/monoscript/fileName/DrawActionToolbar.cs: 52293cb82089e0370f52e257f41c0869 -> e05748a99799f26304c1bbafd90f703b
+  custom:scripting/monoscript/fileName/TreeViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EditorVersion.cs: 70953c9eccf7726f70c672a9a51619e9 -> 698aba075b19a52a056d67a7b809d179
+  custom:scripting/monoscript/fileName/TeamEditionConfigurationWindow.cs: d06f049421c16e5927ec29f770917e09 -> e53b1ca5561894aaeff930afb696d001
+  custom:scripting/monoscript/fileName/ProgressOperationHandler.cs: 5fbb4e0f656dcfaa4498bd2e492e4710 -> ec62666c0ca1649dd33cc6bc6834c6f7
+  custom:scripting/monoscript/fileName/UnityPlasticTimer.cs: 961fdb6492c99b4a3eadbed28e78c4b0 -> 6c887e722e951c2964523825cad70c4c
+  custom:scripting/monoscript/fileName/TreeHeaderColumns.cs: 9fc4a0396a421346b8aa3b7788860851 -> 316e5ea62e66b20fd6e687a6b9e5958e
+  custom:scripting/monoscript/fileName/AssetFilesFilterPatternsMenuBuilder.cs: 8fe5de6e5dc3d42fb7e95de2aaedbf5a -> 0d99e7514c6a33cda8314deed8f34bc5
+  custom:scripting/monoscript/fileName/PlasticNotification.cs: 71978c581e1127248a19c9d9e66cd355 -> 3629fdff9f054b2013702f5b131b2c47
+  custom:scripting/monoscript/fileName/ConfirmContinueWithPendingChangesDialog.cs: c0e147ff008a0b77c9337132a3ea70af -> 77462b1904ad8f6fee2f8da4523d59fe
+  custom:scripting/monoscript/fileName/ChangelistTreeViewItem.cs: a4a6f6169cdb3afe249e104e2b7b1a2c -> 87f69636be8bd1a264ec4eac1bffa701
+  custom:scripting/monoscript/fileName/CollabPlugin.cs: bda741ff77a19affbf276298e29313ec -> ca276d65e7cd77c5c99d9f119ffdb215
+  custom:scripting/monoscript/fileName/TabButton.cs: 3efe8f66ffd840fd7aeb0585b183d2fa -> 757146b89ed597b1d75c77241e5d5f63
+  custom:scripting/monoscript/fileName/LaunchTool.cs: 3ac53c8af1f56365aad9e1ae5366d98d -> 60773d78646dc188d4b2caca77f20b17
+  custom:scripting/monoscript/fileName/RunModal.cs: 33b931100ee477e6812324eabaa2e837 -> c83ee2ef642c5d8b8dfd32f033bfc438
+  custom:scripting/monoscript/fileName/BranchListViewItem.cs: 8fdaa5aa842f5a70237affa304b9d506 -> 55028f4aef24d6227589aaa95582b2ff
+  custom:scripting/monoscript/fileName/GetAvatar.cs: 07c98163f75f0b7c672bd453fc82bf61 -> 04ffae2a9e5a4c32a119f93144f558d2
+  custom:scripting/monoscript/fileName/FindTool.cs: fc3b0710b24078288fe829d0bb041dd0 -> 2f9d82566cfb01fb68fc30111fb47624
+  custom:scripting/monoscript/fileName/ChannelCertificateUiImpl.cs: 75d7831ab5da75cc0082e28863abb142 -> cefccf1e13b7bcf15e3c9f2dd4cd2fc8
+  custom:scripting/monoscript/fileName/ApplyCircleMask.cs: 02eb67e485278e7c9b719fee5ff90f4a -> b955b378d261fdcbd6272fe8711d1e4f
+  custom:scripting/monoscript/fileName/AssetMenuOperations.cs: 4d198753827ac1463e02b10d5d04cc7c -> 0f0ce50426259919e339aa7586c1e4ac
+  custom:scripting/monoscript/fileName/VisualElementExtensions.cs: cd98f4a51563fccdfc39eed097290325 -> 0aad2728225c469038631668406aebb3
+  custom:scripting/monoscript/fileName/LocksSelector.cs: 70b046a562568fd78d093736e68a3a58 -> 7b0f4fc5552c1d92ba7f4648526ceb21
+  custom:scripting/monoscript/fileName/ListViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CreateWorkspaceViewState.cs: 1deb37b3c17c224d9a7dca9c990ea191 -> 0fe23b7cca9336b31a27790c714de652
+  custom:scripting/monoscript/fileName/MergeLinkListViewItem.cs: ebc1e6f9e3a3005d8f4c51a794adfdaa -> 3fa407d29597803190dd374d88ed170d
+  custom:scripting/monoscript/fileName/DrawCommentTextArea.cs: ad5449f632fd412ac0f7ba0d171fd453 -> c58c26552f95f108a8d9610eaf001fbc
+  custom:scripting/monoscript/fileName/ErrorsListHeaderState.cs: e98652ed68c22ec27682c6c2c1fdff6d -> 3e78431222de62ab12804de2e57e71f6
+  custom:scripting/monoscript/fileName/RefreshAsset.cs: f56d23c5126a2dd3db6f272d3d3b71dd -> 21c806d59a337a83fcab56230df298f8
+  custom:scripting/monoscript/fileName/BoolSetting.cs: 9c3f40d0ec58f1b80f82d15e4bda7107 -> 6866476ee3db529747ee7a560b4298d4
+  custom:scripting/monoscript/fileName/CreateChangelistDialog.cs: 774371d4233cc1d394d98dc80507a1f8 -> 386b03e27c951c5f1d63daf7aae486ca
+  custom:scripting/monoscript/fileName/HistoryListViewMenu.cs: 15a489e494f04a7ea37a587c7601070e -> 29770348599c8d5473b78d72e5741b40
+  custom:scripting/monoscript/fileName/FilterRulesConfirmationDialog.cs: 5186d89f21d03764f0cca01c2a0122d7 -> 9c91c6c91f20e6d013a753f32343b327
+  custom:scripting/monoscript/fileName/ChangesetsSelection.cs: d154d1782ed752b83834c54a0bde3df9 -> 8b9d539af9f7e269bac4e3d79e9ffab8
+  custom:scripting/monoscript/fileName/AssetPostprocessor.cs: 28be74a844bbed0286c3c45dee7283e7 -> 96208057b904410715a8df295ba4f8f4
+  custom:scripting/monoscript/fileName/IsResolved.cs: 12b1cb46be3341613a9d03a0fb32ccfc -> f54a3e2c5134aa4306f9ad150b1911a9
+  custom:scripting/monoscript/fileName/LocalStatusCache.cs: a558fcf5f34357bab4cfc7b75e2bb356 -> 30974ea30517fbfd1b93153f6c849a76
+  custom:scripting/monoscript/fileName/RepositoryExplorerDialog.cs: 143e7416b576681e1f2ea71288e530e6 -> eea34924da79ad7254f3e141a891c78d
+  custom:scripting/monoscript/fileName/HelpLinkData.cs: 298f428470bd6f0a46823cad390bf0d6 -> 
+  custom:scripting/monoscript/fileName/WorkspaceWindow.cs: ff52e13cd29dacd66db0169e14f71a23 -> b042f06133312d3bfed176231d97d77c
+  custom:scripting/monoscript/fileName/PlasticShutdown.cs: 927cfd31d19eaaaa16d67e3e3b26fdb2 -> a8df8eeeed98372d06e446171a192a6d
+  custom:scripting/monoscript/fileName/FilesFilterPatternsMenuBuilder.cs: 28072cd275c96994687e6d4d0d6e1dff -> cf716a8d336c8113475a9ca67a799ec1
+  custom:scripting/monoscript/fileName/HistoryListViewItem.cs: 2d3b1fc954b6bdbae298ec250ade0663 -> 96f2b67ec620b83e35d13f11877e1ac1
+  custom:scripting/monoscript/fileName/RemoteStatusCache.cs: 00463e6b90cfe7da080d7c266f783980 -> 402d5663f3675e9324c129274b0c00f2
+  custom:scripting/monoscript/fileName/EditorWindowFocus.cs: 1012e4e2e29e9b29bdcc03d8b92762a8 -> f258b0cf85078a7435d001e522d5e8e3
+  custom:scripting/monoscript/fileName/EnumExtensions.cs: 24df84756ec75feecd53a80a0991ea16 -> 872fcb89b813d64606e680211dede528
+  custom:scripting/monoscript/fileName/NewIncomingChanges.cs: 4475d5d6d9583dbe65c4824e6a1fe6aa -> fc48261878ef7e4b956e7172f5803aee
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/UnityIncomingChangesTree.cs: a6749c8b534ffb85ccf809bc8e274114 -> 42967773c43d3de5d23be4ddc6dfd9c4
+  custom:scripting/monoscript/fileName/UnityDiffTree.cs: 447fc3a8922f56330f4bae8c9dc9a8be -> 1029ffd567bc0e646e6b119719dcb2ff
+  custom:scripting/monoscript/fileName/TreeHeaderSettings.cs: 114eb9e27124403e8e111494b8eaf987 -> 662b1714c0fce36da72bbfe60201987a
+  custom:scripting/monoscript/fileName/UnityConstants.cs: dee423a5d393260ccda31829b4392abf -> c519528656feb52bc4c37f6b6284546e
+  custom:scripting/monoscript/fileName/IsExeAvailable.cs: 3e4283303610c884e542b8f6d3e922d4 -> 4a3dbc5ded94087064afd97407f26631
+  custom:scripting/monoscript/fileName/AutoLogin.cs: d257b2b319167ee8af9b75266dabb58c -> cac363a2d5471994de278e71f937b032
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UpdateReportLineListViewItem.cs: a101f0ba5292fc139445870b3f4af838 -> 9f63395e1ea590dbbab4d59cd0032ac4
+  custom:scripting/monoscript/fileName/DrawSplitter.cs: ec7e8739eacabcca3e2946d9833eea0f -> d2f114a8e8e4167f7762d835a83b2f55
+  custom:scripting/monoscript/fileName/LaunchDependenciesDialog.cs: e1c527862a66e73f0417ae177d7fdfb5 -> 2cabf22eb95430074b6c730a84e03493
+  custom:scripting/monoscript/fileName/CredentialsResponse.cs: 96b135ae1c4ea541dc762170ea524fa9 -> 3dd2507693e56dac75ee7783f598cbb9
+  custom:scripting/monoscript/fileName/LaunchDiffOperations.cs: 831bbe9f0510da02e07943dba200580f -> 20e85a96a5926a180bb53a2abca68aa4
+  custom:scripting/monoscript/fileName/PlasticSplitterGUILayout.cs: 4cfaefa1a850aceff54713912c4a2bda -> 111849f67dfbfea65ad2a9298ad1654d
+  custom:scripting/monoscript/fileName/CheckinDialogOperations.cs: 0b2a2cd4c41cf1865a29cf91b2a96a48 -> d032d69e8060311c06b88286e8f22ddd
+  custom:scripting/monoscript/fileName/PendingChangesViewMenu.cs: 68fab310addfd7068cfd7920070496ff -> 9b0019b6df6bb14eb3a2dbafa53fb54b
+  custom:scripting/monoscript/fileName/AssetsSelection.cs: 35cec24e81f0cb1de51daeb356abc4ff -> 0227d7ff4d5687932d10967a945a9b06
+  custom:scripting/monoscript/fileName/EnumPopupSetting.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PlasticConnectionMonitor.cs: 0a14faa9ef1a178a87cdca925b1963c3 -> 920e8e381bfc94da8bb69d336dda57ca
+  custom:scripting/monoscript/fileName/HistoryListHeaderState.cs: 6226ef13a567fa81584864f8698be331 -> a87e0364d14866c369ad50d669bdfa85
+  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: c886fdb39f4b8787e6ea3701a8f88f4a -> b1721e471183956468462f6b64901640
+  custom:scripting/monoscript/fileName/AssetsPath.cs: 367269acf8f676d2cdd30fdc387b3920 -> e0e986124adc46d913f0683c34b88c9f
+  custom:scripting/monoscript/fileName/MetaPath.cs: 1f80313a7ce6ec6ece505285578f5745 -> 417a84eb354831f828a6752b26c8592d
+  custom:scripting/monoscript/fileName/CredentialsUIImpl.cs: 90e9c2de8d7bdd8424e0d89c415108ae -> dbacf67c37819fd95562fe169e706732
+  custom:scripting/monoscript/fileName/ChangesetsViewMenu.cs: b720f0168f4ce1b1e0d358a6d5ec9a42 -> 7d1a2de81910b5990e71a0bfff26fdca
+  custom:scripting/monoscript/fileName/UnityPlasticGuiMessage.cs: 2a7f71f59c0d7dc731fd345a3713957c -> 24eef0792e3802809607a7f9d04b8f1d
+  custom:scripting/monoscript/fileName/OrganizationCredentials.cs: ee462057b3bd23cc3dab953ac4d656e2 -> 0b123406cadd651e9adc01c85fab5124
+  custom:scripting/monoscript/fileName/StatusBar.cs: f75c824d5cc26fade21f744dad26925b -> 2c8c488a8bbfe924f6b53b202ff6aadd
+  custom:scripting/monoscript/fileName/IsCurrent.cs: 16ae2475c9982c21b0dccb3cdf4b1a92 -> cf1fd01890d0fd9f011c1a1a491e2cf0
+  custom:scripting/monoscript/fileName/ChangesetFromCollabCommitResponse.cs: b986ab8b1acd322b0367812e2d541734 -> ba336e4117e1b7ee28e4c17197bc3d0e
+  custom:scripting/monoscript/fileName/MoveToChangelistMenuBuilder.cs: 3a2ef8cb0baf69e5dadeafc731fe32a9 -> a90b3e388d3e1316fa104d4c9a03e2d1
+  custom:scripting/monoscript/fileName/LoadingSpinner.cs: 69a46a0158b3944983921513a6337a68 -> 1c13cf7a9498073806920e71757dfeda
+  custom:scripting/monoscript/fileName/LocksTab.cs: 134c512484ae73354c15c06a6dc69f9f -> 00ffb5a39c16fdc2d733c7e53471a3a9
+  custom:scripting/monoscript/fileName/BranchesTab.cs: 764cb17e9337c58ad4f5304b60b2042e -> 57c33f76c527a5aba4d269245ffff188
+  custom:scripting/monoscript/fileName/HelpLink.cs: f129aa05dc3840d5bd4f2e0d111189db -> 
+  custom:scripting/monoscript/fileName/ToolConfig.cs: 18b1ea271ce5e7b6deea7b4e8e175269 -> fcffc3165b047f54ed6ccafa4c8760dd
+  custom:scripting/monoscript/fileName/DropDownTextField.cs: e66e7314096900597993d2b353757d8d -> c8fc484ce140049ff31ebc2c6cbebf28
+  custom:scripting/monoscript/fileName/AssetsProcessor.cs: 47679a6e15b70f4fef48eb1b2df31b19 -> 18737889e95cd4088e8dfd4153fa8f40
+  custom:scripting/monoscript/fileName/DrawActionButton.cs: d847a7d82ac92cab2b3d0ae268cefb3d -> 81e6708d2b8fa199354e53f85db731a8
+  custom:scripting/monoscript/fileName/TableViewOperations.cs: ddc7b903e0dbd6bd109f2bd709b95f0e -> bef3a31deb1fe794a90f767d16e4c868
+  custom:scripting/monoscript/fileName/UpdateProgress.cs: 5b04f01bf199310f09ab9522f89c78f4 -> 281e1e05168d6a30be1d8d2f6200bef8
+  custom:scripting/monoscript/fileName/OrganizationsInformation.cs: b3f0758c6655b2dad1161792812992fa -> 5f067ea8d90fc79055a3dcfd58ae6dca
+  custom:scripting/monoscript/fileName/SubscriptionDetailsResponse.cs: e10e0299ef716630c63b8cf5f792cda0 -> e5121cec860a6d1097cc809217b3d8fe
+  custom:scripting/monoscript/fileName/DrawProgressForDialogs.cs: 5f8d39e3ea7c4a42148c6b1a7b4ca061 -> a5f2abd8875e7a6afbc171fabfbae81f
+  custom:scripting/monoscript/fileName/ToolbarButton.cs: 0b8663f5acfbbe9acf3c68758e2857fb -> 47dc767626bbd94d66707af31ddc5eb6
+  custom:scripting/monoscript/fileName/ProjectViewAssetSelection.cs: 349dc288d32791de51156d4e59000b7b -> 2560eadaf6a13a74a46a4a207cd5a8b6
+  custom:scripting/monoscript/fileName/DrawTreeViewItem.cs: cceebc4f1185658619e40964f29acb08 -> 0921a62a588ab864253743d1f07afb5a
+  custom:scripting/monoscript/fileName/DrawSceneOperations.cs: 2426c0c2ee58cd28be59874f6425940c -> d87f46f9fb97181a2f51490ea2e1efc3
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DrawActionHelpBox.cs: dcd6ec2e7fb1b44f22c4a79ff87b70cd -> c8f6be9dab1e6f8d71e0c63c29679186
+  custom:scripting/monoscript/fileName/PendingChangesMultiColumnHeader.cs: 21802cc6929e0e180fb4f0be8e34d9d0 -> 722de7d6e07a79981d750438e6febb8f
+  custom:scripting/monoscript/fileName/EditorDispatcher.cs: c739e073a8c38dbcf59192f45d1004c5 -> 3c402eae57d73cc54863f3f6a13096ae
+  custom:scripting/monoscript/fileName/IIncomingChangesTab.cs: 363f9daba453e316e730238a80857251 -> 40644cd18074db84684b9e437bf8fa77
+  custom:scripting/monoscript/fileName/GetChangesOverlayIcon.cs: f00e4b795697c6cf3092760f3b6fc49d -> d599d6efdee28305661bc0cf6683858a
+  custom:scripting/monoscript/fileName/ChangesetsListView.cs: caae0aefb36c869f50691482a5cd0944 -> 87b74e0d80cf59010f55e2baaeb6679d
+  custom:scripting/monoscript/fileName/UpdateReportListView.cs: 2d8fccdaad50bbd7454b52cf9cb4a0f9 -> 08d26df1ab6c3a7628addc5e54e50b08
+  custom:scripting/monoscript/fileName/UnityConfigurationChecker.cs: 59a8f0715a7c89a752351bf42f94abbd -> 874cd65cce0384fef4b60e71fb08a429
+  custom:scripting/monoscript/fileName/CheckWorkspaceTreeNodeStatus.cs: 5e11ff64963669981115eb58dc2b6e8b -> 1e1255b803bf7cbc935bb804bf0dbe7b
+  custom:scripting/monoscript/fileName/PlasticPlugin.cs: a57c142b98ca3d4daad221737fd72924 -> c64561980f26020cc3206ae8b1047268
+  custom:scripting/monoscript/fileName/SwitchModeConfirmationDialog.cs: 4d9c02587760213784bfe53d012122b4 -> 30cd71d0b3ee4b2689cde689908d301e
+  custom:scripting/monoscript/fileName/PlasticWindow.cs: 76740c086f0109337962354fe520adb2 -> fc467478941f610919bc69526ba2c215
+  custom:scripting/monoscript/fileName/BranchesViewMenu.cs: 8089f11c30784e2e57775dd6cdbae898 -> 7bfc83e917c9b0b5aa423bb947ce2a38
+  custom:scripting/monoscript/fileName/CooldownWindowDelayer.cs: 7816cfcad485500dbac9993c4502ea69 -> 4c95e39c8dd4cfa1bca106097fdb6524
+  custom:scripting/monoscript/fileName/GetInstallerTmpFileName.cs: fa7bda723ac795b48e38504727f44981 -> d09e0b5c7a9af5874530e17ef23025f0
+  custom:scripting/monoscript/fileName/AssetModificationProcessor.cs: 84d720d70e5c24b7d0630ef5cea215ce -> a602c9e59e7db185e3a0d68d986e6fef
+  custom:scripting/monoscript/fileName/IsCollabProjectMigratedResponse.cs: 4c3294c6a51e6f42161d191230692016 -> af2b76c693935deee55cfcaed2aa7568
+  custom:scripting/precompiled-assembly-types:Mapbox.Json:  -> c9755f3824dbde211abbad760f3ff8fb
+  custom:scripting/precompiled-assembly-types:Mapbox.IO.Compression:  -> b8fe73cb605eee6fffb1f58bcb144670
+  custom:scripting/precompiled-assembly-types:MapboxAccountsUnity:  -> 330cd540642444ab9ee0d5d1fccbbdbc
+  custom:scripting/precompiled-assembly-types:Mapbox.VectorTile.VectorTileReader:  -> 9c7c20e2bd57ce2751af297fc6a3039f
+  custom:scripting/precompiled-assembly-types:Mapbox.VectorTile.Geometry:  -> abdcc77490e5f3351a3127d5946aaa97
+  custom:scripting/precompiled-assembly-types:Mapbox.VectorTile.PbfReader:  -> 6085cda9461fc1685b3651cbffa14e22
+  custom:scripting/precompiled-assembly-types:Mapbox.VectorTile.ExtensionMethods:  -> 1b060f6337698014bc2e333689ede70e
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.381 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (32ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 7.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 475 unused Assets / (284.9 KB). Loaded Objects now: 3612.
+Memory consumption went from 126.9 MB to 126.7 MB.
+Total: 3.221100 ms (FindLiveObjects: 0.168000 ms CreateObjectMapping: 0.077500 ms MarkObjects: 2.680400 ms  DeleteObjects: 0.294200 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/IncomingChangesTab.cs: 6fa4849c09cf3ec125d3914af6074a21 -> 82bff1d960538992d4e618d909869d2e
+  custom:scripting/monoscript/fileName/DiffSelection.cs: 34faf7c86f7e0c9a01162e930679d82f -> 1460aaba4240ef35322cb9c198487990
+  custom:scripting/monoscript/fileName/CloudProjectId.cs: f33db9e9673144ad1e994ed4cff5ce2d -> 
+  custom:scripting/monoscript/fileName/DateFilter.cs: 4084040ac52b6e24ba874651890c5c6e -> 85ed700e21fd471cc38c626cebe01d52
+  custom:scripting/monoscript/fileName/PerformInitialCheckin.cs: be22d181e456c0a8a5713675f29ac72a -> 8ef9a9f407b8b94b2b5fad9d24e61f79
+  custom:scripting/monoscript/fileName/ConflictResolutionState.cs: 51eaf597f9533c7ed197ad15e802d20f -> 74a230000ff2fd58c5a60ab4258207dc
+  custom:scripting/monoscript/fileName/FindWorkspace.cs: 39bbd18bfe6bf4a99f5c185dcda4dd4a -> 6af6c9e9382fef881c020ab184e6f7f5
+  custom:scripting/monoscript/fileName/IncomingChangesNotifier.cs: 10fad815611441fb3a805150421ed991 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CheckinConflictsDialog.cs: d3af1d70d3f60a9847d2942647274222 -> e13fa04a97fb675842c94586fc602871
+  custom:scripting/monoscript/fileName/AuthToken.cs: d22b2893825e943bc1389be142abd57e -> 0fba7e8eb1ec8b699f274cdc956451b2
+  custom:scripting/monoscript/fileName/ProgressControlsForDialogs.cs: 6bf8e69ac7dc2163fe988e5d8181ce88 -> 7e6bd1727985204e3b64e1946e589b1c
+  custom:scripting/monoscript/fileName/AssetStatusCache.cs: beede06d8a6d93e7907fd192ad653f2b -> 260d5f85663ac58b2a7e9553c453bc3e
+  custom:scripting/monoscript/fileName/DrawIncomingChangesOverview.cs: 6d1aadb525661622ddc7d545c55841f2 -> 
+  custom:scripting/monoscript/fileName/BuildFormattedHelp.cs: f675844664504d88a0d8165e2b08a2bf -> 
+  custom:scripting/monoscript/fileName/OrganizationPanel.cs: d7ac1288bef1b15a05bb26d201a4d87f -> 57a57e6a345dbd536e91c348b70943a9
+  custom:scripting/monoscript/fileName/MigrationProgressRender.cs: 94a7accb6b5be388f3abff6285d8f1af -> 
+  custom:scripting/monoscript/fileName/ChangeCategoryTreeViewItem.cs: 0f882939555cf173ece99b60f8f54ade -> fd14db176fff061715c8ec88ced1902f
+  custom:scripting/monoscript/fileName/CurrentUserAdminCheckResponse.cs: cec2f173fe8732108711c497674c6f66 -> d57c2dcace740834acd59fdfbc5023b8
+  custom:scripting/monoscript/fileName/UIElementsExtensions.cs: a191d7293be4538b0adb29dfe5b06a46 -> 52e0d612ab032e4d22e9558b90396b99
+  custom:scripting/monoscript/fileName/CreateBranchDialog.cs: c429477092287209232592c8cde1a615 -> 9eb29fda08033b4f847247136c412db6
+  custom:scripting/monoscript/fileName/DrawCreateWorkspaceView.cs: 6422239d8f649480614f0dd4f018b7f2 -> c6039ac84d85ab3926aa94de163a9f7d
+  custom:scripting/monoscript/fileName/ProjectPath.cs: 5634ebdbea8ca94089eb9622d1b60497 -> 2007f972d3a73eeb86dfe05e849c7f69
+  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: 8967ceae1bc195ea8dd32b23c42dd852 -> e140ede12a96f68f30062138385171c3
+  custom:scripting/monoscript/fileName/DownloadPlasticExeDialog.cs: 2dd40c53d0303d041a27a44a95c331cb -> 093cfe0607c2346a88cdfdfe1435614f
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTab_Operations.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/LocksListViewItem.cs: cc9cd24c5be4f7363367cba72f12aad4 -> f4a19fabbec093eb3d6a7e1cd4f42611
+  custom:scripting/monoscript/fileName/PendingChangesViewPendingChangeMenu.cs: 561ad0f702e1db14300a4a5f810051f9 -> 9a6ef2277212bf26d647c7f12f946287
+  custom:scripting/monoscript/fileName/SignInPanel.cs: f7e82045994d4eefe3b021faa87b55c6 -> bac0318ce35e37bed3a2cc8137452435
+  custom:scripting/monoscript/fileName/DrawInspectorOperations.cs: 61c4a6a6507d8f84ef5bdf5cba3f0aee -> 8c94fe642e98309082411f46db89106b
+  custom:scripting/monoscript/fileName/DrawDirectoryResolutionPanel.cs: a77980eb09765fe85cd85d4a47964cf2 -> e4e3c9b4bc511687802b504b71016540
+  custom:scripting/monoscript/fileName/CloseWindowIfOpened.cs: d820344e932a12600b5fe6fb7e9f1563 -> ce229ef3b7461ff17e2c1af0695a6657
+  custom:scripting/monoscript/fileName/SaveAssets.cs: e472a52843752df7d7ad4ca6b2c8da98 -> b56abea3d51c742ac29e4aec958afad6
+  custom:scripting/monoscript/fileName/RepositoriesListView.cs: 9f95c83dc460fb03fb0916472f14b8a7 -> 95287f65338ca0073ad04002a16eaaf7
+  custom:scripting/monoscript/fileName/AssetOperations.cs: 638daf61300bf6ad727538516d4fa3e2 -> 
+  custom:scripting/monoscript/fileName/HandleMenuItem.cs: 740e54c5f6dca1acc88cad87af74b744 -> b4ad1ecc5243212c5967125ad5e41b1f
+  custom:scripting/monoscript/fileName/ScreenResolution.cs: 5c975132cf4e36dcc261bd0acd604271 -> 7bb7bb5b955671820101b322f0a7bf3d
+  custom:scripting/monoscript/fileName/ApplicationDataPath.cs: 8e4094e28762fb76a1baecfe90c6b65e -> 3e8c4ea8debfda8013fed860ac233d22
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/RepaintInspector.cs: 65202bdc05e3e19fadffb7fd99f30154 -> f134606300316994850c28a68d0cb5a3
+  custom:scripting/monoscript/fileName/LockStatusCache.cs: 5e3725e03dc21c716034553589a67eae -> e99b3f34c5cd3eb73ec19439af1f7f80
+  custom:scripting/monoscript/fileName/DiffTreeView.cs: 68195907d129ef826aa6b6df7202696d -> 49f46fd2a65ea674a218eead75f27aac
+  custom:scripting/monoscript/fileName/DependenciesDialog.cs: 82d30fc8d5e1a73ec0d1ee9acc00fbc2 -> c8902186ab2f4e6471b5dd147afb01b6
+  custom:scripting/monoscript/fileName/ChangesetListViewItem.cs: 95a197949f1e777703db60eea8cc21b3 -> d742a4910e302777daa1ccb9c8e92cb9
+  custom:scripting/monoscript/fileName/LocksViewMenu.cs: fda08381fa9abca53b6eaf3bf55f14f8 -> 186d8514e824865b191ba1829afe4b33
+  custom:scripting/monoscript/fileName/IncomingChangesViewMenu.cs: 832662bce0cd8edd53cba36a0dd96da0 -> 13196979a03411533716f6775c9a624b
+  custom:scripting/monoscript/fileName/QueryVisualElementsExtensions.cs: 75ea535788abf9c38ba9341c984a6241 -> a49740b6efbb934f55475cc70b864a4c
+  custom:scripting/monoscript/fileName/WriteLogConfiguration.cs: 1a8401f47b522f631a3dc005105719f5 -> 1589212d1638ae91a029ea3ddf9999f2
+  custom:scripting/monoscript/fileName/DrawTextBlockWithEndLink.cs: 1cc3e67c46bd397f9508f124a3366994 -> 
+  custom:scripting/monoscript/fileName/FileSystemOperation.cs: c31a686e69e66801c204a11be56c950a -> f0ccbe91654279794a85bf6f1c034716
+  custom:scripting/monoscript/fileName/MigrateCollabProject.cs: af93695e471d9c8e4ad014c4165f2c3c -> 9f3487f03a783b35518405572f20ac9e
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForViews.cs: 7d677c6df38ab15cf390062b5b0bb854 -> a8a18a90f46aa63848e1e45d8d7ff9af
+  custom:scripting/monoscript/fileName/DrawAssetOverlay.cs: 8ccd7cea9aa918859be0b55818cb990b -> 04a46044def089f0abcdafdd281e3646
+  custom:scripting/monoscript/fileName/ProjectWindow.cs: 953e9bbd852a9f12f91349161baa793e -> c62567a3d71fd74636bc783de5162474
+  custom:scripting/monoscript/fileName/MergeLinksListView.cs: 826afb5fb5988163105086b4bf5027af -> c9488671ae9b14523680d0c19097baa0
+  custom:scripting/monoscript/fileName/EditorProgressBar.cs: 7418be9b22aaea32732f8a5f49569d1c -> 08c2f2b90ef64df631d46389f0e22c8e
+  custom:scripting/monoscript/fileName/MeasureMaxWidth.cs: cd9322680ae61d38397008451b7ed0ed -> 1569e3f1dad91a9b01cba66ab6aa30b0
+  custom:scripting/monoscript/fileName/ChangesetsListHeaderState.cs: 69fc4f1a2bc3782d7043ec48961a3616 -> fe1392f9b135da83e13fe8a5e5f39fc2
+  custom:scripting/monoscript/fileName/PendingChangesTreeHeaderState.cs: 7d278b5569d28437d07554a3bbb56e1b -> 5d7f70d142c9ac67864ec14950523d62
+  custom:scripting/monoscript/fileName/ChangelistMenu.cs: ca33bac56b3a337faa90a1b1bba632d6 -> c1bf5aeb760cc5eae584ea3944d6531b
+  custom:scripting/monoscript/fileName/MissingEncryptionPasswordPromptHandler.cs: 7f5831fc8a41e9cadd84fcfd0e885072 -> 5d7b9646eb14a39b6d3d5bab19d266ff
+  custom:scripting/monoscript/fileName/NotificationBar.cs: e0f12e3f3292fff5a590c00b59f3a17a -> 0daf459fa0c4269b16bcc20cd072c021
+  custom:scripting/monoscript/fileName/UnityThreadWaiter.cs: dbd556f2802baab90a20da38c288d36c -> 99333406d92d10003984b4d1920de2f9
+  custom:scripting/monoscript/fileName/CredentialsDialog.cs: 179b5e49656a1623c2e79d838f0f5876 -> c785d5e40f8d66b7ef7ba04ee7c324e0
+  custom:scripting/monoscript/fileName/GetRestorePathDialog.cs: e21eb9983f0b989125951478cd5e9b35 -> 353d1126ca2d2063d5bdbd06806ffc08
+  custom:scripting/monoscript/fileName/UpdateReportListHeaderState.cs: 64a5bf775d221ad9a5ff8c78a1e0e1fa -> d6cbe54be2898ed2c96c2e79572c2e08
+  custom:scripting/monoscript/fileName/LocksListView.cs: 8c6202774eebcf67be9c3b5a2926cc7c -> 7aa51ff93bcc98aa05dec8b46ec200c4
+  custom:scripting/monoscript/fileName/DownloadAndInstallOperation.cs: b043b8d5921892e87f4566e00162cff6 -> 4f4065aeafda2af0ec272a3c228e27b2
+  custom:scripting/monoscript/fileName/MigrationDialog.cs: 1a69d399f9c8aa816a053d285dd8bc5d -> 
+  custom:scripting/monoscript/fileName/DiffTreeViewMenu.cs: 3e62bfc69ca7486976988e151b88922e -> 8039fc4ecf68b3e966e1f4822789e7fa
+  custom:scripting/monoscript/fileName/UnityStyles.cs: 1e97cd7e9a8ef8ab43da545c6691e95c -> b57f61a58df1c49a1c9d37daf76d42cb
+  custom:scripting/monoscript/fileName/HistoryTab.cs: 4d086984813cd90d6be245dd8e03a2ba -> d57f000c65fde42a2228c7a105a836e5
+  custom:scripting/monoscript/fileName/HistorySelection.cs: 7c3afcf345a55e8b77ea41ca0f570218 -> 3d07a3d1241e204b5420d71f1137eba4
+  custom:scripting/monoscript/fileName/CreateWorkspace.cs: 7b3086384e5ddcd73cd5064a3ce31cd2 -> 5256205b5cf0570b6f698c7abe518f5a
+  custom:scripting/monoscript/fileName/ShowWindow.cs: c731454122754eec192bc3c53fac3d95 -> a6bb1d20733c178256b38974418d7450
+  custom:scripting/monoscript/fileName/LocksListHeaderState.cs: b80c5f044f18764adef2e9dbea5f0fb1 -> c7fe4d3b5f954615048f8e79925d29e3
+  custom:scripting/monoscript/fileName/CreateRepositoryDialog.cs: 1e1c5399cf3d0b071c7982c565a710ce -> 5cec3e66b09e0dbe1f805953c5c64af9
+  custom:scripting/monoscript/fileName/ProgressControlsForMigration.cs: dafc8442bdd0dcb5e871e398f32473ec -> 
+  custom:scripting/monoscript/fileName/RenameBranchDialog.cs: 4e8cba56a673b7adf6b1f70db522f07c -> a4999d46054383b4cef03a3dac804cd0
+  custom:scripting/monoscript/fileName/EncryptionConfigurationDialog.cs: 6423045767c07e6360ff314ec741c601 -> 19e9c54aff6ffc68d60fe11f80578947
+  custom:scripting/monoscript/fileName/CheckinProgress.cs: 298ac58365579798eb3b4defc181ccaf -> 75b93dbc5ef307111f0647f735640420
+  custom:scripting/monoscript/fileName/PendingChangesSelection.cs: 766664749a54eea9ecce5dff917430ef -> 1721ad72d074757364587c71b49d9382
+  custom:scripting/monoscript/fileName/LoadAsset.cs: 9042eb334fc462cf466672445be1d4c2 -> 5e4e082aa5b21c13b80eb237fe94d00b
+  custom:scripting/monoscript/fileName/Images.cs: 0b0c14141950fed99e3ef33199b3b4c9 -> fbdd1e600315d249327f3effde045c9d
+  custom:scripting/monoscript/fileName/DrawLocksListViewItem.cs: ce3a3d64ec2d84c3556ffd4141efc4f7 -> 6201c4d50383e970d554210505562d37
+  custom:scripting/monoscript/fileName/DrawProgressForOperations.cs: ea9179848be98ee7719316b39339ef29 -> b544f18e6532ba53bbd1b691fa5cd571
+  custom:scripting/monoscript/fileName/ViewSwitcher.cs: 1f6674b002b1d5bfee8fb7d42709ffb5 -> 5bd03fb216426d72dde032d651b95d33
+  custom:scripting/monoscript/fileName/RepositoryListViewItem.cs: 2f16ba7694ec7934685021093e722c4e -> 3cabcd81911a2500dcd9e2b6ffae3f00
+  custom:scripting/monoscript/fileName/InspectorAssetSelection.cs: 71ba78e42827a9b22a9a6016733d756f -> 4b3c1ae4c44d88205aef26229acfe022
+  custom:scripting/monoscript/fileName/UVCPackageVersion.cs: 0f4077cb83cde000a967972e97c7cc8c -> c4d95cb84d9d8dff4727eba6b0a64378
+  custom:scripting/monoscript/fileName/IncomingChangesTreeHeaderState.cs: 67923e7c73743bbc0577bc7d884f3ba2 -> 9fcb97ef2da44c66332f5c6800c2e6ed
+  custom:scripting/monoscript/fileName/WorkspaceOperationsMonitor.cs: 5f05751fd4d94e02e79a5bf200f98f9a -> 43dcc435c252a54bdaaf4d6588b7d66e
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/MacOSConfigWorkaround.cs: 8634a542fc5c45ea8cd9a8244bf2c871 -> 9fe61e763da506601651f6c451cecb0a
+  custom:scripting/monoscript/fileName/IncomingChangesSelection.cs: 281fe0b171b5382d8cd906c4490e5804 -> d86f9f4463e6f9d99bb815e1f018ccf1
+  custom:scripting/monoscript/fileName/PlasticProjectSettingsProvider.cs: cef4f9742a881d06eb679f9d361242a3 -> 8c4ae1aeb34c51d2a5a8924265075ff2
+  custom:scripting/monoscript/fileName/AssetMenuItems.cs: 64aa50dcc3bfcf35201c6730dc62acc3 -> 9ce81cedb8e568c6b7b646aa6263645b
+  custom:scripting/monoscript/fileName/ToolConstants.cs: a088b027c7b0922429c756f12b0507ea -> 3b0d2490617bc7f94a0bdab65a399e1d
+  custom:scripting/monoscript/fileName/GetSelectedPaths.cs: 02423a81496d6c63598b5cdc203f4354 -> be35dd49dddd53fc840b9febf21b4d0d
+  custom:scripting/monoscript/fileName/TokenExchangeResponse.cs: 0dd9138dbeab6f132711a5b608de5c13 -> f20183d4cf939766d3c1e15cc3bec2e3
+  custom:scripting/monoscript/fileName/ChangesetsTab_Operations.cs: eca44847b108faefa69f8c525242c965 -> 3290c4c0cd248666e01a08ee6d621249
+  custom:scripting/monoscript/fileName/OverlayRect.cs: 61f473b5a4768fa31a00fafe3b1b5b69 -> 59d6887e4803f8a44ffaa0409470e410
+  custom:scripting/monoscript/fileName/ConfigurePartialWorkspace.cs: 309d4276b0164b05348aedbd51cc0b2f -> 10fcc6b6d43dd5ed36c43c6f7b5906c4
+  custom:scripting/monoscript/fileName/ValidRepositoryName.cs: 43c262be3f66a970816e3d3a3ee8872a -> 56bcf92a3678f6ad6215cae2e4914cfd
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GetPlasticShortcut.cs: 2a84c035152261f00e7e66eb44cd0ffa -> 5c2b7bf07ddd2284efc64b09ef0f1f72
+  custom:scripting/monoscript/fileName/GuiEnabled.cs: 1b1658fd7715b5cc664c10a130c6b629 -> 7bb13fcc8d8cbd392e00f7232841f086
+  custom:scripting/monoscript/fileName/BuildPathDictionary.cs: 943911b84162d26cea47f964f9a0a399 -> 9fabc7cc73fcfc50b8a3307c6aa6ec4d
+  custom:scripting/monoscript/fileName/FindEditorWindow.cs: 2bb64182aef631315344623cf583c78a -> 8c3c78bb7e82ac5008f8a2b8a0d68cff
+  custom:scripting/monoscript/fileName/DrawProgressForViews.cs: c153245b67af73b7ee03f693a1127796 -> 068a172cb549ad77d9873d721698bd0d
+  custom:scripting/monoscript/fileName/UpdateReportDialog.cs: 706e7e86547c339cdb3a4462e3f7a54d -> 087837d8f73228f1a817d0de82c77260
+  custom:scripting/monoscript/fileName/HistoryListView.cs: 527da2d093462f1c4a278d6957e7d5ac -> 7b2d1d2c12ab43d9d244e35197127919
+  custom:scripting/monoscript/fileName/ChangeTreeViewItem.cs: e3d78a2bee9cc81382a4cb8578dc4fb0 -> b0a38ce0a620643c776a3db4fd91bc4c
+  custom:scripting/monoscript/fileName/BringWindowToFront.cs: 88b20f2a2881db6a013f54923d68cdee -> a30c7c1ba746c6d277a5aedd3057d15e
+  custom:scripting/monoscript/fileName/LaunchCheckinConflictsDialog.cs: 4417eba1591eccb2221bfdce0106c1e0 -> e2c1e3f8f4e14a62e4363fe6259adbc2
+  custom:scripting/monoscript/fileName/ParseArguments.cs: 03c1a4d7e357164ca313a0019713c3db -> ae915d9f5fe287ced40627c9ca8bfafd
+  custom:scripting/monoscript/fileName/ExternalLink.cs: 7eb9650651b43fb98c07816e49275ba9 -> a8ff952d8c27d10f226ab92b7aa83b69
+  custom:scripting/monoscript/fileName/WaitingSignInPanel.cs: 247680fcfc6a176b9fa28a3df600a754 -> 7585e1c7111b6b900784e6d1c9454258
+  custom:scripting/monoscript/fileName/TestingHelpData.cs: 0d1f98ae9b6fa0253523889fad413adb -> 
+  custom:scripting/monoscript/fileName/OperationProgressData.cs: 0db72349eeecbe9449a517b1d79cc760 -> 15f68712baaea535af36d9e0333c0a6e
+  custom:scripting/monoscript/fileName/RepositoriesListHeaderState.cs: c0353a1af15ae4fd3d5a2a3cac816423 -> fb71b961ab7c924511a6b0e8680b60ee
+  custom:scripting/monoscript/fileName/ClientDiffTreeViewItem.cs: 56be9d3aa410e770e75de2d8b93be89d -> 43bdd7aa5bf1aa039a5b572c119c38d0
+  custom:scripting/monoscript/fileName/CreateWorkspaceView.cs: 0f1446bdab952811ae2968789e1a2804 -> 04b4ce6556541af6541e1f1c2ea97052
+  custom:scripting/monoscript/fileName/CommandLineArguments.cs: 0d20ca25f94249586a7c1484c469d8a2 -> 48a62ad3f817c0269ea7fc4a53799594
+  custom:scripting/monoscript/fileName/DownloadRepository.cs: 46fc68d9cc4da8e8ed765ff28b2dd438 -> 5bad8d3f76a3fcb41a94637e37c11ab0
+  custom:scripting/monoscript/fileName/ParentWindow.cs: 2476d8a6ba9c3055f984ac9792cae61a -> d6aa079e592e01701c5baa3ab98898bc
+  custom:scripting/monoscript/fileName/OperationParams.cs: 091a140b35535b91c773ddf98925322d -> 3312c7a4424a66ffbf2f88f056f329aa
+  custom:scripting/monoscript/fileName/SignInWithEmailPanel.cs: a5823728eb62cf6dbd8c933c1cb26f53 -> 6e8957c0ed7609303e68389067e72d72
+  custom:scripting/monoscript/fileName/LaunchInstaller.cs: f9b7c99441bc32980ce9b95be066824b -> b75efdf5909b501e06cacd9c66f75981
+  custom:scripting/monoscript/fileName/AvatarImages.cs: ea6dca998cf0ec5122553a9e010ef687 -> 3aa8c25a350843151ec4070c820c411a
+  custom:scripting/monoscript/fileName/DrawHelpPanel.cs: 58c832ce9ea1a11e2724de5dd46ca0cb -> 
+  custom:scripting/monoscript/fileName/DrawUserIcon.cs: 2f65feb9bed897237f97fbf9c5479092 -> 7d5385bf780ae84e648a8b49f8fe0825
+  custom:scripting/monoscript/fileName/AssetStatus.cs: b9ea657347f2c22e8e401cdb256c516c -> e017010009bdb28bcb0d7d8ef05e7dd9
+  custom:scripting/monoscript/fileName/BranchesListView.cs: 334a3fb302f855f71fb71520fb442a71 -> 3f5ed9fe5a1bca512014ae1600ee1666
+  custom:scripting/monoscript/fileName/DrawGuiModeSwitcher.cs: 363adc150c5f1c5059a678f179906090 -> d3be34a3134d3fe80ef6b14d0d519128
+  custom:scripting/monoscript/fileName/UnityMenuItem.cs: 5f445176ad3735e69769d93250663be7 -> 73f3c859f1b5092ad362c09e23b3a922
+  custom:scripting/monoscript/fileName/WebRestApiClient.cs: c0bdde7ff9e25b1ad06e078e6d9b2fe0 -> 746756fd499dddd02a4e7ccdbac48be3
+  custom:scripting/monoscript/fileName/IncomingChangesTreeView.cs: 78411a54601a32b278de0dd7d80f8670 -> 96479648d4498738733254eb4e4c6fb5
+  custom:scripting/monoscript/fileName/GenericProgress.cs: 11287c7d038c487f32d0c8edc476a32d -> 8492ec26f01fc248d3eb3c2f5b3b6c0f
+  custom:scripting/monoscript/fileName/MergeCategoryTreeViewItem.cs: c1ecd9dc0cd73eb7eb129994dedc1a91 -> 6bd59fcbfeafe06987a54631991d755b
+  custom:scripting/monoscript/fileName/CheckinDialog.cs: 1709b78fae1329cc05fd4f39334b25f5 -> 702fdb8d0a3b4bfcb9ba109e71325cad
+  custom:scripting/monoscript/fileName/ProcessCommand.cs: 2cc3b6e2a763c7f353b474b6904b45a6 -> 
+  custom:scripting/monoscript/fileName/SortOrderComparer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/GUIActionRunner.cs: 69af7de0762ed6d085feb4cc4b5101b3 -> 4a0608de635b0d82868d57923d68eff7
+  custom:scripting/monoscript/fileName/PlasticMenuItem.cs: 07a9318d8d82a152df4ec33acd1befdd -> 30c3a785b4c2607e2ae9aad693d5f604
+  custom:scripting/monoscript/fileName/PendingChangesTreeView.cs: f3722f38014385705913f17dbe0f90c1 -> 17142d220a0a50a3f3d184c4718a0da7
+  custom:scripting/monoscript/fileName/VCSPlugin.cs: e4ec197b273413c2276be270d94be16d -> 69c1b7249af35f35848ae707bd5e7113
+  custom:scripting/monoscript/fileName/GetClientDiffInfos.cs: 4ae14b15e2cf5177a84735548a44cdc9 -> f8db8e637ded2d5e935a953a13b85ebe
+  custom:scripting/monoscript/fileName/DrawActionButtonWithMenu.cs: d7f31944358aed2f3ed3982246fca039 -> 8d4f5edd02a1dd0f38c4f2baf5ee8a33
+  custom:scripting/monoscript/fileName/ErrorListViewItem.cs: 249f5ad4771c3e98b495200005a3d480 -> b0e0c6d694ea3cf81ec666dcc600c133
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/EditorProgressControls.cs: b1f133fa38afd918d537a72574fc93a0 -> 2e606eb01a6e6a567f3de9a0379ed3ae
+  custom:scripting/monoscript/fileName/BranchesListHeaderState.cs: d47f1164fa7093137db851c4c16ffba3 -> 82eab21603f4efc696334ee80641c2c9
+  custom:scripting/monoscript/fileName/DrawSearchField.cs: b11b864a92c7d76f85d4ec87d6faf61c -> 3de70beba9f4447205d50241d95b066a
+  custom:scripting/monoscript/fileName/PendingChangesTab.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/HelpPanel.cs: 625fbcc6029d5fe5cf4aa833f68adb0c -> 
+  custom:scripting/monoscript/fileName/BuildGetEventExtraInfoFunction.cs: 1308a6936e8051866a117b3b7c2c7b77 -> 74bfc8c01f931108a3c2b127aa04cc8d
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/WelcomeView.cs: 727cdb3e104b6a2a1b2a292c292f355e -> b6f5ad03828f3d0b6465c52959e1ee5e
+  custom:scripting/monoscript/fileName/HelpFormat.cs: 92b36f6584b3d7ccdc99b0ae4e152c53 -> 
+  custom:scripting/monoscript/fileName/PlasticApp.cs: c440a0fb380601a77ad475d6c15d4fa1 -> c57de230d90beac7b586f10b9c7c6cb5
+  custom:scripting/monoscript/fileName/ChangesetsTab.cs: ef408d8aaf89e01b17643ed0c836680d -> 46dde8f7856048792ad2e75490bb8c5e
+  custom:scripting/monoscript/fileName/DrawProgressForMigration.cs: 0390721ecd322e9ab47db03bd0f98a12 -> 
+  custom:scripting/monoscript/fileName/DeleteBranchDialog.cs: efbbc070bfeda2b746e8b15a4380cb26 -> 8549b0fc52962c89115fd78724fee578
+  custom:scripting/monoscript/fileName/IncomingChangesNotification.cs: 5d73d1f1a99af71ddd954044bdf322d2 -> caa8ea2c7336b9227381f0971759e01a
+  custom:scripting/monoscript/fileName/DrawTreeViewEmptyState.cs: 5777c5240be2f7d335293a0280866fb8 -> 2f6076b2e74c53c98835d55a044e5fff
+  custom:scripting/monoscript/fileName/ErrorsListView.cs: db8d1e6e1b12cc23734ca93a4d9a27dd -> 32a0a4d27f42660bdc59e43d546f59a1
+  custom:scripting/monoscript/fileName/UnityPendingChangesTree.cs: fd6f0a038401268983bd9328d10dec93 -> f391d9a00dc9e202cee4d4ebcf6d21c0
+  custom:scripting/monoscript/fileName/EmptyCheckinMessageDialog.cs: e95636a2119dec4d0c1f323f7ba65603 -> 
+  custom:scripting/monoscript/fileName/PlasticDialog.cs: b0aae1bf1889af041741f324070b7b84 -> 63a17a2b696bc2a13c9046aa16f8cea4
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AutoRefresh.cs: 9d30d5d3f0e8985355be1ab597da1dbb -> 0a8afde180a876655ad16caa14493409
+  custom:scripting/monoscript/fileName/PlasticPluginIsEnabledPreference.cs: 56473af084ae343e005353d1ebe26bab -> 7953272c37f4a828a3d1096e7479f346
+  custom:scripting/monoscript/fileName/HelpData.cs: 9293e68e835820b452391937547d1531 -> 
+  custom:scripting/monoscript/fileName/GetRelativePath.cs: 9b16eb2de9e98b392077181cc34243c1 -> ab04ae5e0cafb93ebf5c96148bb52df0
+  custom:scripting/monoscript/fileName/UnityEvents.cs: bbca41e222c933c10ac2fdcedacdc4c9 -> 93e3e01e1fc330c62462aa41b286117b
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DockEditorWindow.cs: 581124d5e19667105f2446d6dfbf7982 -> a9e5e467234133af999283610b6e84e6
+  custom:scripting/monoscript/fileName/BranchesSelection.cs: 7eb1fcb556f0fad697e4ec9d989be099 -> 33b36e7b03910960966036894ec90c7c
+  custom:scripting/monoscript/fileName/SaveAction.cs: b68fbb4319dbb368959c40781b39fdf8 -> 27c387bb58f3a69b0c9ff60d2209e18f
+  custom:scripting/monoscript/fileName/AutoConfig.cs: 6c4e7f9dc55323aa1299debfe9723aa6 -> bf4bbd2f2e752464ef51dbf102faed17
+  custom:scripting/monoscript/fileName/DiffPanel.cs: 02288a38bd14cc2b52a25b302a6f154e -> 210366dab3631628227b9406f87a9b7f
+  custom:scripting/monoscript/fileName/PlasticAssetsProcessor.cs: ffbead0ce8c78df1634f8fc06dec8ecf -> ff731c8aacf4a537dc74c7cf9eaeaed0
+  custom:scripting/monoscript/fileName/DrawActionToolbar.cs: 52293cb82089e0370f52e257f41c0869 -> e05748a99799f26304c1bbafd90f703b
+  custom:scripting/monoscript/fileName/TreeViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EditorVersion.cs: 70953c9eccf7726f70c672a9a51619e9 -> 698aba075b19a52a056d67a7b809d179
+  custom:scripting/monoscript/fileName/TeamEditionConfigurationWindow.cs: d06f049421c16e5927ec29f770917e09 -> e53b1ca5561894aaeff930afb696d001
+  custom:scripting/monoscript/fileName/ProgressOperationHandler.cs: 5fbb4e0f656dcfaa4498bd2e492e4710 -> ec62666c0ca1649dd33cc6bc6834c6f7
+  custom:scripting/monoscript/fileName/UnityPlasticTimer.cs: 961fdb6492c99b4a3eadbed28e78c4b0 -> 6c887e722e951c2964523825cad70c4c
+  custom:scripting/monoscript/fileName/TreeHeaderColumns.cs: 9fc4a0396a421346b8aa3b7788860851 -> 316e5ea62e66b20fd6e687a6b9e5958e
+  custom:scripting/monoscript/fileName/AssetFilesFilterPatternsMenuBuilder.cs: 8fe5de6e5dc3d42fb7e95de2aaedbf5a -> 0d99e7514c6a33cda8314deed8f34bc5
+  custom:scripting/monoscript/fileName/PlasticNotification.cs: 71978c581e1127248a19c9d9e66cd355 -> 3629fdff9f054b2013702f5b131b2c47
+  custom:scripting/monoscript/fileName/ConfirmContinueWithPendingChangesDialog.cs: c0e147ff008a0b77c9337132a3ea70af -> 77462b1904ad8f6fee2f8da4523d59fe
+  custom:scripting/monoscript/fileName/ChangelistTreeViewItem.cs: a4a6f6169cdb3afe249e104e2b7b1a2c -> 87f69636be8bd1a264ec4eac1bffa701
+  custom:scripting/monoscript/fileName/CollabPlugin.cs: bda741ff77a19affbf276298e29313ec -> ca276d65e7cd77c5c99d9f119ffdb215
+  custom:scripting/monoscript/fileName/TabButton.cs: 3efe8f66ffd840fd7aeb0585b183d2fa -> 757146b89ed597b1d75c77241e5d5f63
+  custom:scripting/monoscript/fileName/LaunchTool.cs: 3ac53c8af1f56365aad9e1ae5366d98d -> 60773d78646dc188d4b2caca77f20b17
+  custom:scripting/monoscript/fileName/RunModal.cs: 33b931100ee477e6812324eabaa2e837 -> c83ee2ef642c5d8b8dfd32f033bfc438
+  custom:scripting/monoscript/fileName/BranchListViewItem.cs: 8fdaa5aa842f5a70237affa304b9d506 -> 55028f4aef24d6227589aaa95582b2ff
+  custom:scripting/monoscript/fileName/GetAvatar.cs: 07c98163f75f0b7c672bd453fc82bf61 -> 04ffae2a9e5a4c32a119f93144f558d2
+  custom:scripting/monoscript/fileName/FindTool.cs: fc3b0710b24078288fe829d0bb041dd0 -> 2f9d82566cfb01fb68fc30111fb47624
+  custom:scripting/monoscript/fileName/ChannelCertificateUiImpl.cs: 75d7831ab5da75cc0082e28863abb142 -> cefccf1e13b7bcf15e3c9f2dd4cd2fc8
+  custom:scripting/monoscript/fileName/ApplyCircleMask.cs: 02eb67e485278e7c9b719fee5ff90f4a -> b955b378d261fdcbd6272fe8711d1e4f
+  custom:scripting/monoscript/fileName/AssetMenuOperations.cs: 4d198753827ac1463e02b10d5d04cc7c -> 0f0ce50426259919e339aa7586c1e4ac
+  custom:scripting/monoscript/fileName/VisualElementExtensions.cs: cd98f4a51563fccdfc39eed097290325 -> 0aad2728225c469038631668406aebb3
+  custom:scripting/monoscript/fileName/LocksSelector.cs: 70b046a562568fd78d093736e68a3a58 -> 7b0f4fc5552c1d92ba7f4648526ceb21
+  custom:scripting/monoscript/fileName/ListViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CreateWorkspaceViewState.cs: 1deb37b3c17c224d9a7dca9c990ea191 -> 0fe23b7cca9336b31a27790c714de652
+  custom:scripting/monoscript/fileName/MergeLinkListViewItem.cs: ebc1e6f9e3a3005d8f4c51a794adfdaa -> 3fa407d29597803190dd374d88ed170d
+  custom:scripting/monoscript/fileName/DrawCommentTextArea.cs: ad5449f632fd412ac0f7ba0d171fd453 -> c58c26552f95f108a8d9610eaf001fbc
+  custom:scripting/monoscript/fileName/ErrorsListHeaderState.cs: e98652ed68c22ec27682c6c2c1fdff6d -> 3e78431222de62ab12804de2e57e71f6
+  custom:scripting/monoscript/fileName/RefreshAsset.cs: f56d23c5126a2dd3db6f272d3d3b71dd -> 21c806d59a337a83fcab56230df298f8
+  custom:scripting/monoscript/fileName/BoolSetting.cs: 9c3f40d0ec58f1b80f82d15e4bda7107 -> 6866476ee3db529747ee7a560b4298d4
+  custom:scripting/monoscript/fileName/CreateChangelistDialog.cs: 774371d4233cc1d394d98dc80507a1f8 -> 386b03e27c951c5f1d63daf7aae486ca
+  custom:scripting/monoscript/fileName/HistoryListViewMenu.cs: 15a489e494f04a7ea37a587c7601070e -> 29770348599c8d5473b78d72e5741b40
+  custom:scripting/monoscript/fileName/FilterRulesConfirmationDialog.cs: 5186d89f21d03764f0cca01c2a0122d7 -> 9c91c6c91f20e6d013a753f32343b327
+  custom:scripting/monoscript/fileName/ChangesetsSelection.cs: d154d1782ed752b83834c54a0bde3df9 -> 8b9d539af9f7e269bac4e3d79e9ffab8
+  custom:scripting/monoscript/fileName/AssetPostprocessor.cs: 28be74a844bbed0286c3c45dee7283e7 -> 96208057b904410715a8df295ba4f8f4
+  custom:scripting/monoscript/fileName/IsResolved.cs: 12b1cb46be3341613a9d03a0fb32ccfc -> f54a3e2c5134aa4306f9ad150b1911a9
+  custom:scripting/monoscript/fileName/LocalStatusCache.cs: a558fcf5f34357bab4cfc7b75e2bb356 -> 30974ea30517fbfd1b93153f6c849a76
+  custom:scripting/monoscript/fileName/RepositoryExplorerDialog.cs: 143e7416b576681e1f2ea71288e530e6 -> eea34924da79ad7254f3e141a891c78d
+  custom:scripting/monoscript/fileName/HelpLinkData.cs: 298f428470bd6f0a46823cad390bf0d6 -> 
+  custom:scripting/monoscript/fileName/WorkspaceWindow.cs: ff52e13cd29dacd66db0169e14f71a23 -> b042f06133312d3bfed176231d97d77c
+  custom:scripting/monoscript/fileName/PlasticShutdown.cs: 927cfd31d19eaaaa16d67e3e3b26fdb2 -> a8df8eeeed98372d06e446171a192a6d
+  custom:scripting/monoscript/fileName/FilesFilterPatternsMenuBuilder.cs: 28072cd275c96994687e6d4d0d6e1dff -> cf716a8d336c8113475a9ca67a799ec1
+  custom:scripting/monoscript/fileName/HistoryListViewItem.cs: 2d3b1fc954b6bdbae298ec250ade0663 -> 96f2b67ec620b83e35d13f11877e1ac1
+  custom:scripting/monoscript/fileName/RemoteStatusCache.cs: 00463e6b90cfe7da080d7c266f783980 -> 402d5663f3675e9324c129274b0c00f2
+  custom:scripting/monoscript/fileName/EditorWindowFocus.cs: 1012e4e2e29e9b29bdcc03d8b92762a8 -> f258b0cf85078a7435d001e522d5e8e3
+  custom:scripting/monoscript/fileName/EnumExtensions.cs: 24df84756ec75feecd53a80a0991ea16 -> 872fcb89b813d64606e680211dede528
+  custom:scripting/monoscript/fileName/NewIncomingChanges.cs: 4475d5d6d9583dbe65c4824e6a1fe6aa -> fc48261878ef7e4b956e7172f5803aee
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/UnityIncomingChangesTree.cs: a6749c8b534ffb85ccf809bc8e274114 -> 42967773c43d3de5d23be4ddc6dfd9c4
+  custom:scripting/monoscript/fileName/UnityDiffTree.cs: 447fc3a8922f56330f4bae8c9dc9a8be -> 1029ffd567bc0e646e6b119719dcb2ff
+  custom:scripting/monoscript/fileName/TreeHeaderSettings.cs: 114eb9e27124403e8e111494b8eaf987 -> 662b1714c0fce36da72bbfe60201987a
+  custom:scripting/monoscript/fileName/UnityConstants.cs: dee423a5d393260ccda31829b4392abf -> c519528656feb52bc4c37f6b6284546e
+  custom:scripting/monoscript/fileName/IsExeAvailable.cs: 3e4283303610c884e542b8f6d3e922d4 -> 4a3dbc5ded94087064afd97407f26631
+  custom:scripting/monoscript/fileName/AutoLogin.cs: d257b2b319167ee8af9b75266dabb58c -> cac363a2d5471994de278e71f937b032
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UpdateReportLineListViewItem.cs: a101f0ba5292fc139445870b3f4af838 -> 9f63395e1ea590dbbab4d59cd0032ac4
+  custom:scripting/monoscript/fileName/DrawSplitter.cs: ec7e8739eacabcca3e2946d9833eea0f -> d2f114a8e8e4167f7762d835a83b2f55
+  custom:scripting/monoscript/fileName/LaunchDependenciesDialog.cs: e1c527862a66e73f0417ae177d7fdfb5 -> 2cabf22eb95430074b6c730a84e03493
+  custom:scripting/monoscript/fileName/CredentialsResponse.cs: 96b135ae1c4ea541dc762170ea524fa9 -> 3dd2507693e56dac75ee7783f598cbb9
+  custom:scripting/monoscript/fileName/LaunchDiffOperations.cs: 831bbe9f0510da02e07943dba200580f -> 20e85a96a5926a180bb53a2abca68aa4
+  custom:scripting/monoscript/fileName/PlasticSplitterGUILayout.cs: 4cfaefa1a850aceff54713912c4a2bda -> 111849f67dfbfea65ad2a9298ad1654d
+  custom:scripting/monoscript/fileName/CheckinDialogOperations.cs: 0b2a2cd4c41cf1865a29cf91b2a96a48 -> d032d69e8060311c06b88286e8f22ddd
+  custom:scripting/monoscript/fileName/PendingChangesViewMenu.cs: 68fab310addfd7068cfd7920070496ff -> 9b0019b6df6bb14eb3a2dbafa53fb54b
+  custom:scripting/monoscript/fileName/AssetsSelection.cs: 35cec24e81f0cb1de51daeb356abc4ff -> 0227d7ff4d5687932d10967a945a9b06
+  custom:scripting/monoscript/fileName/EnumPopupSetting.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PlasticConnectionMonitor.cs: 0a14faa9ef1a178a87cdca925b1963c3 -> 920e8e381bfc94da8bb69d336dda57ca
+  custom:scripting/monoscript/fileName/HistoryListHeaderState.cs: 6226ef13a567fa81584864f8698be331 -> a87e0364d14866c369ad50d669bdfa85
+  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: c886fdb39f4b8787e6ea3701a8f88f4a -> b1721e471183956468462f6b64901640
+  custom:scripting/monoscript/fileName/AssetsPath.cs: 367269acf8f676d2cdd30fdc387b3920 -> e0e986124adc46d913f0683c34b88c9f
+  custom:scripting/monoscript/fileName/MetaPath.cs: 1f80313a7ce6ec6ece505285578f5745 -> 417a84eb354831f828a6752b26c8592d
+  custom:scripting/monoscript/fileName/CredentialsUIImpl.cs: 90e9c2de8d7bdd8424e0d89c415108ae -> dbacf67c37819fd95562fe169e706732
+  custom:scripting/monoscript/fileName/ChangesetsViewMenu.cs: b720f0168f4ce1b1e0d358a6d5ec9a42 -> 7d1a2de81910b5990e71a0bfff26fdca
+  custom:scripting/monoscript/fileName/UnityPlasticGuiMessage.cs: 2a7f71f59c0d7dc731fd345a3713957c -> 24eef0792e3802809607a7f9d04b8f1d
+  custom:scripting/monoscript/fileName/OrganizationCredentials.cs: ee462057b3bd23cc3dab953ac4d656e2 -> 0b123406cadd651e9adc01c85fab5124
+  custom:scripting/monoscript/fileName/StatusBar.cs: f75c824d5cc26fade21f744dad26925b -> 2c8c488a8bbfe924f6b53b202ff6aadd
+  custom:scripting/monoscript/fileName/IsCurrent.cs: 16ae2475c9982c21b0dccb3cdf4b1a92 -> cf1fd01890d0fd9f011c1a1a491e2cf0
+  custom:scripting/monoscript/fileName/ChangesetFromCollabCommitResponse.cs: b986ab8b1acd322b0367812e2d541734 -> ba336e4117e1b7ee28e4c17197bc3d0e
+  custom:scripting/monoscript/fileName/MoveToChangelistMenuBuilder.cs: 3a2ef8cb0baf69e5dadeafc731fe32a9 -> a90b3e388d3e1316fa104d4c9a03e2d1
+  custom:scripting/monoscript/fileName/LoadingSpinner.cs: 69a46a0158b3944983921513a6337a68 -> 1c13cf7a9498073806920e71757dfeda
+  custom:scripting/monoscript/fileName/LocksTab.cs: 134c512484ae73354c15c06a6dc69f9f -> 00ffb5a39c16fdc2d733c7e53471a3a9
+  custom:scripting/monoscript/fileName/BranchesTab.cs: 764cb17e9337c58ad4f5304b60b2042e -> 57c33f76c527a5aba4d269245ffff188
+  custom:scripting/monoscript/fileName/HelpLink.cs: f129aa05dc3840d5bd4f2e0d111189db -> 
+  custom:scripting/monoscript/fileName/ToolConfig.cs: 18b1ea271ce5e7b6deea7b4e8e175269 -> fcffc3165b047f54ed6ccafa4c8760dd
+  custom:scripting/monoscript/fileName/DropDownTextField.cs: e66e7314096900597993d2b353757d8d -> c8fc484ce140049ff31ebc2c6cbebf28
+  custom:scripting/monoscript/fileName/AssetsProcessor.cs: 47679a6e15b70f4fef48eb1b2df31b19 -> 18737889e95cd4088e8dfd4153fa8f40
+  custom:scripting/monoscript/fileName/DrawActionButton.cs: d847a7d82ac92cab2b3d0ae268cefb3d -> 81e6708d2b8fa199354e53f85db731a8
+  custom:scripting/monoscript/fileName/TableViewOperations.cs: ddc7b903e0dbd6bd109f2bd709b95f0e -> bef3a31deb1fe794a90f767d16e4c868
+  custom:scripting/monoscript/fileName/UpdateProgress.cs: 5b04f01bf199310f09ab9522f89c78f4 -> 281e1e05168d6a30be1d8d2f6200bef8
+  custom:scripting/monoscript/fileName/OrganizationsInformation.cs: b3f0758c6655b2dad1161792812992fa -> 5f067ea8d90fc79055a3dcfd58ae6dca
+  custom:scripting/monoscript/fileName/SubscriptionDetailsResponse.cs: e10e0299ef716630c63b8cf5f792cda0 -> e5121cec860a6d1097cc809217b3d8fe
+  custom:scripting/monoscript/fileName/DrawProgressForDialogs.cs: 5f8d39e3ea7c4a42148c6b1a7b4ca061 -> a5f2abd8875e7a6afbc171fabfbae81f
+  custom:scripting/monoscript/fileName/ToolbarButton.cs: 0b8663f5acfbbe9acf3c68758e2857fb -> 47dc767626bbd94d66707af31ddc5eb6
+  custom:scripting/monoscript/fileName/ProjectViewAssetSelection.cs: 349dc288d32791de51156d4e59000b7b -> 2560eadaf6a13a74a46a4a207cd5a8b6
+  custom:scripting/monoscript/fileName/DrawTreeViewItem.cs: cceebc4f1185658619e40964f29acb08 -> 0921a62a588ab864253743d1f07afb5a
+  custom:scripting/monoscript/fileName/DrawSceneOperations.cs: 2426c0c2ee58cd28be59874f6425940c -> d87f46f9fb97181a2f51490ea2e1efc3
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DrawActionHelpBox.cs: dcd6ec2e7fb1b44f22c4a79ff87b70cd -> c8f6be9dab1e6f8d71e0c63c29679186
+  custom:scripting/monoscript/fileName/PendingChangesMultiColumnHeader.cs: 21802cc6929e0e180fb4f0be8e34d9d0 -> 722de7d6e07a79981d750438e6febb8f
+  custom:scripting/monoscript/fileName/EditorDispatcher.cs: c739e073a8c38dbcf59192f45d1004c5 -> 3c402eae57d73cc54863f3f6a13096ae
+  custom:scripting/monoscript/fileName/IIncomingChangesTab.cs: 363f9daba453e316e730238a80857251 -> 40644cd18074db84684b9e437bf8fa77
+  custom:scripting/monoscript/fileName/GetChangesOverlayIcon.cs: f00e4b795697c6cf3092760f3b6fc49d -> d599d6efdee28305661bc0cf6683858a
+  custom:scripting/monoscript/fileName/ChangesetsListView.cs: caae0aefb36c869f50691482a5cd0944 -> 87b74e0d80cf59010f55e2baaeb6679d
+  custom:scripting/monoscript/fileName/UpdateReportListView.cs: 2d8fccdaad50bbd7454b52cf9cb4a0f9 -> 08d26df1ab6c3a7628addc5e54e50b08
+  custom:scripting/monoscript/fileName/UnityConfigurationChecker.cs: 59a8f0715a7c89a752351bf42f94abbd -> 874cd65cce0384fef4b60e71fb08a429
+  custom:scripting/monoscript/fileName/CheckWorkspaceTreeNodeStatus.cs: 5e11ff64963669981115eb58dc2b6e8b -> 1e1255b803bf7cbc935bb804bf0dbe7b
+  custom:scripting/monoscript/fileName/PlasticPlugin.cs: a57c142b98ca3d4daad221737fd72924 -> c64561980f26020cc3206ae8b1047268
+  custom:scripting/monoscript/fileName/SwitchModeConfirmationDialog.cs: 4d9c02587760213784bfe53d012122b4 -> 30cd71d0b3ee4b2689cde689908d301e
+  custom:scripting/monoscript/fileName/PlasticWindow.cs: 76740c086f0109337962354fe520adb2 -> fc467478941f610919bc69526ba2c215
+  custom:scripting/monoscript/fileName/BranchesViewMenu.cs: 8089f11c30784e2e57775dd6cdbae898 -> 7bfc83e917c9b0b5aa423bb947ce2a38
+  custom:scripting/monoscript/fileName/CooldownWindowDelayer.cs: 7816cfcad485500dbac9993c4502ea69 -> 4c95e39c8dd4cfa1bca106097fdb6524
+  custom:scripting/monoscript/fileName/GetInstallerTmpFileName.cs: fa7bda723ac795b48e38504727f44981 -> d09e0b5c7a9af5874530e17ef23025f0
+  custom:scripting/monoscript/fileName/AssetModificationProcessor.cs: 84d720d70e5c24b7d0630ef5cea215ce -> a602c9e59e7db185e3a0d68d986e6fef
+  custom:scripting/monoscript/fileName/IsCollabProjectMigratedResponse.cs: 4c3294c6a51e6f42161d191230692016 -> af2b76c693935deee55cfcaed2aa7568
+  custom:scripting/precompiled-assembly-types:Mapbox.Json:  -> c9755f3824dbde211abbad760f3ff8fb
+  custom:scripting/precompiled-assembly-types:Mapbox.IO.Compression:  -> b8fe73cb605eee6fffb1f58bcb144670
+  custom:scripting/precompiled-assembly-types:MapboxAccountsUnity:  -> 330cd540642444ab9ee0d5d1fccbbdbc
+  custom:scripting/precompiled-assembly-types:Mapbox.VectorTile.VectorTileReader:  -> 9c7c20e2bd57ce2751af297fc6a3039f
+  custom:scripting/precompiled-assembly-types:Mapbox.VectorTile.Geometry:  -> abdcc77490e5f3351a3127d5946aaa97
+  custom:scripting/precompiled-assembly-types:Mapbox.VectorTile.PbfReader:  -> 6085cda9461fc1685b3651cbffa14e22
+  custom:scripting/precompiled-assembly-types:Mapbox.VectorTile.ExtensionMethods:  -> 1b060f6337698014bc2e333689ede70e
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.429 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1165ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (58ms)
+			TypeCache.Refresh (42ms)
+				TypeCache.ScanAssembly (35ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 21.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3601 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (1.3 MB). Loaded Objects now: 4071.
+Memory consumption went from 136.5 MB to 135.2 MB.
+Total: 2.507700 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.102200 ms MarkObjects: 1.836500 ms  DeleteObjects: 0.391900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CameraBoundsTileProviderOptionsDrawer.cs: 6518c9a7c47b4a76db46ce5af6058eec -> 
+  custom:scripting/monoscript/fileName/DirectionsResponse.cs: c507a3caaa8e8b53db6da3a52ebb20ed -> 
+  custom:scripting/monoscript/fileName/ISubLayerColliderOptions.cs: 93f8eb6c1e39f8640df3585c9482847e -> 
+  custom:scripting/monoscript/fileName/TransformLocationProvider.cs: 9491b937504a4569a5ce96668242070c -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTab.cs: 6fa4849c09cf3ec125d3914af6074a21 -> 82bff1d960538992d4e618d909869d2e
+  custom:scripting/monoscript/fileName/FeaturesSubLayerPropertiesDrawer.cs: 84c66d31702bd7bb1004ecbfe32d5a35 -> 
+  custom:scripting/monoscript/fileName/MapScalingAtUnityScaleStrategy.cs: 8eb7b331c58af6709845f19b366bee35 -> 
+  custom:scripting/monoscript/fileName/LocationPrefabsLayerVisualizer.cs: 275094a3c3341488e6e8a298c734a3b5 -> 
+  custom:scripting/monoscript/fileName/DeviceLocationProvider.cs: 5bfb3cd27e30d3bbffd0ea48978f58a5 -> 
+  custom:scripting/monoscript/fileName/DiffSelection.cs: 34faf7c86f7e0c9a01162e930679d82f -> 1460aaba4240ef35322cb9c198487990
+  custom:scripting/monoscript/fileName/CoreVectorLayerPropertiesDrawer.cs: 7162af2cc974cdd46866e17a1e7073b8 -> 
+  custom:scripting/monoscript/fileName/AngleSmoothingAverage.cs: 23a1e9fd5a25ba6b99897df550c67562 -> 
+  custom:scripting/monoscript/fileName/CloudProjectId.cs: f33db9e9673144ad1e994ed4cff5ce2d -> 
+  custom:scripting/monoscript/fileName/DateFilter.cs: 4084040ac52b6e24ba874651890c5c6e -> 85ed700e21fd471cc38c626cebe01d52
+  custom:scripting/monoscript/fileName/ISubLayerExtrusionOptions.cs: 10202974606f2b8bfa6adb2bdbdbfa41 -> 
+  custom:scripting/monoscript/fileName/EditorHelper.cs: 923b3653afce489699f582b7d5d83ede -> 
+  custom:scripting/monoscript/fileName/VectorTile.cs: eae36ed53855373d8528fcc9db8ff3f4 -> 
+  custom:scripting/monoscript/fileName/ChamferHeightModifier.cs: 70bb72f8b28cb489a6263114efd88fc3 -> 
+  custom:scripting/monoscript/fileName/StyleSearchWindow.cs: 2784f87ee9b48e85af8f55aa67da5ed5 -> 
+  custom:scripting/monoscript/fileName/PerformInitialCheckin.cs: be22d181e456c0a8a5713675f29ac72a -> 8ef9a9f407b8b94b2b5fad9d24e61f79
+  custom:scripting/monoscript/fileName/UnifiedMapOptions.cs: cd7d3879d660f3ed640b387a67dc3a6d -> 
+  custom:scripting/monoscript/fileName/ConflictResolutionState.cs: 51eaf597f9533c7ed197ad15e802d20f -> 74a230000ff2fd58c5a60ab4258207dc
+  custom:scripting/monoscript/fileName/Vector2d.cs: f9321c5257f6b24dadf3da6729801452 -> 
+  custom:scripting/monoscript/fileName/SpawnPrefabOptions.cs: 257291fe385553c8e2a2a4736eb7c2ce -> 
+  custom:scripting/monoscript/fileName/MapboxLocationInfoUnityWrapper.cs: 98dd3e6693d56acc27da6e6d243d9b19 -> 
+  custom:scripting/monoscript/fileName/FindWorkspace.cs: 39bbd18bfe6bf4a99f5c185dcda4dd4a -> 6af6c9e9382fef881c020ab184e6f7f5
+  custom:scripting/monoscript/fileName/Mathd.cs: 45a1eaeb087d5c4a879129f61940f309 -> 
+  custom:scripting/monoscript/fileName/ISubLayerRealisticStyle.cs: f6da6dce1ac896b11e0e7fb907a1a50e -> 
+  custom:scripting/monoscript/fileName/ISubLayerLineGeometryOptions.cs: e879dc5b214a53e21f6d9fbe6f9b199f -> 
+  custom:scripting/monoscript/fileName/IncomingChangesNotifier.cs: 10fad815611441fb3a805150421ed991 -> 
+  custom:scripting/monoscript/fileName/VectorSubLayerTreeView.cs: ed4b4b634bcf3c6ec7312fae98a40ea0 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnityLayerOptions.cs: 2828e302493f2b261574605a6b025b4c -> 
+  custom:scripting/monoscript/fileName/PointsOfInterestSubLayerPropertiesDrawer.cs: a3c435e024f5724a60690df409660c10 -> 
+  custom:scripting/monoscript/fileName/SubLayerLightStyle.cs: 16a6f5ff263a6e768dfe720d7dfd81c1 -> 
+  custom:scripting/monoscript/fileName/CheckinConflictsDialog.cs: d3af1d70d3f60a9847d2942647274222 -> e13fa04a97fb675842c94586fc602871
+  custom:scripting/monoscript/fileName/ModelingSectionDrawer.cs: 14d9e9b1f04688551a0e6970431b13ed -> 
+  custom:scripting/monoscript/fileName/AuthToken.cs: d22b2893825e943bc1389be142abd57e -> 0fba7e8eb1ec8b699f274cdc956451b2
+  custom:scripting/monoscript/fileName/StyleSearchAttributeDrawer.cs: f5c2549799e7b2abd5ebd6f3e3134590 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForDialogs.cs: 6bf8e69ac7dc2163fe988e5d8181ce88 -> 7e6bd1727985204e3b64e1946e589b1c
+  custom:scripting/monoscript/fileName/ISubLayerColorStyle.cs: 71343f388b2a5a77f916baaccf2980f7 -> 
+  custom:scripting/monoscript/fileName/AssetStatusCache.cs: beede06d8a6d93e7907fd192ad653f2b -> 260d5f85663ac58b2a7e9553c453bc3e
+  custom:scripting/monoscript/fileName/LowPolyTerrainStrategy.cs: ef4efac7d98a7d981e5555b40b38c65c -> 
+  custom:scripting/monoscript/fileName/DragRotate.cs: 7d21d461e44179ca7b25c8c4745bc66b -> 
+  custom:scripting/monoscript/fileName/DrawIncomingChangesOverview.cs: 6d1aadb525661622ddc7d545c55841f2 -> 
+  custom:scripting/monoscript/fileName/BuildFormattedHelp.cs: f675844664504d88a0d8165e2b08a2bf -> 
+  custom:scripting/monoscript/fileName/CircularBuffer.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/OrganizationPanel.cs: d7ac1288bef1b15a05bb26d201a4d87f -> 57a57e6a345dbd536e91c348b70943a9
+  custom:scripting/monoscript/fileName/SpawnOnMap.cs: f2efecda0a221bda230fbf9f5386a005 -> 
+  custom:scripting/monoscript/fileName/MapVisualizer.cs: b56f4bd46e11564ca38c93779ad3e140 -> 
+  custom:scripting/monoscript/fileName/MigrationProgressRender.cs: 94a7accb6b5be388f3abff6285d8f1af -> 
+  custom:scripting/monoscript/fileName/ChangeCategoryTreeViewItem.cs: 0f882939555cf173ece99b60f8f54ade -> fd14db176fff061715c8ec88ced1902f
+  custom:scripting/monoscript/fileName/MapOptions.cs: a7006a3b828d34ad312e6569ba27683d -> 
+  custom:scripting/monoscript/fileName/AngleSmoothingEMA.cs: ddbc3b216013c4e38de97bfeb093df70 -> 
+  custom:scripting/monoscript/fileName/CurrentUserAdminCheckResponse.cs: cec2f173fe8732108711c497674c6f66 -> d57c2dcace740834acd59fdfbc5023b8
+  custom:scripting/monoscript/fileName/LocationLogReader.cs: bcba113730dc7de9de7de95c383e8d6f -> 
+  custom:scripting/monoscript/fileName/ITelemetryLibrary.cs: f3c870b8bbe52ce26de3d83ccd56fd74 -> 
+  custom:scripting/monoscript/fileName/ScenesList.cs: e414b48b1c3889d032db4488fb08e478 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_TileCover.cs: 3a62957de4560495b0884b2d70d1d605 -> 
+  custom:scripting/monoscript/fileName/LayerPerformanceOptions.cs: 0bc1d725d02b681a7021b7e830561405 -> 
+  custom:scripting/monoscript/fileName/UIElementsExtensions.cs: a191d7293be4538b0adb29dfe5b06a46 -> 52e0d612ab032e4d22e9558b90396b99
+  custom:scripting/monoscript/fileName/ILocationProvider.cs: 02c1d9a4803674ccd69589736b5fb1d9 -> 
+  custom:scripting/monoscript/fileName/MeshGenerationBase.cs: a8a0a68da0673b89146845e167453e74 -> 
+  custom:scripting/monoscript/fileName/CreateBranchDialog.cs: c429477092287209232592c8cde1a615 -> 9eb29fda08033b4f847247136c412db6
+  custom:scripting/monoscript/fileName/NodeEditorElementAttribute.cs: 4a3083be195de7cf4c7b324648743919 -> 
+  custom:scripting/monoscript/fileName/ImageryLayer.cs: e3222577b5232c130f9049aad6012a97 -> 
+  custom:scripting/monoscript/fileName/DirectionsFactory.cs: 9ffdb5722ef19d6bcff819bbfa51b400 -> 
+  custom:scripting/monoscript/fileName/DrawCreateWorkspaceView.cs: 6422239d8f649480614f0dd4f018b7f2 -> c6039ac84d85ab3926aa94de163a9f7d
+  custom:scripting/monoscript/fileName/ProjectPath.cs: 5634ebdbea8ca94089eb9622d1b60497 -> 2007f972d3a73eeb86dfe05e849c7f69
+  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: 8967ceae1bc195ea8dd32b23c42dd852 -> e140ede12a96f68f30062138385171c3
+  custom:scripting/monoscript/fileName/MapboxUnitTests_Geocoder.cs: c9b5a0b25c02aad37f3a9fc2930878b4 -> 
+  custom:scripting/monoscript/fileName/AddMonoBehavioursModifier.cs: c0291c37f15b3073241b602c1ad07888 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_MapMatcher.cs: b7ffe97737e5e1b0e0e44635b5d1c6e0 -> 
+  custom:scripting/monoscript/fileName/ElevatedTerrainWithSidesStrategy.cs: 6bb68e1554291504bd8a2c2b6bdda337 -> 
+  custom:scripting/monoscript/fileName/TerrainColliderOptions.cs: b4afef240e34550aa5eeb8dc1f2925d6 -> 
+  custom:scripting/monoscript/fileName/TextureSelector.cs: f101e36b4c5bfea0205b69dcb9998697 -> 
+  custom:scripting/monoscript/fileName/DownloadPlasticExeDialog.cs: 2dd40c53d0303d041a27a44a95c331cb -> 093cfe0607c2346a88cdfdfe1435614f
+  custom:scripting/monoscript/fileName/ISubLayerDarkStyle.cs: 98aa1cf360ce6cc1a002ae68a14ad2d6 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/LonLatToGeoCoordinateConverter.cs: 817964356cc410fb0312a7482857167e -> 
+  custom:scripting/monoscript/fileName/BearingFilter.cs: 6694ef4ed6ecccd076dbc9b5b4c63ba7 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTab_Operations.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/LocksListViewItem.cs: cc9cd24c5be4f7363367cba72f12aad4 -> f4a19fabbec093eb3d6a7e1cd4f42611
+  custom:scripting/monoscript/fileName/RangeTileProviderOptions.cs: 5e034d85c2b387326163c45d87c8543f -> 
+  custom:scripting/monoscript/fileName/Tiles.cs: 8d574332d25a899dd6ecab37221a2776 -> 
+  custom:scripting/monoscript/fileName/CharacterMovement.cs: d7169009267000c27bf01b8cde74c479 -> 
+  custom:scripting/monoscript/fileName/PendingChangesViewPendingChangeMenu.cs: 561ad0f702e1db14300a4a5f810051f9 -> 9a6ef2277212bf26d647c7f12f946287
+  custom:scripting/monoscript/fileName/SignInPanel.cs: f7e82045994d4eefe3b021faa87b55c6 -> bac0318ce35e37bed3a2cc8137452435
+  custom:scripting/monoscript/fileName/DrawInspectorOperations.cs: 61c4a6a6507d8f84ef5bdf5cba3f0aee -> 8c94fe642e98309082411f46db89106b
+  custom:scripting/monoscript/fileName/DrawDirectoryResolutionPanel.cs: a77980eb09765fe85cd85d4a47964cf2 -> e4e3c9b4bc511687802b504b71016540
+  custom:scripting/monoscript/fileName/CloseWindowIfOpened.cs: d820344e932a12600b5fe6fb7e9f1563 -> ce229ef3b7461ff17e2c1af0695a6657
+  custom:scripting/monoscript/fileName/MapboxUnitTests_DirectionResource.cs: aef6aa675e9ed3b10c3c611e258b5467 -> 
+  custom:scripting/monoscript/fileName/SaveAssets.cs: e472a52843752df7d7ad4ca6b2c8da98 -> b56abea3d51c742ac29e4aec958afad6
+  custom:scripting/monoscript/fileName/ISubLayerSimpleStyle.cs: f236a4d2c4dd280a455ebe00a2a5db77 -> 
+  custom:scripting/monoscript/fileName/CachingWebFileSource.cs: 2d5ceaa22ae7cc8f96e8f24669c56fe0 -> 
+  custom:scripting/monoscript/fileName/HighlightBuildings.cs: 32a08a5f46e0047f4c350ad185d8926e -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_ReverseGeocodeResource.cs: 401e20ac7170b015b3338a2301f66226 -> 
+  custom:scripting/monoscript/fileName/SubLayerDarkStyle.cs: 9a3f200c68321be33e123dded0eb0392 -> 
+  custom:scripting/monoscript/fileName/RepositoriesListView.cs: 9f95c83dc460fb03fb0916472f14b8a7 -> 95287f65338ca0073ad04002a16eaaf7
+  custom:scripting/monoscript/fileName/VectorLayerProperties.cs: fbc96571320e39e10f41ea7fbec2b760 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_Map.cs: 3febb7e3d3e72f119cdebf3260c04fa1 -> 
+  custom:scripting/monoscript/fileName/AssetOperations.cs: 638daf61300bf6ad727538516d4fa3e2 -> 
+  custom:scripting/monoscript/fileName/HandleMenuItem.cs: 740e54c5f6dca1acc88cad87af74b744 -> b4ad1ecc5243212c5967125ad5e41b1f
+  custom:scripting/monoscript/fileName/ScreenResolution.cs: 5c975132cf4e36dcc261bd0acd604271 -> 7bb7bb5b955671820101b322f0a7bf3d
+  custom:scripting/monoscript/fileName/LocationProviderFactory.cs: 82df96246d2f0692583d232b92c7963f -> 
+  custom:scripting/monoscript/fileName/Response.cs: 81e238507624889da36e8da8d9633bce -> 
+  custom:scripting/monoscript/fileName/RangeTileProviderOptionsDrawer.cs: 00e7955ee034e375558332f1755c07b0 -> 
+  custom:scripting/monoscript/fileName/ApplicationDataPath.cs: 8e4094e28762fb76a1baecfe90c6b65e -> 3e8c4ea8debfda8013fed860ac233d22
+  custom:scripting/monoscript/fileName/IMap.cs: ee01899299200be68e1ec88cbd59d5ff -> 
+  custom:scripting/monoscript/fileName/Conversions.cs: cdf60e5c06bf5b92cef93b58154df106 -> 
+  custom:scripting/monoscript/fileName/ColliderModifier.cs: 3dcd80710f8f9dfe76d66bdbb0390fe4 -> 
+  custom:scripting/monoscript/fileName/ElevationRequiredOptionsDrawer.cs: b738c4611775031feb784f243223187a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GeocodeAttributeDrawer.cs: 1247b71a1d20106aae6bea5915782b16 -> 
+  custom:scripting/monoscript/fileName/RepaintInspector.cs: 65202bdc05e3e19fadffb7fd99f30154 -> f134606300316994850c28a68d0cb5a3
+  custom:scripting/monoscript/fileName/TerrainLayer.cs: aab667716cc2614185c1a0c0213be546 -> 
+  custom:scripting/monoscript/fileName/LockStatusCache.cs: 5e3725e03dc21c716034553589a67eae -> e99b3f34c5cd3eb73ec19439af1f7f80
+  custom:scripting/monoscript/fileName/ImageryLayerPropertiesDrawer.cs: 59bac65b3c4b387a01d5c23437f76ff7 -> 
+  custom:scripting/monoscript/fileName/DiffTreeView.cs: 68195907d129ef826aa6b6df7202696d -> 49f46fd2a65ea674a218eead75f27aac
+  custom:scripting/monoscript/fileName/DependenciesDialog.cs: 82d30fc8d5e1a73ec0d1ee9acc00fbc2 -> c8902186ab2f4e6471b5dd147afb01b6
+  custom:scripting/monoscript/fileName/ChangesetListViewItem.cs: 95a197949f1e777703db60eea8cc21b3 -> d742a4910e302777daa1ccb9c8e92cb9
+  custom:scripting/monoscript/fileName/LocksViewMenu.cs: fda08381fa9abca53b6eaf3bf55f14f8 -> 186d8514e824865b191ba1829afe4b33
+  custom:scripting/monoscript/fileName/MapboxUnitTests_CheapRulerCs.cs: c30c96d9ade2743437b0aeacc736d92a -> 
+  custom:scripting/monoscript/fileName/IncomingChangesViewMenu.cs: 832662bce0cd8edd53cba36a0dd96da0 -> 13196979a03411533716f6775c9a624b
+  custom:scripting/monoscript/fileName/QueryVisualElementsExtensions.cs: 75ea535788abf9c38ba9341c984a6241 -> a49740b6efbb934f55475cc70b864a4c
+  custom:scripting/monoscript/fileName/MinHeap.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DirectionResource.cs: c89424880a526bf3684297b2c2ac72ae -> 
+  custom:scripting/monoscript/fileName/ISubLayerCustomStyle.cs: 822d5b6bd362a9e64887a55f547e26c3 -> 
+  custom:scripting/monoscript/fileName/WriteLogConfiguration.cs: 1a8401f47b522f631a3dc005105719f5 -> 1589212d1638ae91a029ea3ddf9999f2
+  custom:scripting/monoscript/fileName/DrawTextBlockWithEndLink.cs: 1cc3e67c46bd397f9508f124a3366994 -> 
+  custom:scripting/monoscript/fileName/FileSystemOperation.cs: c31a686e69e66801c204a11be56c950a -> f0ccbe91654279794a85bf6f1c034716
+  custom:scripting/monoscript/fileName/MigrateCollabProject.cs: af93695e471d9c8e4ad014c4165f2c3c -> 9f3487f03a783b35518405572f20ac9e
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForViews.cs: 7d677c6df38ab15cf390062b5b0bb854 -> a8a18a90f46aa63848e1e45d8d7ff9af
+  custom:scripting/monoscript/fileName/DrawAssetOverlay.cs: 8ccd7cea9aa918859be0b55818cb990b -> 04a46044def089f0abcdafdd281e3646
+  custom:scripting/monoscript/fileName/ProjectWindow.cs: 953e9bbd852a9f12f91349161baa793e -> c62567a3d71fd74636bc783de5162474
+  custom:scripting/monoscript/fileName/DontDestroyOnLoad.cs: 56b2a776441f8fe7d65978db2a529e59 -> 
+  custom:scripting/monoscript/fileName/MergeLinksListView.cs: 826afb5fb5988163105086b4bf5027af -> c9488671ae9b14523680d0c19097baa0
+  custom:scripting/monoscript/fileName/FeatureBehaviourEditor.cs: 7bb1c325c920cb6279cd658e833ace45 -> 
+  custom:scripting/monoscript/fileName/AbstractEditorLocationProvider.cs: 83a8b57b45b21d0ebce81844588f9bb8 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_ProbeExtractorCs.cs: a5ea6b0c15ce6f94c1cd576b7855d19a -> 
+  custom:scripting/monoscript/fileName/ForwardGeocoderExample.cs: e588ac623c0533cc9796f74971bb1047 -> 
+  custom:scripting/monoscript/fileName/EditorProgressBar.cs: 7418be9b22aaea32732f8a5f49569d1c -> 08c2f2b90ef64df631d46389f0e22c8e
+  custom:scripting/monoscript/fileName/MeasureMaxWidth.cs: cd9322680ae61d38397008451b7ed0ed -> 1569e3f1dad91a9b01cba66ab6aa30b0
+  custom:scripting/monoscript/fileName/UnityLayerOptionsDrawer.cs: 7e3b85be814ff0d612e588387c2bdf8b -> 
+  custom:scripting/monoscript/fileName/MapImageFactory.cs: a3233775739653fc96e5de1ee48e1bef -> 
+  custom:scripting/monoscript/fileName/MemoryCache.cs: c3708b108a3393cb83203209afe05212 -> 
+  custom:scripting/monoscript/fileName/KDTree.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UvModifier.cs: 7a514f17f56f9cad16a1ecc98b77a679 -> 
+  custom:scripting/monoscript/fileName/AbstractLocationProvider.cs: b71ccf09e5328a35c2704b7e4b9d85b5 -> 
+  custom:scripting/monoscript/fileName/ChangesetsListHeaderState.cs: 69fc4f1a2bc3782d7043ec48961a3616 -> fe1392f9b135da83e13fe8a5e5f39fc2
+  custom:scripting/monoscript/fileName/ElevationModificationOptions.cs: 60dcefcf133dc376b1c7934302c7f21f -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_GeoCoordinate.cs: 8a30555abd3d71787688e441413b4762 -> 
+  custom:scripting/monoscript/fileName/HighlightFeature.cs: 3a2b34922a2ea56ce550a0eb771a0777 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_CanonicalTileId.cs: 66974c37c917d8d754ca0fb464db9bd3 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTreeHeaderState.cs: 7d278b5569d28437d07554a3bbb56e1b -> 5d7f70d142c9ac67864ec14950523d62
+  custom:scripting/monoscript/fileName/ForwardGeocodeUserInput.cs: 909bdf4232d1f337976077d1246b9dae -> 
+  custom:scripting/monoscript/fileName/MapPlacementAtLocationCenterStrategy.cs: 3b7f529bb95783c6d4ee754310b6a3a0 -> 
+  custom:scripting/monoscript/fileName/MissingEncryptionPasswordPromptHandler.cs: 7f5831fc8a41e9cadd84fcfd0e885072 -> 5d7b9646eb14a39b6d3d5bab19d266ff
+  custom:scripting/monoscript/fileName/ChangelistMenu.cs: ca33bac56b3a337faa90a1b1bba632d6 -> c1bf5aeb760cc5eae584ea3944d6531b
+  custom:scripting/monoscript/fileName/NotificationBar.cs: e0f12e3f3292fff5a590c00b59f3a17a -> 0daf459fa0c4269b16bcc20cd072c021
+  custom:scripting/monoscript/fileName/ElevationBasedTerrainStrategy.cs: 394542f94c3fd62d4b216794b7ed9768 -> 
+  custom:scripting/monoscript/fileName/Earcut.cs: 1472dc892c00179dff8f6f520933bc6c -> 
+  custom:scripting/monoscript/fileName/UnityThreadWaiter.cs: dbd556f2802baab90a20da38c288d36c -> 99333406d92d10003984b4d1920de2f9
+  custom:scripting/monoscript/fileName/CredentialsDialog.cs: 179b5e49656a1623c2e79d838f0f5876 -> c785d5e40f8d66b7ef7ba04ee7c324e0
+  custom:scripting/monoscript/fileName/MapPlacementOptionsDrawer.cs: f38085f684d0cb03b1eb5fe8c1f580da -> 
+  custom:scripting/monoscript/fileName/GetRestorePathDialog.cs: e21eb9983f0b989125951478cd5e9b35 -> 353d1126ca2d2063d5bdbd06806ffc08
+  custom:scripting/monoscript/fileName/SpawnOnGlobeExample.cs: 166adac4b01d893adc91555ba2da8009 -> 
+  custom:scripting/monoscript/fileName/UpdateReportListHeaderState.cs: 64a5bf775d221ad9a5ff8c78a1e0e1fa -> d6cbe54be2898ed2c96c2e79572c2e08
+  custom:scripting/monoscript/fileName/LocksListView.cs: 8c6202774eebcf67be9c3b5a2926cc7c -> 7aa51ff93bcc98aa05dec8b46ec200c4
+  custom:scripting/monoscript/fileName/IMapScalingStrategy.cs: c6c6cc97d9633fcd339a6f488b9374c7 -> 
+  custom:scripting/monoscript/fileName/DownloadAndInstallOperation.cs: b043b8d5921892e87f4566e00162cff6 -> 4f4065aeafda2af0ec272a3c228e27b2
+  custom:scripting/monoscript/fileName/QuadTreeCameraMovement.cs: e6e8ee769c90bc0c46e3596d5f93b10d -> 
+  custom:scripting/monoscript/fileName/MigrationDialog.cs: 1a69d399f9c8aa816a053d285dd8bc5d -> 
+  custom:scripting/monoscript/fileName/DiffTreeViewMenu.cs: 3e62bfc69ca7486976988e151b88922e -> 8039fc4ecf68b3e966e1f4822789e7fa
+  custom:scripting/monoscript/fileName/RangeAroundTransformTileProviderOptions.cs: 14979fff100babce684d9755b832e8e4 -> 
+  custom:scripting/monoscript/fileName/UnityStyles.cs: 1e97cd7e9a8ef8ab43da545c6691e95c -> b57f61a58df1c49a1c9d37daf76d42cb
+  custom:scripting/monoscript/fileName/NoiseOffsetModifier.cs: 9ca5a2008ded407606ef8dd680465ee5 -> 
+  custom:scripting/monoscript/fileName/Leg.cs: f1db878474de2110ff9223a52af68eba -> 
+  custom:scripting/monoscript/fileName/HistoryTab.cs: 4d086984813cd90d6be245dd8e03a2ba -> d57f000c65fde42a2228c7a105a836e5
+  custom:scripting/monoscript/fileName/TypeFilter.cs: 1aacb1ed39653bbc885cda8e7ea55671 -> 962df44e03b271fff6d3053ca79fc48f
+  custom:scripting/monoscript/fileName/HistorySelection.cs: 7c3afcf345a55e8b77ea41ca0f570218 -> 3d07a3d1241e204b5420d71f1137eba4
+  custom:scripting/monoscript/fileName/CreateWorkspace.cs: 7b3086384e5ddcd73cd5064a3ce31cd2 -> 5256205b5cf0570b6f698c7abe518f5a
+  custom:scripting/monoscript/fileName/ShowWindow.cs: c731454122754eec192bc3c53fac3d95 -> a6bb1d20733c178256b38974418d7450
+  custom:scripting/monoscript/fileName/LocksListHeaderState.cs: b80c5f044f18764adef2e9dbea5f0fb1 -> c7fe4d3b5f954615048f8e79925d29e3
+  custom:scripting/monoscript/fileName/CreateRepositoryDialog.cs: 1e1c5399cf3d0b071c7982c565a710ce -> 5cec3e66b09e0dbe1f805953c5c64af9
+  custom:scripting/monoscript/fileName/ScriptablePaletteEditor.cs: f3a436d0e5d532dcbcec22ef760bd13b -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForMigration.cs: dafc8442bdd0dcb5e871e398f32473ec -> 
+  custom:scripting/monoscript/fileName/RenameBranchDialog.cs: 4e8cba56a673b7adf6b1f70db522f07c -> a4999d46054383b4cef03a3dac804cd0
+  custom:scripting/monoscript/fileName/PolygonUtils.cs: 4263d173f7c35d75d300f640414b081a -> 
+  custom:scripting/monoscript/fileName/CanonicalTileId.cs: 66cf7f78050cfe5f001d776d1d6e3ab3 -> 
+  custom:scripting/monoscript/fileName/ForwardGeocodeResource.cs: 7a29f0c2c809b81e0b9aeb55c6dfe748 -> 
+  custom:scripting/monoscript/fileName/TagModifier.cs: 830f278afadb06f23863beee9d3331ac -> 
+  custom:scripting/monoscript/fileName/EncryptionConfigurationDialog.cs: 6423045767c07e6360ff314ec741c601 -> 19e9c54aff6ffc68d60fe11f80578947
+  custom:scripting/monoscript/fileName/ElevatedTerrainStrategy.cs: db655d2aa11472c071850a0f8bacef0c -> 
+  custom:scripting/monoscript/fileName/TileCover.cs: 94c9119f25be50b9141e88c16add4e96 -> 
+  custom:scripting/monoscript/fileName/Probe.cs: 01ad5251159bb1d9bf91519e940f2238 -> 
+  custom:scripting/monoscript/fileName/KDNode.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CheckinProgress.cs: 298ac58365579798eb3b4defc181ccaf -> 75b93dbc5ef307111f0647f735640420
+  custom:scripting/monoscript/fileName/ITerrainLayer.cs: 14b8c1fde6f02967735601dab27d5115 -> 
+  custom:scripting/monoscript/fileName/ISubLayerCustomStyleTiled.cs: 752d2a1b4a32f41002af7c46b8063977 -> 
+  custom:scripting/monoscript/fileName/PendingChangesSelection.cs: 766664749a54eea9ecce5dff917430ef -> 1721ad72d074757364587c71b49d9382
+  custom:scripting/monoscript/fileName/TileJsonData.cs: fd9b0f6a91dde524b216e4a5dabe706b -> 
+  custom:scripting/monoscript/fileName/MapboxConfigurationWindow.cs: 2d9945263b745be78bfd716a1a9b7ca0 -> 
+  custom:scripting/monoscript/fileName/GameObjectModifier.cs: 99e67ccb06b3af23b5e04c7e34a2631f -> 
+  custom:scripting/monoscript/fileName/MapboxAccess.cs: 921342839f9ad0d8872054c381dcadd9 -> 
+  custom:scripting/monoscript/fileName/ReverseGeocodeResource.cs: 352a826f9c17a87793483b12cc3fb567 -> 
+  custom:scripting/monoscript/fileName/LoadAsset.cs: 9042eb334fc462cf466672445be1d4c2 -> 5e4e082aa5b21c13b80eb237fe94d00b
+  custom:scripting/monoscript/fileName/Images.cs: 0b0c14141950fed99e3ef33199b3b4c9 -> fbdd1e600315d249327f3effde045c9d
+  custom:scripting/monoscript/fileName/VoxelData.cs: bcf54ba0285115dd748391de0bc39fcd -> 
+  custom:scripting/monoscript/fileName/DrawLocksListViewItem.cs: ce3a3d64ec2d84c3556ffd4141efc4f7 -> 6201c4d50383e970d554210505562d37
+  custom:scripting/monoscript/fileName/DrawProgressForOperations.cs: ea9179848be98ee7719316b39339ef29 -> b544f18e6532ba53bbd1b691fa5cd571
+  custom:scripting/monoscript/fileName/IAsyncRequest.cs: af3c32b631e292b35b329d27af7519fa -> 
+  custom:scripting/monoscript/fileName/ViewSwitcher.cs: 1f6674b002b1d5bfee8fb7d42709ffb5 -> 5bd03fb216426d72dde032d651b95d33
+  custom:scripting/monoscript/fileName/VectorFilterOptionsDrawer.cs: da91493848faf3b556100ae69469e0c0 -> 
+  custom:scripting/monoscript/fileName/SQLiteCache.cs: 9cc1ca9a3d24136c918f05110eb1ed6c -> 
+  custom:scripting/monoscript/fileName/RepositoryListViewItem.cs: 2f16ba7694ec7934685021093e722c4e -> 3cabcd81911a2500dcd9e2b6ffae3f00
+  custom:scripting/monoscript/fileName/InspectorAssetSelection.cs: 71ba78e42827a9b22a9a6016733d756f -> 4b3c1ae4c44d88205aef26229acfe022
+  custom:scripting/monoscript/fileName/MapExtentOptionsDrawer.cs: c350336570d0132ee34889b6fe26954d -> 
+  custom:scripting/monoscript/fileName/UVCPackageVersion.cs: 0f4077cb83cde000a967972e97c7cc8c -> c4d95cb84d9d8dff4727eba6b0a64378
+  custom:scripting/monoscript/fileName/IncomingChangesTreeHeaderState.cs: 67923e7c73743bbc0577bc7d884f3ba2 -> 9fcb97ef2da44c66332f5c6800c2e6ed
+  custom:scripting/monoscript/fileName/MaterialModifier.cs: 6f64ae4a11e5c2dcfb92ca474d754795 -> 
+  custom:scripting/monoscript/fileName/MapLocationOptionsDrawer.cs: a164413fd94fe4aa028e5850efbd5565 -> 
+  custom:scripting/monoscript/fileName/Intersection.cs: c7a946e567b9d27a8cfd5c5ee15b5f6b -> 
+  custom:scripting/monoscript/fileName/PointsOfInterestSubLayerTreeView.cs: 3064706b254a2db960a8386deca52d3f -> 
+  custom:scripting/monoscript/fileName/ISubLayerCustomStyleAtlas.cs: fbaea5e1a8e8018e5be34d63acbc8c9f -> 
+  custom:scripting/monoscript/fileName/PrefabModifier.cs: df0dadb67120e2c401832daf73d44848 -> 
+  custom:scripting/monoscript/fileName/WorkspaceOperationsMonitor.cs: 5f05751fd4d94e02e79a5bf200f98f9a -> 43dcc435c252a54bdaaf4d6588b7d66e
+  custom:scripting/monoscript/fileName/PrefabItemOptionsDrawer.cs: ddeecee4f0522976a737ca1d4492590b -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/QuadTreeTileProvider.cs: e8adee3e16aba5b5f714d9ac2772cb07 -> 
+  custom:scripting/monoscript/fileName/IUnifiedMap.cs: dcd744f4ccd5b1072a539db0338f3e6a -> 
+  custom:scripting/monoscript/fileName/UniAndroidPermission.cs: b0eeec49679721edf6d256eeab1b2a7d -> 
+  custom:scripting/monoscript/fileName/VoxelFetcher.cs: 981ec988fcc309710858eb0c3a6fe989 -> 
+  custom:scripting/monoscript/fileName/SubLayerBehaviorModifiers.cs: 71235fa2fed3cac506cec1747a31feee -> 
+  custom:scripting/monoscript/fileName/ExtentOptions.cs: 6cf96acc41edeb70208538cd77fb20c8 -> 
+  custom:scripting/monoscript/fileName/GeoCoordinateBounds.cs: 703936e32f4352575e05740a62394346 -> 
+  custom:scripting/monoscript/fileName/HeightFilter.cs: eb0fb13a5d952a25ac854b2acd9c0301 -> 
+  custom:scripting/monoscript/fileName/MacOSConfigWorkaround.cs: 8634a542fc5c45ea8cd9a8244bf2c871 -> 9fe61e763da506601651f6c451cecb0a
+  custom:scripting/monoscript/fileName/ModifierBase.cs: 10d3d3c2466e10b1575ef69b74513ab4 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesSelection.cs: 281fe0b171b5382d8cd906c4490e5804 -> d86f9f4463e6f9d99bb815e1f018ccf1
+  custom:scripting/monoscript/fileName/IResource.cs: 9d3c264c765e8b684de6563de35db58b -> 
+  custom:scripting/monoscript/fileName/Geometry.cs: fab4b5991b3dc5df5e6179eb6cb36f3c -> 
+  custom:scripting/monoscript/fileName/TileStats.cs: e05fd0ed5aaa81b70bd6ad3313874a50 -> 
+  custom:scripting/monoscript/fileName/ICache.cs: 19759581adbddad5ec00f699a2bf8dd3 -> 
+  custom:scripting/monoscript/fileName/PlasticProjectSettingsProvider.cs: cef4f9742a881d06eb679f9d361242a3 -> 8c4ae1aeb34c51d2a5a8924265075ff2
+  custom:scripting/monoscript/fileName/LineGeometryOptionsDrawer.cs: 23afac709713cef44d480560f75cce73 -> 
+  custom:scripting/monoscript/fileName/AssetMenuItems.cs: 64aa50dcc3bfcf35201c6730dc62acc3 -> 9ce81cedb8e568c6b7b646aa6263645b
+  custom:scripting/monoscript/fileName/IFileSource.cs: 4c9a4ad60226ca5c54f1170855406a20 -> 
+  custom:scripting/monoscript/fileName/ToolConstants.cs: a088b027c7b0922429c756f12b0507ea -> 3b0d2490617bc7f94a0bdab65a399e1d
+  custom:scripting/monoscript/fileName/TextureModifier.cs: fd084244ddce2427fe1dab5d53fa5043 -> 
+  custom:scripting/monoscript/fileName/GetSelectedPaths.cs: 02423a81496d6c63598b5cdc203f4354 -> be35dd49dddd53fc840b9febf21b4d0d
+  custom:scripting/monoscript/fileName/TokenExchangeResponse.cs: 0dd9138dbeab6f132711a5b608de5c13 -> f20183d4cf939766d3c1e15cc3bec2e3
+  custom:scripting/monoscript/fileName/MapboxLocationServiceMock.cs: 492fdf2ab9f241ebb3baf2986a596966 -> 
+  custom:scripting/monoscript/fileName/ChangesetsTab_Operations.cs: eca44847b108faefa69f8c525242c965 -> 3290c4c0cd248666e01a08ee6d621249
+  custom:scripting/monoscript/fileName/MapPlacementOptions.cs: 44109d9c4943c65660d3031b636cb2c8 -> 
+  custom:scripting/monoscript/fileName/OverlayRect.cs: 61f473b5a4768fa31a00fafe3b1b5b69 -> 59d6887e4803f8a44ffaa0409470e410
+  custom:scripting/monoscript/fileName/ConfigurePartialWorkspace.cs: 309d4276b0164b05348aedbd51cc0b2f -> 10fcc6b6d43dd5ed36c43c6f7b5906c4
+  custom:scripting/monoscript/fileName/ValidRepositoryName.cs: 43c262be3f66a970816e3d3a3ee8872a -> 56bcf92a3678f6ad6215cae2e4914cfd
+  custom:scripting/monoscript/fileName/NearestNeighbour.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GetPlasticShortcut.cs: 2a84c035152261f00e7e66eb44cd0ffa -> 5c2b7bf07ddd2284efc64b09ef0f1f72
+  custom:scripting/monoscript/fileName/VertexDebuggerGizmo.cs: bc805ed7d22d6d10b26192eb8f35acbc -> 
+  custom:scripting/monoscript/fileName/DirectionsExample.cs: 14241aab0aadfc45f1923c8f1fb674e2 -> 
+  custom:scripting/monoscript/fileName/SnapTerrainRaycastModifier.cs: 4f53bd00c08ef5864e1bb3761048f47f -> 
+  custom:scripting/monoscript/fileName/RasterTileExample.cs: 99239bdb2ff9ec87c4ce93ea7995d193 -> 
+  custom:scripting/monoscript/fileName/IObservable.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/GuiEnabled.cs: 1b1658fd7715b5cc664c10a130c6b629 -> 7bb13fcc8d8cbd392e00f7232841f086
+  custom:scripting/monoscript/fileName/BuildPathDictionary.cs: 943911b84162d26cea47f964f9a0a399 -> 9fabc7cc73fcfc50b8a3307c6aa6ec4d
+  custom:scripting/monoscript/fileName/ScriptableCreatorWindow.cs: 01778f87bfbcfdc5d7573b28410ba20d -> 
+  custom:scripting/monoscript/fileName/FindEditorWindow.cs: 2bb64182aef631315344623cf583c78a -> 8c3c78bb7e82ac5008f8a2b8a0d68cff
+  custom:scripting/monoscript/fileName/PoiMarkerHelper.cs: ea3fe50822a9486146b005021ee72a83 -> 
+  custom:scripting/monoscript/fileName/DrawProgressForViews.cs: c153245b67af73b7ee03f693a1127796 -> 068a172cb549ad77d9873d721698bd0d
+  custom:scripting/monoscript/fileName/AngleSmoothingNoOp.cs: 6521c5cb90ee150918ae80f246afcc0b -> 
+  custom:scripting/monoscript/fileName/QuadTreeMapVisualizer.cs: 22e6c6b3a6e54e0920b3dae2f563c4a0 -> 
+  custom:scripting/monoscript/fileName/MapboxStylesColorModifier.cs: 9ab5457f116f40801ae708d079db53ec -> 
+  custom:scripting/monoscript/fileName/UpdateReportDialog.cs: 706e7e86547c339cdb3a4462e3f7a54d -> 087837d8f73228f1a817d0de82c77260
+  custom:scripting/monoscript/fileName/HistoryListView.cs: 527da2d093462f1c4a278d6957e7d5ac -> 7b2d1d2c12ab43d9d244e35197127919
+  custom:scripting/monoscript/fileName/ChangeTreeViewItem.cs: e3d78a2bee9cc81382a4cb8578dc4fb0 -> b0a38ce0a620643c776a3db4fd91bc4c
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 642b86670bcafb0dcdc78fd122dd3d46 -> 
+  custom:scripting/monoscript/fileName/HeightModifier.cs: bb644b6b3b383ffcb5792b17f88198cf -> 
+  custom:scripting/monoscript/fileName/MapExtentOptions.cs: 0d9c49b1407a6cf40e11ff263195c7f4 -> 
+  custom:scripting/monoscript/fileName/Compression.cs: 70a9bcf549c23ecdf5946dfbb3a0e659 -> 
+  custom:scripting/monoscript/fileName/Location.cs: 0ab8f14d05ab96448ff6d0a6ddc76273 -> 
+  custom:scripting/monoscript/fileName/BringWindowToFront.cs: 88b20f2a2881db6a013f54923d68cdee -> a30c7c1ba746c6d277a5aedd3057d15e
+  custom:scripting/monoscript/fileName/FeatureSelectionDetector.cs: 67a7bd316faffdfc5fe5671ccce06535 -> 
+  custom:scripting/monoscript/fileName/LaunchCheckinConflictsDialog.cs: 4417eba1591eccb2221bfdce0106c1e0 -> e2c1e3f8f4e14a62e4363fe6259adbc2
+  custom:scripting/monoscript/fileName/ParseArguments.cs: 03c1a4d7e357164ca313a0019713c3db -> ae915d9f5fe287ced40627c9ca8bfafd
+  custom:scripting/monoscript/fileName/DragableDirectionWaypoint.cs: 5d13153f1b1a6dad15e84ddf2096c958 -> 
+  custom:scripting/monoscript/fileName/ExternalLink.cs: 7eb9650651b43fb98c07816e49275ba9 -> a8ff952d8c27d10f226ab92b7aa83b69
+  custom:scripting/monoscript/fileName/WaitingSignInPanel.cs: 247680fcfc6a176b9fa28a3df600a754 -> 7585e1c7111b6b900784e6d1c9454258
+  custom:scripting/monoscript/fileName/MapboxLocationServiceUnityWrapper.cs: 7885934f9ec9e268cdfedf84800a80e2 -> 
+  custom:scripting/monoscript/fileName/TestingHelpData.cs: 0d1f98ae9b6fa0253523889fad413adb -> 
+  custom:scripting/monoscript/fileName/OperationProgressData.cs: 0db72349eeecbe9449a517b1d79cc760 -> 15f68712baaea535af36d9e0333c0a6e
+  custom:scripting/monoscript/fileName/MapLocationOptions.cs: f6f0265abee32af9cf99a0564d42f769 -> 
+  custom:scripting/monoscript/fileName/ISubLayerCustomStyleAtlasWithColorPallete.cs: d5ebd4baef251d26893dc06404c6a399 -> 
+  custom:scripting/monoscript/fileName/LayerProperties.cs: d0c268c66da1412e1eaeb164d67878af -> 
+  custom:scripting/monoscript/fileName/LayerPerformanceOptionsDrawer.cs: 189b98e91838073c67f8be96061d9aed -> 
+  custom:scripting/monoscript/fileName/CameraBoundsTileProviderOptions.cs: 9739fc95412c69b3099b6fe07fd4b86e -> 
+  custom:scripting/monoscript/fileName/MapboxDefaultElevation.cs: d7cf4ec15257e2baacb8715cdb2f1e04 -> 
+  custom:scripting/monoscript/fileName/Feature.cs: 989ddcf32fde5c24145d76fac42e8215 -> 
+  custom:scripting/monoscript/fileName/RepositoriesListHeaderState.cs: c0353a1af15ae4fd3d5a2a3cac816423 -> fb71b961ab7c924511a6b0e8680b60ee
+  custom:scripting/monoscript/fileName/TileResource.cs: ebc3f7019517c8894cc5d42faf5367eb -> 
+  custom:scripting/monoscript/fileName/ClientDiffTreeViewItem.cs: 56be9d3aa410e770e75de2d8b93be89d -> 43bdd7aa5bf1aa039a5b572c119c38d0
+  custom:scripting/monoscript/fileName/CreateWorkspaceView.cs: 0f1446bdab952811ae2968789e1a2804 -> 04b4ce6556541af6541e1f1c2ea97052
+  custom:scripting/monoscript/fileName/CommandLineArguments.cs: 0d20ca25f94249586a7c1484c469d8a2 -> 48a62ad3f817c0269ea7fc4a53799594
+  custom:scripting/monoscript/fileName/DownloadRepository.cs: 46fc68d9cc4da8e8ed765ff28b2dd438 -> 5bad8d3f76a3fcb41a94637e37c11ab0
+  custom:scripting/monoscript/fileName/JsonConverters.cs: d4c09fc9bfb8e18df7bbfd5fa5d17917 -> 
+  custom:scripting/monoscript/fileName/ParentWindow.cs: 2476d8a6ba9c3055f984ac9792cae61a -> d6aa079e592e01701c5baa3ab98898bc
+  custom:scripting/monoscript/fileName/OperationParams.cs: 091a140b35535b91c773ddf98925322d -> 3312c7a4424a66ffbf2f88f056f329aa
+  custom:scripting/monoscript/fileName/POIPlacementScriptExample.cs: 48a0fe6ba2c26282c4f53ec722eb5eff -> 
+  custom:scripting/monoscript/fileName/AndroidSettings.cs: 0b68b3d0b3e74e54fece259fe19fe947 -> 
+  custom:scripting/monoscript/fileName/MapScalingAtWorldScaleStrategy.cs: 8ea0845aada4c320018dc28cfdb9a6a6 -> 
+  custom:scripting/monoscript/fileName/UpdateMapWithLocationProvider.cs: d212ef3f45d5c605554392ba7c4c89da -> 
+  custom:scripting/monoscript/fileName/RectD.cs: 94dda64333a4501d5b8973c0099d4a9e -> 
+  custom:scripting/monoscript/fileName/GeocodeResponse.cs: fb86e755f82b395fce690709683c2404 -> 
+  custom:scripting/monoscript/fileName/SignInWithEmailPanel.cs: a5823728eb62cf6dbd8c933c1cb26f53 -> 6e8957c0ed7609303e68389067e72d72
+  custom:scripting/monoscript/fileName/PolylineToGeoCoordinateListConverter.cs: 1c2dbf9e3cc1fe1209c5eacafbeffcbf -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_PolylineToGeoCoordinateListConverter.cs: ad4095078267940052ecd7eb63f18e2a -> 
+  custom:scripting/monoscript/fileName/PolylineUtils.cs: 2e914e4a1e1f19d83a811a1072bf6fed -> 
+  custom:scripting/monoscript/fileName/LaunchInstaller.cs: f9b7c99441bc32980ce9b95be066824b -> b75efdf5909b501e06cacd9c66f75981
+  custom:scripting/monoscript/fileName/AvatarImages.cs: ea6dca998cf0ec5122553a9e010ef687 -> 3aa8c25a350843151ec4070c820c411a
+  custom:scripting/monoscript/fileName/MapPlacementAtTileCenterStrategy.cs: c6e6957fa7e3a5702ffc6e4b7961a01d -> 
+  custom:scripting/monoscript/fileName/ClassicRasterTile.cs: c83fef560cf7bd7c41468ef879e128c5 -> 
+  custom:scripting/monoscript/fileName/MeshData.cs: ed3e02afba45947d95e21bb01852d138 -> 
+  custom:scripting/monoscript/fileName/DrawHelpPanel.cs: 58c832ce9ea1a11e2724de5dd46ca0cb -> 
+  custom:scripting/monoscript/fileName/DrawUserIcon.cs: 2f65feb9bed897237f97fbf9c5479092 -> 7d5385bf780ae84e648a8b49f8fe0825
+  custom:scripting/monoscript/fileName/LocationPrefabCategoryOptions.cs: 5695aa6c3e7f46ae64c59efe9806460e -> 
+  custom:scripting/monoscript/fileName/AssetStatus.cs: b9ea657347f2c22e8e401cdb256c516c -> e017010009bdb28bcb0d7d8ef05e7dd9
+  custom:scripting/monoscript/fileName/BranchesListView.cs: 334a3fb302f855f71fb71520fb442a71 -> 3f5ed9fe5a1bca512014ae1600ee1666
+  custom:scripting/monoscript/fileName/TerrainFactoryBase.cs: 1ee1ad7d1b24e61b3622353c98884f54 -> 
+  custom:scripting/monoscript/fileName/DrawGuiModeSwitcher.cs: 363adc150c5f1c5059a678f179906090 -> d3be34a3134d3fe80ef6b14d0d519128
+  custom:scripting/monoscript/fileName/TelemetryEditor.cs: ba244a2684045decdab0715f2ccf9a72 -> 
+  custom:scripting/monoscript/fileName/FileMonitor.cs: 7f031289e9453f4eceb2ff1a45719a98 -> 
+  custom:scripting/monoscript/fileName/DistanceFunctions.cs: a50afe46567e97d458fe180a905a7676 -> 
+  custom:scripting/monoscript/fileName/ElevationModificationOptionsDrawer.cs: d18709f9f037e676a77a10e1c8bd1e46 -> 
+  custom:scripting/monoscript/fileName/FeatureSectionMultiColumnHeader.cs: b1872f2cecafc9b8d58a3809ef4717c8 -> 
+  custom:scripting/monoscript/fileName/UnityMenuItem.cs: 5f445176ad3735e69769d93250663be7 -> 73f3c859f1b5092ad362c09e23b3a922
+  custom:scripting/monoscript/fileName/WebRestApiClient.cs: c0bdde7ff9e25b1ad06e078e6d9b2fe0 -> 746756fd499dddd02a4e7ccdbac48be3
+  custom:scripting/monoscript/fileName/MergedModifierStackEditor.cs: b332bf309bd988550c352a93c7edf6bb -> 
+  custom:scripting/monoscript/fileName/LineMeshModifier.cs: ef54a142c1a020fc0205575c98218342 -> 
+  custom:scripting/monoscript/fileName/ISubLayerCoreOptions.cs: 6d231255df1bd9b352f83c44d94c8a05 -> 
+  custom:scripting/monoscript/fileName/TextMeshOutline.cs: 933409cc8b4cb34c669a39e4f0f56985 -> 
+  custom:scripting/monoscript/fileName/LayerSourceOptions.cs: e394f36597c0836e7f285c109b7871b5 -> 
+  custom:scripting/monoscript/fileName/UnityTile.cs: e5c04ed5b6d89ec8a09f4f3321a7ef17 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTreeView.cs: 78411a54601a32b278de0dd7d80f8670 -> 96479648d4498738733254eb4e4c6fb5
+  custom:scripting/monoscript/fileName/GenericProgress.cs: 11287c7d038c487f32d0c8edc476a32d -> 8492ec26f01fc248d3eb3c2f5b3b6c0f
+  custom:scripting/monoscript/fileName/MapboxUnitTests_Compression.cs: a3df9e875b5f490e2c964224f37e603c -> 
+  custom:scripting/monoscript/fileName/LocationStatus.cs: 542a61a92c7326c4614ef6103c7102c0 -> 
+  custom:scripting/monoscript/fileName/AngleSmoothingAbstractBase.cs: 2495b42cb77cb9dfba3145609f49060f -> 
+  custom:scripting/monoscript/fileName/MergeCategoryTreeViewItem.cs: c1ecd9dc0cd73eb7eb129994dedc1a91 -> 6bd59fcbfeafe06987a54631991d755b
+  custom:scripting/monoscript/fileName/TerrainSideWallOptions.cs: 30c9f4dea6981fe8c4d1dd966cf6e01c -> 
+  custom:scripting/monoscript/fileName/CheckinDialog.cs: 1709b78fae1329cc05fd4f39334b25f5 -> 702fdb8d0a3b4bfcb9ba109e71325cad
+  custom:scripting/monoscript/fileName/TextureSideWallModifier.cs: 8d62a44d718c9ec5fc10768fa46896a2 -> 
+  custom:scripting/monoscript/fileName/ImageDataFetcher.cs: dd45e03ac6846311096c32dc45e59a4d -> 
+  custom:scripting/monoscript/fileName/ProcessCommand.cs: 2cc3b6e2a763c7f353b474b6904b45a6 -> 
+  custom:scripting/monoscript/fileName/SortOrderComparer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/GUIActionRunner.cs: 69af7de0762ed6d085feb4cc4b5101b3 -> 4a0608de635b0d82868d57923d68eff7
+  custom:scripting/monoscript/fileName/Maneuver.cs: c96f8d6f45765db2cd9c2ff52ed485ff -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_AngleSmoothing.cs: 8e464688607cf7d9d204cb9404a508c7 -> 
+  custom:scripting/monoscript/fileName/PlasticMenuItem.cs: 07a9318d8d82a152df4ec33acd1befdd -> 30c3a785b4c2607e2ae9aad693d5f604
+  custom:scripting/monoscript/fileName/RetinaRasterTile.cs: 2fe8a2af79133cfcb0cd8fd41a3aee4d -> 
+  custom:scripting/monoscript/fileName/PendingChangesTreeView.cs: f3722f38014385705913f17dbe0f90c1 -> 17142d220a0a50a3f3d184c4718a0da7
+  custom:scripting/monoscript/fileName/MapboxUnitTests_TileResource.cs: 1f15d848c76cdc049e76f9b05160a2cf -> 
+  custom:scripting/monoscript/fileName/VCSPlugin.cs: e4ec197b273413c2276be270d94be16d -> 69c1b7249af35f35848ae707bd5e7113
+  custom:scripting/monoscript/fileName/Singleton.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/MapImageFactoryEditor.cs: 4db844fed3cb173453fad18d551c4b8d -> 
+  custom:scripting/monoscript/fileName/GetClientDiffInfos.cs: 4ae14b15e2cf5177a84735548a44cdc9 -> f8db8e637ded2d5e935a953a13b85ebe
+  custom:scripting/monoscript/fileName/DrawActionButtonWithMenu.cs: d7f31944358aed2f3ed3982246fca039 -> 8d4f5edd02a1dd0f38c4f2baf5ee8a33
+  custom:scripting/monoscript/fileName/ErrorListViewItem.cs: 249f5ad4771c3e98b495200005a3d480 -> b0e0c6d694ea3cf81ec666dcc600c133
+  custom:scripting/monoscript/fileName/MapboxDataProperty.cs: a72baf850a48e564b7dea54fa617ea65 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/TelemetryFactory.cs: 4b0bac9053b8906308e4448e479ffc89 -> 
+  custom:scripting/monoscript/fileName/EditorProgressControls.cs: b1f133fa38afd918d537a72574fc93a0 -> 2e606eb01a6e6a567f3de9a0379ed3ae
+  custom:scripting/monoscript/fileName/BranchesListHeaderState.cs: d47f1164fa7093137db851c4c16ffba3 -> 82eab21603f4efc696334ee80641c2c9
+  custom:scripting/monoscript/fileName/VectorLayerPropertiesDrawer.cs: ce1c1a0a18c19d939bc02f28602338aa -> 
+  custom:scripting/monoscript/fileName/PoiLabelTextSetter.cs: 180e387b66f34c3590d87802f7f6abf9 -> 
+  custom:scripting/monoscript/fileName/DrawSearchField.cs: b11b864a92c7d76f85d4ec87d6faf61c -> 3de70beba9f4447205d50241d95b066a
+  custom:scripting/monoscript/fileName/PendingChangesTab.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/HelpPanel.cs: 625fbcc6029d5fe5cf4aa833f68adb0c -> 
+  custom:scripting/monoscript/fileName/BuildGetEventExtraInfoFunction.cs: 1308a6936e8051866a117b3b7c2c7b77 -> 74bfc8c01f931108a3c2b127aa04cc8d
+  custom:scripting/monoscript/fileName/HeroBuildingSelectionUserInput.cs: eb77942e46c612f60481ec20bccc6fca -> 
+  custom:scripting/monoscript/fileName/KdTreeCollection.cs: eb6bd3e08211b3614f23b3bbfd9a44fd -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MapVisualizerPerformance.cs: e325c2d51821278435a8f35e721c7b35 -> 
+  custom:scripting/monoscript/fileName/SceneData.cs: 8a6066d56c6561a9afc149a6f9e1a1b8 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Waypoint.cs: 74eb04f7ddfc9680ed455f64d9e0b2e9 -> 
+  custom:scripting/monoscript/fileName/WelcomeView.cs: 727cdb3e104b6a2a1b2a292c292f355e -> b6f5ad03828f3d0b6465c52959e1ee5e
+  custom:scripting/monoscript/fileName/ISubLayerCustomStyleOptions.cs: 867f2bf1e272b09083524297b27e6b62 -> 
+  custom:scripting/monoscript/fileName/Annotation.cs: 31e39f394681c5beab26aa6e790c6d69 -> 
+  custom:scripting/monoscript/fileName/HelpFormat.cs: 92b36f6584b3d7ccdc99b0ae4e152c53 -> 
+  custom:scripting/monoscript/fileName/TerrainStrategy.cs: 50f69a40345057cd58cc30d944852556 -> 
+  custom:scripting/monoscript/fileName/TerrainColliderOptionsDrawer.cs: b14dfd1cba318dd10bc5a73bbcfc2495 -> 
+  custom:scripting/monoscript/fileName/IMapPlacementStrategy.cs: e836badbead825f3c79c5704d9d50a9f -> 
+  custom:scripting/monoscript/fileName/PlasticApp.cs: c440a0fb380601a77ad475d6c15d4fa1 -> c57de230d90beac7b586f10b9c7c6cb5
+  custom:scripting/monoscript/fileName/ChangesetsTab.cs: ef408d8aaf89e01b17643ed0c836680d -> 46dde8f7856048792ad2e75490bb8c5e
+  custom:scripting/monoscript/fileName/DrawProgressForMigration.cs: 0390721ecd322e9ab47db03bd0f98a12 -> 
+  custom:scripting/monoscript/fileName/DeleteBranchDialog.cs: efbbc070bfeda2b746e8b15a4380cb26 -> 8549b0fc52962c89115fd78724fee578
+  custom:scripting/monoscript/fileName/IncomingChangesNotification.cs: 5d73d1f1a99af71ddd954044bdf322d2 -> caa8ea2c7336b9227381f0971759e01a
+  custom:scripting/monoscript/fileName/ImmediatePositionWithLocationProvider.cs: 64ca8598700ab4476548233cff6549e1 -> 
+  custom:scripting/monoscript/fileName/DrawTreeViewEmptyState.cs: 5777c5240be2f7d335293a0280866fb8 -> 2f6076b2e74c53c98835d55a044e5fff
+  custom:scripting/monoscript/fileName/FlatTerrainStrategy.cs: 3144947dce3460825496c348b9879ac9 -> 
+  custom:scripting/monoscript/fileName/ErrorsListView.cs: db8d1e6e1b12cc23734ca93a4d9a27dd -> 32a0a4d27f42660bdc59e43d546f59a1
+  custom:scripting/monoscript/fileName/UnwrappedTileId.cs: ffc661f30065b6c1ab5c01338f46e18b -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_Utils.cs: c599d6f2b3886de568379bbfd9662b31 -> 
+  custom:scripting/monoscript/fileName/UnityPendingChangesTree.cs: fd6f0a038401268983bd9328d10dec93 -> f391d9a00dc9e202cee4d4ebcf6d21c0
+  custom:scripting/monoscript/fileName/LocationLogAbstractBase.cs: ac253799671e02cf4b71949379cf4c43 -> 
+  custom:scripting/monoscript/fileName/ISubLayerBehaviorModifiers.cs: 781f89fa10f5f677057fc49bddb1ecd3 -> 
+  custom:scripting/monoscript/fileName/FeatureBehaviour.cs: fd7b0303f637ed592fbb6b434426aa06 -> 
+  custom:scripting/monoscript/fileName/AbstractTileFactory.cs: 6501cc03d3dddd33fa667b854294152e -> 
+  custom:scripting/monoscript/fileName/VectorLayer.cs: 82a4c005f64427b58a7af91feb0b2d9a -> 
+  custom:scripting/monoscript/fileName/ImageryRasterOptionsDrawer.cs: 4dac9be8bda5f2ce33f96fb5bdc661db -> 
+  custom:scripting/monoscript/fileName/MapboxToken.cs: 914cd3eac104d2fc1ad6456ce67d3ef2 -> 
+  custom:scripting/monoscript/fileName/EmptyCheckinMessageDialog.cs: e95636a2119dec4d0c1f323f7ba65603 -> 
+  custom:scripting/monoscript/fileName/OpenUrlOnButtonClick.cs: 2fcb9cdc0fbf2a8a639b1f5268ca7c36 -> 
+  custom:scripting/monoscript/fileName/IImageryLayer.cs: bd2a27dee13f8985c3d77dcf30fa2ddc -> 
+  custom:scripting/monoscript/fileName/PlasticDialog.cs: b0aae1bf1889af041741f324070b7b84 -> 63a17a2b696bc2a13c9046aa16f8cea4
+  custom:scripting/monoscript/fileName/RoutingProfile.cs: 14f75d85397b21da2d69b792eb7e57a0 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AbstractLayer.cs: d0412e2cb2c9472f39cfd74eb5f7d154 -> 
+  custom:scripting/monoscript/fileName/AutoRefresh.cs: 9d30d5d3f0e8985355be1ab597da1dbb -> 0a8afde180a876655ad16caa14493409
+  custom:scripting/monoscript/fileName/ColliderOptionsDrawer.cs: 2ad6906544239b56c7b52684273103ab -> 
+  custom:scripting/monoscript/fileName/PlasticPluginIsEnabledPreference.cs: 56473af084ae343e005353d1ebe26bab -> 7953272c37f4a828a3d1096e7479f346
+  custom:scripting/monoscript/fileName/HelpData.cs: 9293e68e835820b452391937547d1531 -> 
+  custom:scripting/monoscript/fileName/GetRelativePath.cs: 9b16eb2de9e98b392077181cc34243c1 -> ab04ae5e0cafb93ebf5c96148bb52df0
+  custom:scripting/monoscript/fileName/UnityEvents.cs: bbca41e222c933c10ac2fdcedacdc4c9 -> 93e3e01e1fc330c62462aa41b286117b
+  custom:scripting/monoscript/fileName/TextureScaler.cs: fc31e8af4565a15007482b81c520802c -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ReplaceFeatureCollectionModifier.cs: a88fdcaef77d0627105e8205b8764d40 -> 
+  custom:scripting/monoscript/fileName/ReplaceFeatureModifier.cs: b384756abce9aaf0fc1c072ac64909ed -> 
+  custom:scripting/monoscript/fileName/DockEditorWindow.cs: 581124d5e19667105f2446d6dfbf7982 -> a9e5e467234133af999283610b6e84e6
+  custom:scripting/monoscript/fileName/BboxToGeoCoordinateBoundsConverter.cs: ec6740b8eb4d921d8b05cb7ec753bae4 -> 
+  custom:scripting/monoscript/fileName/TextureMonoBehaviourModifier.cs: acd67e9e388534bbf367c8f9ad65d9c1 -> 
+  custom:scripting/monoscript/fileName/AddMonoBehavioursModifierType.cs: 04379514178332282b8a13d76d34c32c -> 
+  custom:scripting/monoscript/fileName/BranchesSelection.cs: 7eb1fcb556f0fad697e4ec9d989be099 -> 33b36e7b03910960966036894ec90c7c
+  custom:scripting/monoscript/fileName/TrafficUvAnimator.cs: 14caa8684c103cc91be1c08bdaf379ed -> 
+  custom:scripting/monoscript/fileName/IMapboxLocationInfo.cs: 2d90a205d7b28113540ca39b1a4c9fd3 -> 
+  custom:scripting/monoscript/fileName/VoxelTile.cs: 25927886f9b4de9dec3211474d964ec3 -> 
+  custom:scripting/monoscript/fileName/ClassicRetinaRasterTile.cs: a7b22a0e156cdc2b2d6a93e7a7af65ed -> 
+  custom:scripting/monoscript/fileName/ISubLayerLightStyle.cs: 1133702d63edd634746010b1f84ba652 -> 
+  custom:scripting/monoscript/fileName/SaveAction.cs: b68fbb4319dbb368959c40781b39fdf8 -> 27c387bb58f3a69b0c9ff60d2209e18f
+  custom:scripting/monoscript/fileName/HTTPRequest.cs: 85ea961852515bf18da4dfe4316bbb66 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_Tile.cs: d88d2eb729b204da7c450edf24e45380 -> 
+  custom:scripting/monoscript/fileName/AutoConfig.cs: 6c4e7f9dc55323aa1299debfe9723aa6 -> bf4bbd2f2e752464ef51dbf102faed17
+  custom:scripting/monoscript/fileName/TerrainSideWallOptionsDrawer.cs: d9f2e658a0f6455b9eb32203e6324578 -> 
+  custom:scripting/monoscript/fileName/SubLayerSimpleStyle.cs: 9f5e1c875f85a47ea960a31b409fec1b -> 
+  custom:scripting/monoscript/fileName/IAngleSmoothing.cs: 4d4441be04ba0dfe2dc9b14ae4a3ef27 -> 
+  custom:scripting/monoscript/fileName/LineGeometryOptions.cs: 597b8de819092c69dbc34c2ee257d16a -> 
+  custom:scripting/monoscript/fileName/VectorSubLayerProperties.cs: 4e9bacbd18037289632b33bacdec256e -> 
+  custom:scripting/monoscript/fileName/TelemetryConfigurationButton.cs: dcf4ef24897cdb66145f7443e7743119 -> 
+  custom:scripting/monoscript/fileName/LabelTextSetter.cs: 57181d24448018a23e5248b961d7f650 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_VectorTile.cs: 097c71b82b8e681b23a63b4605cf01bd -> 
+  custom:scripting/monoscript/fileName/DiffPanel.cs: 02288a38bd14cc2b52a25b302a6f154e -> 210366dab3631628227b9406f87a9b7f
+  custom:scripting/monoscript/fileName/LayerSourceOptionsDrawer.cs: a25d4cf93f271761f02e7f9ca0b09160 -> 
+  custom:scripting/monoscript/fileName/TileErrorHandler.cs: 222d2b7a33bcef7e7cb2c6788a130249 -> 
+  custom:scripting/monoscript/fileName/PlasticAssetsProcessor.cs: ffbead0ce8c78df1634f8fc06dec8ecf -> ff731c8aacf4a537dc74c7cf9eaeaed0
+  custom:scripting/monoscript/fileName/DrawActionToolbar.cs: 52293cb82089e0370f52e257f41c0869 -> e05748a99799f26304c1bbafd90f703b
+  custom:scripting/monoscript/fileName/TreeViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EditorVersion.cs: 70953c9eccf7726f70c672a9a51619e9 -> 698aba075b19a52a056d67a7b809d179
+  custom:scripting/monoscript/fileName/TeamEditionConfigurationWindow.cs: d06f049421c16e5927ec29f770917e09 -> e53b1ca5561894aaeff930afb696d001
+  custom:scripting/monoscript/fileName/TileJSONObjectVectorLayer.cs: 6f3142b8b80aa99cf2bf941d76045ca7 -> 
+  custom:scripting/monoscript/fileName/ProgressOperationHandler.cs: 5fbb4e0f656dcfaa4498bd2e492e4710 -> ec62666c0ca1649dd33cc6bc6834c6f7
+  custom:scripting/monoscript/fileName/UnityPlasticTimer.cs: 961fdb6492c99b4a3eadbed28e78c4b0 -> 6c887e722e951c2964523825cad70c4c
+  custom:scripting/monoscript/fileName/TreeHeaderColumns.cs: 9fc4a0396a421346b8aa3b7788860851 -> 316e5ea62e66b20fd6e687a6b9e5958e
+  custom:scripting/monoscript/fileName/ElevationLayerPropertiesDrawer.cs: 5005e272ce09cfd596b7ed1eb6671b96 -> 
+  custom:scripting/monoscript/fileName/AngleSmoothingLowPass.cs: 7865d2fcbc92fa8db1cc201a376632c1 -> 
+  custom:scripting/monoscript/fileName/TileErrorEventArgs.cs: 16e2f12f77387d7515b93edaf44a0493 -> 
+  custom:scripting/monoscript/fileName/AssetFilesFilterPatternsMenuBuilder.cs: 8fe5de6e5dc3d42fb7e95de2aaedbf5a -> 0d99e7514c6a33cda8314deed8f34bc5
+  custom:scripting/monoscript/fileName/PlasticNotification.cs: 71978c581e1127248a19c9d9e66cd355 -> 3629fdff9f054b2013702f5b131b2c47
+  custom:scripting/monoscript/fileName/EditorLocationProviderLocationLog.cs: 22d04e1752eae8cb20f9f5a68b455af3 -> 
+  custom:scripting/monoscript/fileName/SubLayerColorStyle.cs: c5b45e654db8a4ef47bfbf4fb97a2b2a -> 
+  custom:scripting/monoscript/fileName/ConfirmContinueWithPendingChangesDialog.cs: c0e147ff008a0b77c9337132a3ea70af -> 77462b1904ad8f6fee2f8da4523d59fe
+  custom:scripting/monoscript/fileName/ImageryLayerProperties.cs: 692931d5aec3f412cbdecb7de8e5bbe7 -> 
+  custom:scripting/monoscript/fileName/FilterBase.cs: 614e1b8cc3a2faaddf5aeb80b5e6fdbf -> 
+  custom:scripting/monoscript/fileName/ChangelistTreeViewItem.cs: a4a6f6169cdb3afe249e104e2b7b1a2c -> 87f69636be8bd1a264ec4eac1bffa701
+  custom:scripting/monoscript/fileName/Tracepoint.cs: d230529f310978026c10b9a424688839 -> 
+  custom:scripting/monoscript/fileName/GameObjectExtensions.cs: b3715db9842cbc6f0c723f3241f875b1 -> 
+  custom:scripting/monoscript/fileName/CollabPlugin.cs: bda741ff77a19affbf276298e29313ec -> ca276d65e7cd77c5c99d9f119ffdb215
+  custom:scripting/monoscript/fileName/TabButton.cs: 3efe8f66ffd840fd7aeb0585b183d2fa -> 757146b89ed597b1d75c77241e5d5f63
+  custom:scripting/monoscript/fileName/LaunchTool.cs: 3ac53c8af1f56365aad9e1ae5366d98d -> 60773d78646dc188d4b2caca77f20b17
+  custom:scripting/monoscript/fileName/RunModal.cs: 33b931100ee477e6812324eabaa2e837 -> c83ee2ef642c5d8b8dfd32f033bfc438
+  custom:scripting/monoscript/fileName/BranchListViewItem.cs: 8fdaa5aa842f5a70237affa304b9d506 -> 55028f4aef24d6227589aaa95582b2ff
+  custom:scripting/monoscript/fileName/LogEntries.cs: b5bfbe4195f14e23e4777c53bddb10fc -> 
+  custom:scripting/monoscript/fileName/GetAvatar.cs: 07c98163f75f0b7c672bd453fc82bf61 -> 04ffae2a9e5a4c32a119f93144f558d2
+  custom:scripting/monoscript/fileName/ClearFileCache.cs: a53ae9d9496a9fa80c458fa469aebb81 -> 
+  custom:scripting/monoscript/fileName/TelemetryFallback.cs: b8cdfb2b9f41a3ab45e3459da31bc62f -> 
+  custom:scripting/monoscript/fileName/FindTool.cs: fc3b0710b24078288fe829d0bb041dd0 -> 2f9d82566cfb01fb68fc30111fb47624
+  custom:scripting/monoscript/fileName/FeatureTreeElement.cs: e53eb94887dfceb9c5e633ab1d7550c1 -> 
+  custom:scripting/monoscript/fileName/ChannelCertificateUiImpl.cs: 75d7831ab5da75cc0082e28863abb142 -> cefccf1e13b7bcf15e3c9f2dd4cd2fc8
+  custom:scripting/monoscript/fileName/ApplyCircleMask.cs: 02eb67e485278e7c9b719fee5ff90f4a -> b955b378d261fdcbd6272fe8711d1e4f
+  custom:scripting/monoscript/fileName/AssetMenuOperations.cs: 4d198753827ac1463e02b10d5d04cc7c -> 0f0ce50426259919e339aa7586c1e4ac
+  custom:scripting/monoscript/fileName/VisualElementExtensions.cs: cd98f4a51563fccdfc39eed097290325 -> 0aad2728225c469038631668406aebb3
+  custom:scripting/monoscript/fileName/VectorTileExample.cs: ba3cf0978c6c8e0000fb25193da839b4 -> 
+  custom:scripting/monoscript/fileName/ITileProvider.cs: 69c3b93df2346b6dd9a85f74d614df45 -> 
+  custom:scripting/monoscript/fileName/AddMonoBehavioursModifierDrawer.cs: 3070ccf0c2ad61bb1d98e539594376d4 -> 
+  custom:scripting/monoscript/fileName/MapboxDefaultVector.cs: 21524cac08fb1f236fca9f7254d1521a -> 
+  custom:scripting/monoscript/fileName/LocksSelector.cs: 70b046a562568fd78d093736e68a3a58 -> 7b0f4fc5552c1d92ba7f4648526ceb21
+  custom:scripting/monoscript/fileName/ListViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CreateWorkspaceViewState.cs: 1deb37b3c17c224d9a7dca9c990ea191 -> 0fe23b7cca9336b31a27790c714de652
+  custom:scripting/monoscript/fileName/MergeLinkListViewItem.cs: ebc1e6f9e3a3005d8f4c51a794adfdaa -> 3fa407d29597803190dd374d88ed170d
+  custom:scripting/monoscript/fileName/DrawCommentTextArea.cs: ad5449f632fd412ac0f7ba0d171fd453 -> c58c26552f95f108a8d9610eaf001fbc
+  custom:scripting/monoscript/fileName/MakiHelper.cs: 09e69a0b665034b49453f844404a4542 -> 
+  custom:scripting/monoscript/fileName/ErrorsListHeaderState.cs: e98652ed68c22ec27682c6c2c1fdff6d -> 3e78431222de62ab12804de2e57e71f6
+  custom:scripting/monoscript/fileName/UnixTimestampUtils.cs: 5a3b101c078741abd27c4bdaa9030ddf -> 
+  custom:scripting/monoscript/fileName/RefreshAsset.cs: f56d23c5126a2dd3db6f272d3d3b71dd -> 21c806d59a337a83fcab56230df298f8
+  custom:scripting/monoscript/fileName/CacheItem.cs: 41e1ac17b060b4bb4bdf0f0b8d8ba32f -> 
+  custom:scripting/monoscript/fileName/BoolSetting.cs: 9c3f40d0ec58f1b80f82d15e4bda7107 -> 6866476ee3db529747ee7a560b4298d4
+  custom:scripting/monoscript/fileName/ISubLayerFantasyStyle.cs: 8e07b3a7872cd77bc60c574355e26e80 -> 
+  custom:scripting/monoscript/fileName/SubLayerModeling.cs: 38492f0ba6334ece961b3e9c957d4666 -> 
+  custom:scripting/monoscript/fileName/SubLayerRealisticStyle.cs: 78f4056d3950546b5fa58cadefb73322 -> 
+  custom:scripting/monoscript/fileName/SmoothLineModifier.cs: 26c91c6bd235791146b48182c623827d -> 
+  custom:scripting/monoscript/fileName/CreateChangelistDialog.cs: 774371d4233cc1d394d98dc80507a1f8 -> 386b03e27c951c5f1d63daf7aae486ca
+  custom:scripting/monoscript/fileName/HistoryListViewMenu.cs: 15a489e494f04a7ea37a587c7601070e -> 29770348599c8d5473b78d72e5741b40
+  custom:scripting/monoscript/fileName/MaterialListDrawer.cs: 738f7b9f45ea1eaad7f33ba219b7902b -> 
+  custom:scripting/monoscript/fileName/PolygonMeshModifier.cs: 41bfa0c43f67de048aef244971831727 -> 
+  custom:scripting/monoscript/fileName/FilterRulesConfirmationDialog.cs: 5186d89f21d03764f0cca01c2a0122d7 -> 9c91c6c91f20e6d013a753f32343b327
+  custom:scripting/monoscript/fileName/BlinkLight.cs: 697c84b28da47b61ddb994ea89e738d9 -> 
+  custom:scripting/monoscript/fileName/SubLayerCustomStyleAtlas.cs: f69dfba4001afac0dc9de0600d62257d -> 
+  custom:scripting/monoscript/fileName/PositionWithLocationProvider.cs: 9a4d727aa5a030bdc5d5f6fc44be4b14 -> 
+  custom:scripting/monoscript/fileName/ChangesetsSelection.cs: d154d1782ed752b83834c54a0bde3df9 -> 8b9d539af9f7e269bac4e3d79e9ffab8
+  custom:scripting/monoscript/fileName/ReloadMap.cs: ba3f84e3ee06911440876c10b2af684b -> 
+  custom:scripting/monoscript/fileName/MeshModifier.cs: 0b57ab0e122ca1e5d1e313744ced43e1 -> 
+  custom:scripting/monoscript/fileName/VectorLayerVisualizer.cs: fdedcdf3634dbaf899499fc64b47fc97 -> 
+  custom:scripting/monoscript/fileName/AssetPostprocessor.cs: 28be74a844bbed0286c3c45dee7283e7 -> 96208057b904410715a8df295ba4f8f4
+  custom:scripting/monoscript/fileName/IsResolved.cs: 12b1cb46be3341613a9d03a0fb32ccfc -> f54a3e2c5134aa4306f9ad150b1911a9
+  custom:scripting/monoscript/fileName/TerrainDataFetcher.cs: 13e4dca8219b940a76e483e431ff3b6c -> 
+  custom:scripting/monoscript/fileName/ObjectInspectorModifier.cs: 38f48bdd852494d3d0d851eda2d047ba -> 
+  custom:scripting/monoscript/fileName/LayerModifierEditor.cs: 5d277ca815eacd5da68348445d88c7f7 -> 
+  custom:scripting/monoscript/fileName/LocalStatusCache.cs: a558fcf5f34357bab4cfc7b75e2bb356 -> 30974ea30517fbfd1b93153f6c849a76
+  custom:scripting/monoscript/fileName/RepositoryExplorerDialog.cs: 143e7416b576681e1f2ea71288e530e6 -> eea34924da79ad7254f3e141a891c78d
+  custom:scripting/monoscript/fileName/ModifierStack.cs: 02b097638fbaedbe5b0f8d0792d7436e -> 
+  custom:scripting/monoscript/fileName/ProbeExtractor.cs: caa89101d9bfa51076b5f5a9bfd392de -> 
+  custom:scripting/monoscript/fileName/AtlasTemplateGenerator.cs: a66872886c077de05a94e0ed1aa26807 -> 
+  custom:scripting/monoscript/fileName/ISubLayerModeling.cs: b372b9264ca25dfab508c5bba02d6ac6 -> 
+  custom:scripting/monoscript/fileName/ModifierStackBase.cs: 1480b1a49176481a61e14340ff66805d -> 
+  custom:scripting/monoscript/fileName/ChangeShadowDistance.cs: 74bcfc0ad16ff70e58e9201de18ed35c -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_PolylineUtils.cs: ea85818b699e25a72f0529a1f0acbbb7 -> 
+  custom:scripting/monoscript/fileName/HelpLinkData.cs: 298f428470bd6f0a46823cad390bf0d6 -> 
+  custom:scripting/monoscript/fileName/WorkspaceWindow.cs: ff52e13cd29dacd66db0169e14f71a23 -> b042f06133312d3bfed176231d97d77c
+  custom:scripting/monoscript/fileName/MapboxUnitTests_BearingFilter.cs: cbd857814681ae1540bf2c471385d600 -> 
+  custom:scripting/monoscript/fileName/PlasticShutdown.cs: 927cfd31d19eaaaa16d67e3e3b26fdb2 -> a8df8eeeed98372d06e446171a192a6d
+  custom:scripting/monoscript/fileName/SetCameraHeight.cs: f9f8808e00f3bb4422c0585cf32d8fff -> 
+  custom:scripting/monoscript/fileName/FilesFilterPatternsMenuBuilder.cs: 28072cd275c96994687e6d4d0d6e1dff -> cf716a8d336c8113475a9ca67a799ec1
+  custom:scripting/monoscript/fileName/TreeModel.cs: 8f773ba43035c1953623931923d3a02f -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_Directions.cs: 3eb5f1cf956fc6fead257b6349f7b397 -> 
+  custom:scripting/monoscript/fileName/EditorLocationProvider.cs: 91c74c64674b08fc3578826fc34b59d8 -> 
+  custom:scripting/monoscript/fileName/AstronautMouseController.cs: 40c9d95b615532c9048f7e478462431d -> 
+  custom:scripting/monoscript/fileName/ISubLayerStyle.cs: 0ee79cfaea51788f1b189967aa69c757 -> 
+  custom:scripting/monoscript/fileName/ScenesListEditor.cs: 2be3e911f48135cfec32c06e331000ad -> 
+  custom:scripting/monoscript/fileName/LayerModifier.cs: 65f18df648fc575c83b4470df66cedcc -> 
+  custom:scripting/monoscript/fileName/GeometryMaterialOptionsDrawer.cs: c30522c4385f6c4c8574377fd1152a64 -> 
+  custom:scripting/monoscript/fileName/MapMatchingResponse.cs: dc5f0e70bf7214cf783e0a0f71716ae9 -> 
+  custom:scripting/monoscript/fileName/SubLayerFantasyStyle.cs: 20546d9665e9fcde2d2ffe93fbdebd0b -> 
+  custom:scripting/monoscript/fileName/MapboxDefaultImagery.cs: a34d2c12e4d27fc722cdccd200031b44 -> 
+  custom:scripting/monoscript/fileName/Geocoder.cs: 9dd4f4b89b755aa9c2927e734b4ea5d0 -> 
+  custom:scripting/monoscript/fileName/HistoryListViewItem.cs: 2d3b1fc954b6bdbae298ec250ade0663 -> 96f2b67ec620b83e35d13f11877e1ac1
+  custom:scripting/monoscript/fileName/RemoteStatusCache.cs: 00463e6b90cfe7da080d7c266f783980 -> 402d5663f3675e9324c129274b0c00f2
+  custom:scripting/monoscript/fileName/LogEntry.cs: d62db4255146c200f66e3213288e5e70 -> 
+  custom:scripting/monoscript/fileName/SubLayerCustomStyleAtlasWithColorPallete.cs: 1128124354c2d90233e9eb61c3c5038a -> 
+  custom:scripting/monoscript/fileName/IReplaceable.cs: a19d01fe54d270fcdce3ec12e7bfd0fb -> 
+  custom:scripting/monoscript/fileName/VectorDataFetcher.cs: 8e016b9873dbc8f71c48afca70d90725 -> 
+  custom:scripting/monoscript/fileName/EditorWindowFocus.cs: 1012e4e2e29e9b29bdcc03d8b92762a8 -> f258b0cf85078a7435d001e522d5e8e3
+  custom:scripting/monoscript/fileName/EnumExtensions.cs: 24df84756ec75feecd53a80a0991ea16 -> 872fcb89b813d64606e680211dede528
+  custom:scripting/monoscript/fileName/NewIncomingChanges.cs: 4475d5d6d9583dbe65c4824e6a1fe6aa -> fc48261878ef7e4b956e7172f5803aee
+  custom:scripting/monoscript/fileName/TileStatsFetcher.cs: 3201b18c50a6c0d3e01c6b37478882ac -> 
+  custom:scripting/monoscript/fileName/ImageryRasterOptions.cs: 47cb32a99dff314e297e05f5e22d8422 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/VertexDebugger.cs: 4ae8b88165cb18bb2aaed53e6d64ac60 -> 
+  custom:scripting/monoscript/fileName/LocationLogWriter.cs: b381708164d7089a2d6aac33e5952576 -> 
+  custom:scripting/monoscript/fileName/UnityIncomingChangesTree.cs: a6749c8b534ffb85ccf809bc8e274114 -> 42967773c43d3de5d23be4ddc6dfd9c4
+  custom:scripting/monoscript/fileName/UnityDiffTree.cs: 447fc3a8922f56330f4bae8c9dc9a8be -> 1029ffd567bc0e646e6b119719dcb2ff
+  custom:scripting/monoscript/fileName/Runnable.cs: db1b84defb4a3f87c1be84fd1dd1e34c -> 
+  custom:scripting/monoscript/fileName/TreeHeaderSettings.cs: 114eb9e27124403e8e111494b8eaf987 -> 662b1714c0fce36da72bbfe60201987a
+  custom:scripting/monoscript/fileName/FeatureSubLayerTreeView.cs: 3a930cf872e36af474235be7b9db8b73 -> 
+  custom:scripting/monoscript/fileName/FeatureBehaviourModifier.cs: f39a1217f89acabb155e535c7b4571f7 -> 
+  custom:scripting/monoscript/fileName/UnityConstants.cs: dee423a5d393260ccda31829b4392abf -> c519528656feb52bc4c37f6b6284546e
+  custom:scripting/monoscript/fileName/IsExeAvailable.cs: 3e4283303610c884e542b8f6d3e922d4 -> 4a3dbc5ded94087064afd97407f26631
+  custom:scripting/monoscript/fileName/MergedModifierStack.cs: bb532bac8368bc7fd05890887525e604 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_TileJSON.cs: 965f18065221add3ae8a8a007458696d -> 
+  custom:scripting/monoscript/fileName/PopupSelectionMenu.cs: ee0f89556e916bb51a8175df0349ca30 -> 
+  custom:scripting/monoscript/fileName/AutoLogin.cs: d257b2b319167ee8af9b75266dabb58c -> cac363a2d5471994de278e71f937b032
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UpdateReportLineListViewItem.cs: a101f0ba5292fc139445870b3f4af838 -> 9f63395e1ea590dbbab4d59cd0032ac4
+  custom:scripting/monoscript/fileName/DrawSplitter.cs: ec7e8739eacabcca3e2946d9833eea0f -> d2f114a8e8e4167f7762d835a83b2f55
+  custom:scripting/monoscript/fileName/TreeElementUtility.cs: f07ae2ef687f2a819363e04251d40eab -> 
+  custom:scripting/monoscript/fileName/FeatureUiMarker.cs: 41d98701a57f04f4fe5bd56efe0ef89b -> 
+  custom:scripting/monoscript/fileName/ISubLayerTexturing.cs: 8de8e0c36dfcc792db7fe27c34e18b25 -> 
+  custom:scripting/monoscript/fileName/RasterTile.cs: 70b452177d6d928b7bf9b0cb3a3258dc -> 
+  custom:scripting/monoscript/fileName/ElevationLayerProperties.cs: a29eb37534be9db0dec4e3fb7b6f7aea -> 
+  custom:scripting/monoscript/fileName/ModifierStackEditor.cs: 3735d91c8c4ab3a68bd63fc72bb586f3 -> 
+  custom:scripting/monoscript/fileName/FileSource.cs: 71c029754794815c4c31fdf3298c5493 -> 
+  custom:scripting/monoscript/fileName/LaunchDependenciesDialog.cs: e1c527862a66e73f0417ae177d7fdfb5 -> 2cabf22eb95430074b6c730a84e03493
+  custom:scripting/monoscript/fileName/RotateWithLocationProvider.cs: 4a13cf99d83508053658c159098a627b -> 
+  custom:scripting/monoscript/fileName/ReverseGeocoderExample.cs: 5e983eecdc65c875c472a2048a9d8c02 -> 
+  custom:scripting/monoscript/fileName/CredentialsResponse.cs: 96b135ae1c4ea541dc762170ea524fa9 -> 3dd2507693e56dac75ee7783f598cbb9
+  custom:scripting/monoscript/fileName/LaunchDiffOperations.cs: 831bbe9f0510da02e07943dba200580f -> 20e85a96a5926a180bb53a2abca68aa4
+  custom:scripting/monoscript/fileName/TreeViewWithTreeModel.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/MapMatcher.cs: bc92fb8d7364400da4f5a270dca6cee8 -> 
+  custom:scripting/monoscript/fileName/TreeElement.cs: d57a83de4b978f509a2496b92f830fa4 -> 
+  custom:scripting/monoscript/fileName/PlasticSplitterGUILayout.cs: 4cfaefa1a850aceff54713912c4a2bda -> 111849f67dfbfea65ad2a9298ad1654d
+  custom:scripting/monoscript/fileName/TileJSONReponse.cs: 87d778b73e173248c308d40495b74540 -> 
+  custom:scripting/monoscript/fileName/SubLayerCustomStyle.cs: e1c815b181af06064e49428213239769 -> 
+  custom:scripting/monoscript/fileName/LocationArrayEditorLocationProvider.cs: 10df9f642546d6b0bec11cefeb99bdd1 -> 
+  custom:scripting/monoscript/fileName/CheckinDialogOperations.cs: 0b2a2cd4c41cf1865a29cf91b2a96a48 -> d032d69e8060311c06b88286e8f22ddd
+  custom:scripting/monoscript/fileName/DisableMeshRendererModifier.cs: 46e207a138186476384de145a6dfdc76 -> 
+  custom:scripting/monoscript/fileName/MapMatchingResource.cs: 8ac618e1e47e4f214ba91d360e602139 -> 
+  custom:scripting/monoscript/fileName/AddToCollectionModifier.cs: 49b6c4bf06c9cd744827f9bb0671272d -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_SQLiteCache.cs: e73e3ba84e1d9e1571761920205773a5 -> 
+  custom:scripting/monoscript/fileName/MapScalingOptionsDrawer.cs: 6b55075de0296ed0ad6bd6f6456a794f -> 
+  custom:scripting/monoscript/fileName/Console.cs: 7a04c3d709c234d5bbf1d8a9cf0390bf -> 
+  custom:scripting/monoscript/fileName/FeatureCollectionBase.cs: e2452716a54ac956dcf1da8524cf57e1 -> 
+  custom:scripting/monoscript/fileName/AstronautDirections.cs: b734a53f53780d66f63a6b3dc9041570 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_BboxToGeoCoordinateBoundsConverter.cs: d3b729be90880ea476c9226626018cd5 -> 
+  custom:scripting/monoscript/fileName/PendingChangesViewMenu.cs: 68fab310addfd7068cfd7920070496ff -> 9b0019b6df6bb14eb3a2dbafa53fb54b
+  custom:scripting/monoscript/fileName/MapboxLocationInfoMock.cs: 157874fdad616252669cb1abc8b4121e -> 
+  custom:scripting/monoscript/fileName/AtlasInfo.cs: 9514dba0fa0a287fc5409b24b09d1f98 -> 
+  custom:scripting/monoscript/fileName/AssetsSelection.cs: 35cec24e81f0cb1de51daeb356abc4ff -> 0227d7ff4d5687932d10967a945a9b06
+  custom:scripting/monoscript/fileName/EnumPopupSetting.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PlasticConnectionMonitor.cs: 0a14faa9ef1a178a87cdca925b1963c3 -> 920e8e381bfc94da8bb69d336dda57ca
+  custom:scripting/monoscript/fileName/VectorExtensions.cs: 93cd446ae09d6f163adb26b2e8e11805 -> 
+  custom:scripting/monoscript/fileName/MapboxTokenApi.cs: 07339913b12fed12eadcb652d4f8ac02 -> 
+  custom:scripting/monoscript/fileName/HistoryListHeaderState.cs: 6226ef13a567fa81584864f8698be331 -> a87e0364d14866c369ad50d669bdfa85
+  custom:scripting/monoscript/fileName/GeocodeAttribute.cs: d8f2e85d1f63b48270fd2136ef7d7f05 -> 
+  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: c886fdb39f4b8787e6ea3701a8f88f4a -> b1721e471183956468462f6b64901640
+  custom:scripting/monoscript/fileName/AssetsPath.cs: 367269acf8f676d2cdd30fdc387b3920 -> e0e986124adc46d913f0683c34b88c9f
+  custom:scripting/monoscript/fileName/MetaPath.cs: 1f80313a7ce6ec6ece505285578f5745 -> 417a84eb354831f828a6752b26c8592d
+  custom:scripting/monoscript/fileName/LoftModifier.cs: ddf2970fc7512f7ae3e9705276f042ed -> 
+  custom:scripting/monoscript/fileName/ElevationRequiredOptions.cs: d792033f9944cc5e2b918f41a392a456 -> 
+  custom:scripting/monoscript/fileName/GeometryMaterialOptions.cs: 9e5fa73afb296c5e80b5f710f5e348e3 -> 
+  custom:scripting/monoscript/fileName/CredentialsUIImpl.cs: 90e9c2de8d7bdd8424e0d89c415108ae -> dbacf67c37819fd95562fe169e706732
+  custom:scripting/monoscript/fileName/ChangesetsViewMenu.cs: b720f0168f4ce1b1e0d358a6d5ec9a42 -> 7d1a2de81910b5990e71a0bfff26fdca
+  custom:scripting/monoscript/fileName/UnityPlasticGuiMessage.cs: 2a7f71f59c0d7dc731fd345a3713957c -> 24eef0792e3802809607a7f9d04b8f1d
+  custom:scripting/monoscript/fileName/OrganizationCredentials.cs: ee462057b3bd23cc3dab953ac4d656e2 -> 0b123406cadd651e9adc01c85fab5124
+  custom:scripting/monoscript/fileName/RangeAroundTransformTileProvider.cs: ae42bfda9370381fe37ccd168e42a0e3 -> 
+  custom:scripting/monoscript/fileName/Route.cs: 9a433b42996f0ae86c4ec437f2168869 -> 
+  custom:scripting/monoscript/fileName/StatusBar.cs: f75c824d5cc26fade21f744dad26925b -> 2c8c488a8bbfe924f6b53b202ff6aadd
+  custom:scripting/monoscript/fileName/IsCurrent.cs: 16ae2475c9982c21b0dccb3cdf4b1a92 -> cf1fd01890d0fd9f011c1a1a491e2cf0
+  custom:scripting/monoscript/fileName/PresetSubLayerPropertiesFetcher.cs: 16093284ed4be7f66db25cd342dbb9b3 -> 
+  custom:scripting/monoscript/fileName/VectorFilterOptions.cs: 4c49bc4b121ad01164b79be4d923cddc -> 
+  custom:scripting/monoscript/fileName/ChangesetFromCollabCommitResponse.cs: b986ab8b1acd322b0367812e2d541734 -> ba336e4117e1b7ee28e4c17197bc3d0e
+  custom:scripting/monoscript/fileName/MoveToChangelistMenuBuilder.cs: 3a2ef8cb0baf69e5dadeafc731fe32a9 -> a90b3e388d3e1316fa104d4c9a03e2d1
+  custom:scripting/monoscript/fileName/LoadingSpinner.cs: 69a46a0158b3944983921513a6337a68 -> 1c13cf7a9498073806920e71757dfeda
+  custom:scripting/monoscript/fileName/VectorFeatureUnity.cs: b2418b4ed25935ecd23ec4eb4f005a4d -> 
+  custom:scripting/monoscript/fileName/ILayer.cs: cf0354fc18b2e4ef30ae35defb306ec1 -> 
+  custom:scripting/monoscript/fileName/ReverseGeocodeUserInput.cs: 93661b9c3a182293a975d35e9a4bc125 -> 
+  custom:scripting/monoscript/fileName/SingletonScriptableObject.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/LocksTab.cs: 134c512484ae73354c15c06a6dc69f9f -> 00ffb5a39c16fdc2d733c7e53471a3a9
+  custom:scripting/monoscript/fileName/BranchesTab.cs: 764cb17e9337c58ad4f5304b60b2042e -> 57c33f76c527a5aba4d269245ffff188
+  custom:scripting/monoscript/fileName/HelpLink.cs: f129aa05dc3840d5bd4f2e0d111189db -> 
+  custom:scripting/monoscript/fileName/InitializeMapWithLocationProvider.cs: 2c42af28921672770bf3b48cf0ca480b -> 
+  custom:scripting/monoscript/fileName/ToolConfig.cs: 18b1ea271ce5e7b6deea7b4e8e175269 -> fcffc3165b047f54ed6ccafa4c8760dd
+  custom:scripting/monoscript/fileName/AbstractMapVisualizer.cs: 1dda246647d3e638ead5bec73446ef04 -> 
+  custom:scripting/monoscript/fileName/DropDownTextField.cs: e66e7314096900597993d2b353757d8d -> c8fc484ce140049ff31ebc2c6cbebf28
+  custom:scripting/monoscript/fileName/Overview.cs: 4a59cac55386bdee26a6fb248066da81 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_GeoCoordinateBounds.cs: 746c38127fbac50a1c05486c5bacc89e -> 
+  custom:scripting/monoscript/fileName/MapboxDefaultStyles.cs: 45eead24277bff1496d424f74d4bf212 -> 
+  custom:scripting/monoscript/fileName/AssetsProcessor.cs: 47679a6e15b70f4fef48eb1b2df31b19 -> 18737889e95cd4088e8dfd4153fa8f40
+  custom:scripting/monoscript/fileName/DrawActionButton.cs: d847a7d82ac92cab2b3d0ae268cefb3d -> 81e6708d2b8fa199354e53f85db731a8
+  custom:scripting/monoscript/fileName/TableViewOperations.cs: ddc7b903e0dbd6bd109f2bd709b95f0e -> bef3a31deb1fe794a90f767d16e4c868
+  custom:scripting/monoscript/fileName/MapboxUnitTests_Token.cs: 51eb72c4892ffad1933045422f7f4927 -> 
+  custom:scripting/monoscript/fileName/KalmanFilter.cs: f1a4b220b70786a9f806c9d281af42b8 -> 
+  custom:scripting/monoscript/fileName/UpdateProgress.cs: 5b04f01bf199310f09ab9522f89c78f4 -> 281e1e05168d6a30be1d8d2f6200bef8
+  custom:scripting/monoscript/fileName/MapboxUnitTests_ForwardGeocodeResource.cs: 898a95fd78d945376c1f6f401765e18c -> 
+  custom:scripting/monoscript/fileName/MapUtils.cs: 1993d0d10bcf8bf7fd1e4f83b64689d6 -> 
+  custom:scripting/monoscript/fileName/OrganizationsInformation.cs: b3f0758c6655b2dad1161792812992fa -> 5f067ea8d90fc79055a3dcfd58ae6dca
+  custom:scripting/monoscript/fileName/SubscriptionDetailsResponse.cs: e10e0299ef716630c63b8cf5f792cda0 -> e5121cec860a6d1097cc809217b3d8fe
+  custom:scripting/monoscript/fileName/AbstractTileProvider.cs: 2fcf12837823811afd6cb97cb694ca8f -> 
+  custom:scripting/monoscript/fileName/SpawnPrefabOptionsDrawer.cs: 99f15d1052b47b66a1665e6e2f869715 -> 
+  custom:scripting/monoscript/fileName/MatchObject.cs: 1d1f4d7ad2e96f495e8b77724bc47441 -> 
+  custom:scripting/monoscript/fileName/MapScalingOptions.cs: c6b7fc68d56cc1b8c00eaccdf215390e -> 
+  custom:scripting/monoscript/fileName/CheapRuler.cs: 47069ba523e9cfe06a0f93161544f460 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_CircularBuffer.cs: fcfbf6837d3efa9f4b26322a149d0cdf -> 
+  custom:scripting/monoscript/fileName/ToolbarButton.cs: 0b8663f5acfbbe9acf3c68758e2857fb -> 47dc767626bbd94d66707af31ddc5eb6
+  custom:scripting/monoscript/fileName/CameraBillboard.cs: 7cf902d0db769171e388af31497c6d76 -> 
+  custom:scripting/monoscript/fileName/DrawProgressForDialogs.cs: 5f8d39e3ea7c4a42148c6b1a7b4ca061 -> a5f2abd8875e7a6afbc171fabfbae81f
+  custom:scripting/monoscript/fileName/LayerVisualizerBase.cs: 586e2e4cfaa28bb35210bdd17eafb490 -> 
+  custom:scripting/monoscript/fileName/AbstractMap.cs: 1c2c1313fb20e6ab4347740453118406 -> 
+  custom:scripting/monoscript/fileName/ProjectViewAssetSelection.cs: 349dc288d32791de51156d4e59000b7b -> 2560eadaf6a13a74a46a4a207cd5a8b6
+  custom:scripting/monoscript/fileName/MaterialModifierEditor.cs: 566decd9ffbc3f219e25c52c9649a9ab -> 
+  custom:scripting/monoscript/fileName/DrawTreeViewItem.cs: cceebc4f1185658619e40964f29acb08 -> 0921a62a588ab864253743d1f07afb5a
+  custom:scripting/monoscript/fileName/DrawSceneOperations.cs: 2426c0c2ee58cd28be59874f6425940c -> d87f46f9fb97181a2f51490ea2e1efc3
+  custom:scripting/monoscript/fileName/RangeTileProvider.cs: 14fa49a12dbd441662e2a5c9dd4136c8 -> 
+  custom:scripting/monoscript/fileName/SubLayerCustomStyleTiled.cs: 96901ca15d0c292c814fa26f78fa2eec -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Resource.cs: 7877099bd98a8fef12c208409fd2984d -> 
+  custom:scripting/monoscript/fileName/DrawActionHelpBox.cs: dcd6ec2e7fb1b44f22c4a79ff87b70cd -> c8f6be9dab1e6f8d71e0c63c29679186
+  custom:scripting/monoscript/fileName/GeometryExtrusionOptionsDrawer.cs: ec50a394e83169a7e08f1dde1e56c92e -> 
+  custom:scripting/monoscript/fileName/Tile.cs: 74ae6c17b25639e7f24798819bf67e60 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 9f9441a1a50340169a8d959472548776 -> 
+  custom:scripting/monoscript/fileName/Constants.cs: 2719146a2acfe6e7f68916760d6436b5 -> 
+  custom:scripting/monoscript/fileName/RawPngRasterTile.cs: 8810904aef19c5511628c8bec60b5bb6 -> 
+  custom:scripting/monoscript/fileName/PendingChangesMultiColumnHeader.cs: 21802cc6929e0e180fb4f0be8e34d9d0 -> 722de7d6e07a79981d750438e6febb8f
+  custom:scripting/monoscript/fileName/IObserver.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorDispatcher.cs: c739e073a8c38dbcf59192f45d1004c5 -> 3c402eae57d73cc54863f3f6a13096ae
+  custom:scripting/monoscript/fileName/FactoryEditor.cs: bbdedfa8c04dfe14c61d1d0b8c20f3ba -> 
+  custom:scripting/monoscript/fileName/IIncomingChangesTab.cs: 363f9daba453e316e730238a80857251 -> 40644cd18074db84684b9e437bf8fa77
+  custom:scripting/monoscript/fileName/ScriptablePalette.cs: f2b311296f36b2d83f838898f66521db -> 
+  custom:scripting/monoscript/fileName/GlobeTileProvider.cs: 872b06d067005bdec9ea56f194dcebf2 -> 
+  custom:scripting/monoscript/fileName/GeometryExtrusionOptions.cs: fca6d9f22730017548ff455757cd6b95 -> 
+  custom:scripting/monoscript/fileName/CoreVectorLayerProperties.cs: 0ad8846109378c095f4c8fef47fad51f -> 
+  custom:scripting/monoscript/fileName/GetChangesOverlayIcon.cs: f00e4b795697c6cf3092760f3b6fc49d -> d599d6efdee28305661bc0cf6683858a
+  custom:scripting/monoscript/fileName/Step.cs: 1931e5647dccb8a737c34bcd409535a4 -> 
+  custom:scripting/monoscript/fileName/GeocodeResource.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TileProcessFinishedEventArgs.cs: 595c9fce614cb967ad7a981cccfab3aa -> 
+  custom:scripting/monoscript/fileName/LogLocationProviderData.cs: 7dacaf334fe98d7126af729e3e9c650f -> 
+  custom:scripting/monoscript/fileName/RangeAroundTransformTileProviderOptionsDrawer.cs: e529f8f3a0e361aded54d1e618cd4871 -> 
+  custom:scripting/monoscript/fileName/IntervalHeap.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/IReplacementCriteria.cs: 45f7f5433e136868fd7449f289b6e040 -> 
+  custom:scripting/monoscript/fileName/SQLite.cs: 06fdcaad84d6a66f7dc5de69e445c066 -> 2a332799d9882ec0177f287353c32bf8
+  custom:scripting/monoscript/fileName/TileJSON.cs: 4f998add08145cb9d6da588bf8f4cd96 -> 
+  custom:scripting/monoscript/fileName/ChangesetsListView.cs: caae0aefb36c869f50691482a5cd0944 -> 87b74e0d80cf59010f55e2baaeb6679d
+  custom:scripting/monoscript/fileName/UpdateReportListView.cs: 2d8fccdaad50bbd7454b52cf9cb4a0f9 -> 08d26df1ab6c3a7628addc5e54e50b08
+  custom:scripting/monoscript/fileName/UnityConfigurationChecker.cs: 59a8f0715a7c89a752351bf42f94abbd -> 874cd65cce0384fef4b60e71fb08a429
+  custom:scripting/monoscript/fileName/LayerModifierOptions.cs: 042b4964cf2b8ca5ffabeccd98cb2080 -> 
+  custom:scripting/monoscript/fileName/DeviceLocationProviderAndroidNative.cs: 5914c6cfc3f37a08dde4c65983ff68ee -> 
+  custom:scripting/monoscript/fileName/MapOptionsDrawer.cs: 8bb1b4c884aa9cac722a643edd926a35 -> 
+  custom:scripting/monoscript/fileName/SpawnInsideModifier.cs: 79e5aa4b20db8a758f348e4fda72ae04 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 79e560e96e6316cfc0562faeb1a939c6 -> 
+  custom:scripting/monoscript/fileName/TelemetryDummy.cs: 3d8a4d079ebde4eeb33658da37b04782 -> 
+  custom:scripting/monoscript/fileName/CheckWorkspaceTreeNodeStatus.cs: 5e11ff64963669981115eb58dc2b6e8b -> 1e1255b803bf7cbc935bb804bf0dbe7b
+  custom:scripting/monoscript/fileName/LoadingPanelController.cs: 8bbb974a48e751411dd5a99b1d9f4b70 -> 
+  custom:scripting/monoscript/fileName/Tilesets.cs: 942820e9e46ee1ad49fb7ba29e996440 -> 
+  custom:scripting/monoscript/fileName/BehaviorModifiersSectionDrawer.cs: 9123037758c5e83a9b129a86a0585a80 -> 
+  custom:scripting/monoscript/fileName/PlasticPlugin.cs: a57c142b98ca3d4daad221737fd72924 -> c64561980f26020cc3206ae8b1047268
+  custom:scripting/monoscript/fileName/SwitchModeConfirmationDialog.cs: 4d9c02587760213784bfe53d012122b4 -> 30cd71d0b3ee4b2689cde689908d301e
+  custom:scripting/monoscript/fileName/MapManagerEditor.cs: 242872b86ab245e6244cfaf21618e0ff -> 
+  custom:scripting/monoscript/fileName/VectorEntity.cs: 58de628b8ecdea9ead79b3691ccbba33 -> 
+  custom:scripting/monoscript/fileName/IFeaturePropertySettable.cs: 7c7df354534a7e5277eb36a555efa0cf -> 
+  custom:scripting/monoscript/fileName/SnapTerrainModifier.cs: e83a5e79a3e4c20b870ae50f090590e3 -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_LonLatToGeoCoordinateConverter.cs: e7760701f480b9e835cc350a6a975e8a -> 
+  custom:scripting/monoscript/fileName/PlasticWindow.cs: 76740c086f0109337962354fe520adb2 -> fc467478941f610919bc69526ba2c215
+  custom:scripting/monoscript/fileName/TelemetryWebgl.cs: e9dc73ab0c12e2c731f492eb4211dd93 -> 
+  custom:scripting/monoscript/fileName/FlatSphereTerrainStrategy.cs: 98fc5306ed13c0617bc5110e069a7107 -> 
+  custom:scripting/monoscript/fileName/ColliderOptions.cs: 9fa3f43b7f822db05ae9083aebebc3cf -> 
+  custom:scripting/monoscript/fileName/Directions.cs: 6479765da07f73c0f05631fa60cd460a -> 
+  custom:scripting/monoscript/fileName/IAsyncRequestFactory.cs: 6d9b228579aa38f82dc7cef498b3ebbf -> 
+  custom:scripting/monoscript/fileName/Map.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/BranchesViewMenu.cs: 8089f11c30784e2e57775dd6cdbae898 -> 7bfc83e917c9b0b5aa423bb947ce2a38
+  custom:scripting/monoscript/fileName/CooldownWindowDelayer.cs: 7816cfcad485500dbac9993c4502ea69 -> 4c95e39c8dd4cfa1bca106097fdb6524
+  custom:scripting/monoscript/fileName/StyleSearchAttribute.cs: 4f974d4809e121b6647195b54453f5b7 -> 
+  custom:scripting/monoscript/fileName/PrefabItemOptions.cs: 14398af7af6f96b9ec5661dd84174828 -> 
+  custom:scripting/monoscript/fileName/StyleOptionsDrawer.cs: 47b1003acf51be92966d6ca2b9376c00 -> 
+  custom:scripting/monoscript/fileName/IMapboxLocationService.cs: e7440c0c942676f3beba123249a3320c -> 
+  custom:scripting/monoscript/fileName/VectorTileFactory.cs: 62a1a89027f1f506a69e3d56f34f5f8b -> 
+  custom:scripting/monoscript/fileName/MapboxUnitTests_FileSource.cs: e60262d3c0a50fb5672c9e0169f4d9b9 -> 
+  custom:scripting/monoscript/fileName/GetInstallerTmpFileName.cs: fa7bda723ac795b48e38504727f44981 -> d09e0b5c7a9af5874530e17ef23025f0
+  custom:scripting/monoscript/fileName/AssetModificationProcessor.cs: 84d720d70e5c24b7d0630ef5cea215ce -> a602c9e59e7db185e3a0d68d986e6fef
+  custom:scripting/monoscript/fileName/IsCollabProjectMigratedResponse.cs: 4c3294c6a51e6f42161d191230692016 -> af2b76c693935deee55cfcaed2aa7568
+  custom:scripting/monoscript/fileName/GeocodeAttributeSearchWindow.cs: ba32d920b3d47dc11afd2febc1f5f6df -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17758.134357 seconds.
+  path: Assets/Mapbox/Prefabs/CitySimulatorMap.prefab
+  artifactKey: Guid(5bb46bae81bf04608ac699be504c5e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mapbox/Prefabs/CitySimulatorMap.prefab using Guid(5bb46bae81bf04608ac699be504c5e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be8c495f24c6dd03d806a21ce5170750') in 0.033782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.003482 seconds.
+  path: Assets/Mapbox/Prefabs/Player.prefab
+  artifactKey: Guid(18593aeac18474b49bebac9e072ef2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mapbox/Prefabs/Player.prefab using Guid(18593aeac18474b49bebac9e072ef2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbc7cb024a1fb95bf2d400cb35abcd4a') in 0.205058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -32,12 +32,23 @@ PMW 是一款结合现实世界地理位置的宠物收集游戏。玩家在真�
 - **Stable Diffusion** - AI生成游戏资源
 - **Postman** - API测试
 
+## 项目现状
+
+**Unity项目路径：** `pokemon/pokemon_basic/`
+
+**已完成：**
+- ✅ Unity 2022.3 LTS项目已创建
+- ✅ Mapbox SDK for Unity已安装并配置
+- ✅ Mapbox API密钥已配置（存放在 `Assets/Resources/Mapbox/MapboxConfiguration.txt`）
+- ✅ 基础场景 `SampleScene.unity` 已创建
+- ✅ Mapbox预制体和示例代码已准备就绪
+
 ## 开发阶段规划
 
 ### 第一阶段：基础框架（2周）
 **目标：** 搭建可运行的地图系统
-- [ ] Unity 2D项目初始化
-- [ ] Mapbox SDK集成和配置
+- [x] Unity 2D项目初始化
+- [x] Mapbox SDK集成和配置
 - [ ] 玩家GPS定位和地图显示
 - [ ] 基础UI框架搭建
 - [ ] Node.js后端API框架
@@ -91,31 +102,48 @@ PMW 是一款结合现实世界地理位置的宠物收集游戏。玩家在真�
 
 ## 项目架构
 
-### 客户端目录结构
+### 实际Unity项目结构
 ```
-Assets/
-├── Scripts/
-│   ├── Managers/
-│   │   ├── GameManager.cs         # 游戏状态管理
-│   │   ├── MapManager.cs          # 地图和定位管理
-│   │   ├── PetManager.cs          # 宠物系统管理
-│   │   ├── BattleManager.cs       # 对战系统管理
-│   │   └── NetworkManager.cs      # 网络通信管理
-│   ├── UI/
-│   │   ├── MapUI.cs               # 地图界面
-│   │   ├── PetBagUI.cs            # 宠物背包界面
-│   │   ├── BattleUI.cs            # 对战界面
-│   │   └── CaptureUI.cs           # 捕捉界面
-│   ├── Data/
-│   │   ├── PetData.cs             # 宠物数据结构
-│   │   ├── PlayerData.cs          # 玩家数据结构
-│   │   └── BattleData.cs          # 对战数据结构
-│   └── Utils/
-│       ├── LocationService.cs     # GPS位置服务
-│       └── APIClient.cs           # HTTP API客户端
-├── Prefabs/                       # 预制体资源
-├── Sprites/                       # 2D图像资源
-└── Audio/                         # 音频资源
+pokemon/pokemon_basic/
+├── Assets/
+│   ├── Mapbox/                    # Mapbox SDK (已安装)
+│   │   ├── Core/                  # 核心SDK库
+│   │   ├── Examples/              # 示例场景和脚本
+│   │   ├── Prefabs/               # 地图预制体
+│   │   ├── Resources/             # Mapbox资源
+│   │   └── Unity/                 # Unity集成脚本
+│   ├── Resources/
+│   │   └── Mapbox/
+│   │       └── MapboxConfiguration.txt  # API密钥配置
+│   ├── Scenes/
+│   │   └── SampleScene.unity      # 主场景
+│   └── ThirdPartyAssets/         # 第三方资源
+├── Library/                       # Unity生成文件
+├── ProjectSettings/               # 项目设置
+└── UserSettings/                  # 用户设置
+```
+
+### 计划的脚本架构
+```
+Assets/Scripts/ (待创建)
+├── Managers/
+│   ├── GameManager.cs         # 游戏状态管理
+│   ├── MapManager.cs          # 地图和定位管理
+│   ├── PetManager.cs          # 宠物系统管理
+│   ├── BattleManager.cs       # 对战系统管理
+│   └── NetworkManager.cs      # 网络通信管理
+├── UI/
+│   ├── MapUI.cs               # 地图界面
+│   ├── PetBagUI.cs            # 宠物背包界面
+│   ├── BattleUI.cs            # 对战界面
+│   └── CaptureUI.cs           # 捕捉界面
+├── Data/
+│   ├── PetData.cs             # 宠物数据结构
+│   ├── PlayerData.cs          # 玩家数据结构
+│   └── BattleData.cs          # 对战数据结构
+└── Utils/
+    ├── LocationService.cs     # GPS位置服务
+    └── APIClient.cs           # HTTP API客户端
 ```
 
 ### 后端目录结构
@@ -216,10 +244,24 @@ server/
 
 ## 常用开发命令
 
-### Unity开发
-- **构建项目：** File → Build Settings → Build
-- **包管理：** Window → Package Manager
-- **调试：** Window → General → Console
+### Unity项目操作
+**项目路径：** `pokemon/pokemon_basic/`
+
+**构建和运行：**
+- 在Unity Hub中打开项目：`D:\file\mobile\pokemon\pokemon_basic`
+- 构建项目：File → Build Settings → Build
+- 运行测试：Play按钮或Ctrl+P
+- 包管理：Window → Package Manager
+
+**调试工具：**
+- 控制台：Window → General → Console
+- 性能监视器：Window → Analysis → Profiler
+- 场景视图：Window → General → Scene
+
+**Mapbox相关：**
+- 查看Mapbox示例：`Assets/Mapbox/Examples/`
+- 配置API密钥：编辑 `Assets/Resources/Mapbox/MapboxConfiguration.txt`
+- 地图预制体：使用 `Assets/Mapbox/Prefabs/` 中的预制体
 
 ### 后端开发
 ```bash
@@ -245,13 +287,49 @@ INSERT INTO spawn_points (type, lat, lng, active) VALUES ('fire', 31.2304, 121.4
 SELECT * FROM spawn_points WHERE ST_DWithin(ST_Point(lng, lat), ST_Point(121.4737, 31.2304), 0.001);
 ```
 
+## Mapbox集成指南
+
+### API密钥管理
+**配置文件位置：** `Assets/Resources/Mapbox/MapboxConfiguration.txt`
+
+**当前配置：**
+```json
+{
+  "AccessToken": "pk.eyJ1IjoidWh0OXAiLCJhIjoiY21jeXp5c21vMGszcTJqbjd0YzV6Y3ZtcCJ9.6tS4O7cJPSxtvWsN10ErWg",
+  "MemoryCacheSize": 500,
+  "FileCacheSize": 25000,
+  "DefaultTimeout": 30,
+  "AutoRefreshCache": false
+}
+```
+
+### 可用的Mapbox组件
+**预制体：**
+- `Map.prefab` - 基础地图组件
+- `LocationBasedGame.prefab` - 基于位置的游戏组件
+- `Player.prefab` - 玩家对象
+- `LocationProviderFactory.prefab` - 位置服务工厂
+
+**示例场景：**
+- `Assets/Mapbox/Examples/0_PrefabScenes/` - 预制体示例
+- `Assets/Mapbox/Examples/1_DataExplorer/` - 数据探索示例
+- `Assets/Mapbox/Examples/2_AstronautGame/` - 宇航员游戏示例
+- `Assets/Mapbox/Examples/3_POIPlacement/` - POI放置示例
+
+### 核心脚本和类
+**地图管理：**
+- `Mapbox.Unity.Map.AbstractMap` - 抽象地图类
+- `Mapbox.Unity.Location.LocationProviderFactory` - 位置提供工厂
+- `Mapbox.Unity.Utilities.Conversions` - 坐标转换工具
+
 ## 部署配置
 
 ### 开发环境
-- Unity: 本地开发
-- Node.js: localhost:3000
-- PostgreSQL: localhost:5432
-- Redis: localhost:6379
+- Unity: 本地开发（项目路径：`pokemon/pokemon_basic/`）
+- Mapbox API: 已配置和验证
+- Node.js: localhost:3000（后续添加）
+- PostgreSQL: localhost:5432（后续添加）
+- Redis: localhost:6379（后续添加）
 
 ### 生产环境准备
 - Unity Cloud Build（可选）
